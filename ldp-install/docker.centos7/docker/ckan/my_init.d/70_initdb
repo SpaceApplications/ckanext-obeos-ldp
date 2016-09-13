@@ -1,0 +1,22 @@
+#!/bin/sh
+set -eu
+
+sed -i 's/__STRABON_ONTOLOGIES_HOST_NAME__/'"$STRABON_ONTOLOGIES_HOST_NAME"'/'  $OBEOS_PLUGIN_CONFIG
+sed -i 's/__STRABON_ONTOLOGIES_PORT__/'"$STRABON_ONTOLOGIES_PORT"'/'  $OBEOS_PLUGIN_CONFIG
+
+sed -i 's/__STRABON_DATA_HOST_NAME__/'"$STRABON_DATA_HOST_NAME"'/'  $OBEOS_PLUGIN_CONFIG
+sed -i 's/__STRABON_DATA_PORT__/'"$STRABON_DATA_PORT"'/'  $OBEOS_PLUGIN_CONFIG
+
+# Check that the two Strabon services are ready
+until $(curl --output /dev/null --silent --head --fail http://$STRABON_ONTOLOGIES_HOST_NAME:$STRABON_ONTOLOGIES_PORT/strabon/); do
+    printf 'Waiting for Strabon Ontologies...\n'
+    sleep 2
+done
+
+until $(curl --output /dev/null --silent --head --fail http://$STRABON_DATA_HOST_NAME:$STRABON_DATA_PORT/strabon/); do
+    printf 'Waiting for Strabon Landsat8...\n'
+    sleep 2
+done
+
+# run the init script in case the database need to be upgraded
+"$CKAN_HOME"/bin/paster --plugin=ckan db init -c "${CKAN_CONFIG}/ckan.ini"

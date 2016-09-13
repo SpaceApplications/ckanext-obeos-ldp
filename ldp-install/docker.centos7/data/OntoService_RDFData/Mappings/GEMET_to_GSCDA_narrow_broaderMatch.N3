@@ -1,0 +1,988 @@
+
+<http://www.eionet.europa.eu/gemet/concept/6084> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/6870> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/751> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/5489> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3485> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/7230> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/6282> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://www.eionet.europa.eu/gemet/concept/14418> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/13193> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9003> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Volcanic_Eruption> .
+
+<http://www.eionet.europa.eu/gemet/concept/12161> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/7390> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://www.eionet.europa.eu/gemet/concept/7241> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/547> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/636> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/1063> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1890> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/13321> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/1474> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.eionet.europa.eu/gemet/concept/7899> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/8590> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Airport> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Railway_Network> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Port> .
+
+<http://www.eionet.europa.eu/gemet/concept/1406> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/6510> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/5265> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/11233> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/5484> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/5836> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pipeline> .
+
+<http://www.eionet.europa.eu/gemet/concept/1061> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7603> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/1322> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biochemical_Oxygen_Demand> .
+
+<http://www.eionet.europa.eu/gemet/concept/14933> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/8599> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/632> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> .
+
+<http://www.eionet.europa.eu/gemet/concept/8133> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/3730> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wildfire> .
+
+<http://www.eionet.europa.eu/gemet/concept/7881> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/4209> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/471> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/2628> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://www.eionet.europa.eu/gemet/concept/6221> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/9330> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/7269> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/8386> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Glacier> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/2912> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/2380> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/475> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/14956> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/4858> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/10905> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/10626> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/2168> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/5440> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/5498> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/3435> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3800> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/13567> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/7520> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Pollution> .
+
+<http://www.eionet.europa.eu/gemet/concept/4116> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.eionet.europa.eu/gemet/concept/3648> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Volcanic_Eruption> .
+
+<http://www.eionet.europa.eu/gemet/concept/4155> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/9217> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/2406> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/6300> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://www.eionet.europa.eu/gemet/concept/9216> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/7565> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://www.eionet.europa.eu/gemet/concept/7851> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/5674> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/2895> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/2004> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/2216> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Relief> .
+
+<http://www.eionet.europa.eu/gemet/concept/14975> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/8361> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/5219> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/7364> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Relief> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flight_Safety> .
+
+<http://www.eionet.europa.eu/gemet/concept/5502> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/7363> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/4454> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/4971> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Accident> .
+
+<http://www.eionet.europa.eu/gemet/concept/4629> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/6798> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/2022> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/10693> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/1694> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/8031> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1880> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1162> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/4589> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/10694> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/4350> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/4204> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/7848> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/1899> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/12084> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/6622> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/7845> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/219> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/5823> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/3866> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/8377> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/4855> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://www.eionet.europa.eu/gemet/concept/8909> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/5513> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3739> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/984> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/1507> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/2457> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/12219> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/7238> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/9270> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Weather> .
+
+<http://www.eionet.europa.eu/gemet/concept/511> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://www.eionet.europa.eu/gemet/concept/2722> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10640> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/3955> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Railway_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/10698> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/626> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/3963> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/4607> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/7574> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/13136> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8912> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10044> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13209> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7641> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8879> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .
+
+<http://www.eionet.europa.eu/gemet/concept/9164> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/12007> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/319> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/5025> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Port> .
+
+<http://www.eionet.europa.eu/gemet/concept/11661> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Preparedness> .
+
+<http://www.eionet.europa.eu/gemet/concept/3586> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/11812> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/2238> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/9254> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3524> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/8675> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/10190> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/12122> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> .
+
+<http://www.eionet.europa.eu/gemet/concept/5316> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/10212> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/8687> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/5612> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> .
+
+<http://www.eionet.europa.eu/gemet/concept/9321> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/10696> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/6681> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/5755> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1807> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1203> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10847> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2323> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/6507> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/7370> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/10851> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/14581> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Railway_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/4819> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/10214> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/5029> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/4491> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/5494> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/3301> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> .
+
+<http://www.eionet.europa.eu/gemet/concept/3760> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/6951> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/11246> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/8925> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/6339> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10200> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/1469> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/623> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> .
+
+<http://www.eionet.europa.eu/gemet/concept/7669> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/9382> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/7232> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.eionet.europa.eu/gemet/concept/4242> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Facility> .
+
+<http://www.eionet.europa.eu/gemet/concept/210> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/7898> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/13577> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> .
+
+<http://www.eionet.europa.eu/gemet/concept/8448> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/5395> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/5545> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/2803> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/4267> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Facility> .
+
+<http://www.eionet.europa.eu/gemet/concept/9077> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Gas> .
+
+<http://www.eionet.europa.eu/gemet/concept/322> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://www.eionet.europa.eu/gemet/concept/10149> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/13186> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3871> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3378> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10510> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/7668> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/9168> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/10155> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/10199> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3491> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/3087> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/2920> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/1874> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1519> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/9042> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Gaseous_Air_Pollutant> .
+
+<http://www.eionet.europa.eu/gemet/concept/1482> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/6967> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Desert_Dust> .
+
+<http://www.eionet.europa.eu/gemet/concept/10860> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/3316> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/1479> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Bioclimatology> .
+
+<http://www.eionet.europa.eu/gemet/concept/7029> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/10048> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Oil_Pollution> .
+
+<http://www.eionet.europa.eu/gemet/concept/5424> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/10058> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/5042> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/5046> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/5890> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://www.eionet.europa.eu/gemet/concept/272> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmosphere_Monitoring> .
+
+<http://www.eionet.europa.eu/gemet/concept/6949> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/8525> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7670> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10142> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/7231> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Subsidence> .
+
+<http://www.eionet.europa.eu/gemet/concept/8014> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1126> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8073> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6012> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12275> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12104> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/3756> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/8252> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/2824> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/14931> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Administrative_Boundary> .
+
+<http://www.eionet.europa.eu/gemet/concept/7173> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/2470> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/14930> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Administrative_Boundary> .
+
+<http://www.eionet.europa.eu/gemet/concept/10907> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/5196> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Cloud> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/9274> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Weather> .
+
+<http://www.eionet.europa.eu/gemet/concept/5874> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/1029> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Facility> .
+
+<http://www.eionet.europa.eu/gemet/concept/12717> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/1799> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Accident> .
+
+<http://www.eionet.europa.eu/gemet/concept/4091> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://www.eionet.europa.eu/gemet/concept/13550> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/894> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/12066> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/7137> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/7240> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/8143> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/6747> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/6047> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2877> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/1751> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/8167> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/15031> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/5511> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/8701> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/3154> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/4126> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/3692> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Effect> .
+
+<http://www.eionet.europa.eu/gemet/concept/4625> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Gaseous_Air_Pollutant> .
+
+<http://www.eionet.europa.eu/gemet/concept/12067> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/186> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13194> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13572> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13568> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/10103> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/8204> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sulphur_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/22> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/6299> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/1793> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/6787> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7895> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/10210> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/6540> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/12060> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/199> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9230> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/6313> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10203> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/10160> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/7500> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/2970> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/8072> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Aerosol> .
+
+<http://www.eionet.europa.eu/gemet/concept/7575> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Earthquake> .
+
+<http://www.eionet.europa.eu/gemet/concept/1875> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10202> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/9165> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6094> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/1911> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8435> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/6743> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3591> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1471> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/5362> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/7882> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/12276> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3395> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/8782> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/2461> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/13041> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4124> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.eionet.europa.eu/gemet/concept/624> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> .
+
+<http://www.eionet.europa.eu/gemet/concept/2219> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Relief> .
+
+<http://www.eionet.europa.eu/gemet/concept/6459> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Eutrophication> .
+
+<http://www.eionet.europa.eu/gemet/concept/6541> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/1001> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5009> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10144> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/9232> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/3652> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Landslide> .
+
+<http://www.eionet.europa.eu/gemet/concept/11226> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/6229> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Temperature> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://www.eionet.europa.eu/gemet/concept/10910> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8029> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/4224> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/6323> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/5784> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/10861> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2285> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10695> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/7684> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7860> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/1673> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://www.eionet.europa.eu/gemet/concept/4567> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10906> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/11178> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7443> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/892> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/10711> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/6092> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8850> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8707> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/640> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Bioclimatology> .
+
+<http://www.eionet.europa.eu/gemet/concept/13320> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/449> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/913> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/8955> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/313> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/11187> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10652> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7697> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/11232> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/749> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/8037> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10208> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/3974> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10909> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8688> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/15033> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/1881> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7861> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8608> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2774> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/8877> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/5439> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6298> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/12199> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3182> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10152> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/12061> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/12215> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/14982> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/13165> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1067> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3596> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10593> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/3849> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/15032> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/11269> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6046> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7129> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12273> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3877> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/516> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/11170> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13164> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/6309> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/3000> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/10914> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5914> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/4378> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/14939> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3999> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5912> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://www.eionet.europa.eu/gemet/concept/1464> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Effect> .
+
+<http://www.eionet.europa.eu/gemet/concept/428> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2599> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3130> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/4082> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3860> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/5959> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1769> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9373> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9290> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2143> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/12189> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/4661> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/12476> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7742> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/2827> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/5785> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/5524> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Bioclimatology> .
+
+<http://www.eionet.europa.eu/gemet/concept/7652> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/6139> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/13207> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1652> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1314> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7763> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/388> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5412> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3960> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/969> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8811> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5963> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4805> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/1410> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12062> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/3812> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/3367> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/10895> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8727> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/12063> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/11270> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/9422> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5313> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/10691> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7396> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/9051> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Gas> .
+
+<http://www.eionet.europa.eu/gemet/concept/963> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Administrative_Boundary> .
+
+<http://www.eionet.europa.eu/gemet/concept/4507> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1123> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12065> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/13781> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/11153> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/11186> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9281> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/2340> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/2360> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/11204> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3103> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1653> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/6571> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Weather> .
+
+<http://www.eionet.europa.eu/gemet/concept/7465> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10911> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/527> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/5360> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4793> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12240> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4383> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3984> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/5745> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/10097> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/1613> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/5444> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7866> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/12082> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/12091> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/10651> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/9255> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/14938> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12064> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/3499> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8262> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/11227> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/529> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/13192> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/4609> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/14858> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/3977> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/8987> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8766> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/12231> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6274> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4391> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/11927> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/10890> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/6600> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/7588> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/517> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/7863> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1761> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3998> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/1902> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/2393> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/1955> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4095> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/521> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8175> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/7472> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Bioclimatology> .
+
+<http://www.eionet.europa.eu/gemet/concept/5897> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/3123> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/11206> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/9041> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Gas> .
+
+<http://www.eionet.europa.eu/gemet/concept/11177> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/864> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/8110> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/4070> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/12170> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/13570> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .

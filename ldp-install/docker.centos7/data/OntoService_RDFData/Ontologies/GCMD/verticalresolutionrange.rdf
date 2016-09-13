@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"><gcmd:termsOfUse xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">See http://gcmd.nasa.gov/r/l/TermsOfUse</gcmd:termsOfUse><gcmd:keywordVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">8.0</gcmd:keywordVersion><gcmd:schemeVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">2012-10-19 14:09:54</gcmd:schemeVersion>
+<skos:Concept rdf:about="0893353d-4e8c-4b31-bcc5-fce552ccfff3"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Point Resolution</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="201337ea-fa14-4e58-a538-e92c5ff734a4"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">1 meter - &lt; 10 meters</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="20505a5b-4df8-4430-83a3-ad7b212c9bfc"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">10 meters - &lt; 30 meters</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="3f0aa4fc-802c-4804-9f9f-8b666f3a2776"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">&gt; 1 km</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Vertical Resolution Ranges</skos:prefLabel>
+   <skos:narrower rdf:resource="0893353d-4e8c-4b31-bcc5-fce552ccfff3"/>
+   <skos:narrower rdf:resource="3f0aa4fc-802c-4804-9f9f-8b666f3a2776"/>
+   <skos:narrower rdf:resource="a66aa809-5320-408d-9cbe-86ed7940b8ec"/>
+   <skos:narrower rdf:resource="201337ea-fa14-4e58-a538-e92c5ff734a4"/>
+   <skos:narrower rdf:resource="cf1f085e-4948-4874-9640-e236fff7bc8d"/>
+   <skos:narrower rdf:resource="20505a5b-4df8-4430-83a3-ad7b212c9bfc"/>
+   <skos:narrower rdf:resource="eccf8700-c503-46a3-b6f7-86cf7e48465a"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="a66aa809-5320-408d-9cbe-86ed7940b8ec"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">30 meters - &lt; 100 meters</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="cf1f085e-4948-4874-9640-e236fff7bc8d"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">&lt; 1 meter</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="eccf8700-c503-46a3-b6f7-86cf7e48465a"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">100 meters - &lt; 1 km</skos:prefLabel>
+   <skos:broader rdf:resource="9728ca44-7bb3-40a4-9dd2-49470ad47fa5"/>
+</skos:Concept>
+</rdf:RDF>

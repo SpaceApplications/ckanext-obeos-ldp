@@ -1,0 +1,119 @@
+{# 
+Renders a list of resources with icons and view links.
+
+resources - A list of resources to render
+pkg - A package object that the resources belong to.
+
+Example:
+
+  {% snippet "package/snippets/resources_list.html", pkg=pkg, resources=pkg.resources %}
+
+#}
+
+{% if pkg.resources_json %}
+
+    {% resource 'obeos/jquery.dataTables.css' %}
+    {% resource 'obeos/jquery.dataTables.js' %}
+    
+    <style>
+        #resource_table_body { font-size: .9em }
+    </style>
+
+    {% if request.GET['q'] and request.GET['q'] != '' %}
+    <h2>{% if pkg.total_resources|int != 0 %}{{ pkg.total_resources }}{% else %}No{% endif %} resource{% if pkg.total_resources|int != 1 %}s{% endif %} found for "{{ request.GET['q'] }}"</h2>
+    {% else %}
+    <h2>{% if pkg.total_resources|int != 0 %}{{ pkg.total_resources }}{% else %}No{% endif %} resource{% if pkg.total_resources|int != 1 %}s{% endif %} found</h2>
+    {% endif %}
+    {% if pkg.num_resources and pkg.total_resources and pkg.num_resources != pkg.total_resources %}
+    <h2>Showing {{ pkg.num_resources }} resources</h2>
+    {% endif %}
+ 
+    {% if pkg.num_resources %}
+	<table id="resource_table" class="display">
+	    <thead>
+		<tr>
+		    <th>Resource</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Thumbnail</th>
+
+		</tr>
+	    </thead>
+	    <tbody id="resource_table_body">
+
+	    </tbody>
+	</table>
+    {% endif %}
+
+	<!-- https://datatables.net/reference/option/data -->
+	<script type="text/javascript">
+		window.onload = function () {
+		    {% if pkg.num_resources %}
+		    $('#resource_table').DataTable( {
+                "columnDefs": [
+                    {
+                        "render": function ( data, type, row ) {
+                            return '<a href="'+data+'" target="_blank"><img width="100" height="100" src="'+data+'"></a>';
+                        },
+                        "targets": 3
+                    },
+                    { "width": "20%", "targets": 3 },
+
+                    {   //format the date for local time
+                        "aTargets" : [ 1, 2 ], //indexes of whatever columns you need to format
+                        "mRender": function ( data, type, full ) {
+                            var date = new Date(data);
+
+                            return date.toString();
+                        }
+                    },
+
+                    { 'bSortable': false, 'aTargets': [ 3 ] }
+                ],
+                "data": {{ h.literal(pkg.resources_json) }},
+                "columns": [
+                            { "data": "label",
+                              "fnCreatedCell": function (nTd, sData, oData, iRow, iCol) {
+                                 {% if request.GET['q'] %}
+                                    {# Newer Jinja2 needed to use urlencode filter instead of replace #}
+                                    $(nTd).html("<a href=" + oData.url + "?q=" + "{{ request.GET['q']|replace(" ", "%20") }}" + ">" + oData.label + "</a>");
+                                 {% else %}
+                                    $(nTd).html("<a href=" + oData.url + ">" + oData.label + "</a>");
+                                 {% endif %}
+                              }
+                            },
+                            { "data": "start"},
+                            { "data": "end"},
+                            { "data": "icon"}
+                ]
+            } );
+            {% endif %}
+        };
+    </script>
+
+{% else %}
+
+    <section id="dataset-resources" class="resources">
+      <h3>{{ _('Data and Resources') }}</h3>
+      {% block resource_list %}
+        {% if resources %}
+          <ul class="{% block resource_list_class %}resource-list{% endblock %}">
+            {% block resource_list_inner %}
+              {% for resource in resources %}
+                {% snippet 'package/snippets/resource_item.html', pkg=pkg, res=resource %}
+              {% endfor %}
+            {% endblock %}
+          </ul>
+        {% else %}
+          {% if h.check_access('resource_create', {'package_id': pkg['id']}) %}
+              {% trans url=h.url_for(controller='package', action='new_resource', id=pkg.name) %}
+                <p class="empty">This dataset has no data, <a href="{{ url }}">why not add some?</a></p>
+              {% endtrans %}
+          {% else %}
+              <p class="empty">{{ _('This dataset has no data') }}</p>
+          {% endif %}
+        {% endif %}
+        {% endblock %}
+    </section>
+
+{% endif %}

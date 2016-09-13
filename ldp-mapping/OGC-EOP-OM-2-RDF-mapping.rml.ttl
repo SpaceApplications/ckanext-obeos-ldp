@@ -1,0 +1,450 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix mail: <http://example.com/mail#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ogc: <http://www.opengis.net/ont/geosparql#>.
+@prefix gml: <http://www.opengis.net/gml/3.2#> .
+@prefix opt: <http://www.opengis.net/opt/2.1#> .
+@prefix eop: <http://www.opengis.net/eop/2.1#> .
+@prefix om: <http://www.opengis.net/om/2.0#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix oml: <http://def.seegrid.csiro.au/ontology/om/om-lite#> .
+@prefix mrss: <http://search.yahoo.com/mrss/> .
+@prefix ows: <http://www.opengis.net/ows/2.0#> .
+@prefix xlink: <http://www.w3.org/1999/xlink#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix rrx: <http://www.w3.org/ns/r2rml-ext#> .
+@prefix rrxf: <http://www.w3.org/ns/r2rml-ext/functions/def/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix media: <http://search.yahoo.com/mrss/> .
+
+
+<#Observation>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [ 
+        rr:template "http://www.opengis.net/opt/2.1#EarthObservation/{eop:metaDataProperty/eop:EarthObservationMetaData/eop:parentIdentifier}/{eop:metaDataProperty/eop:EarthObservationMetaData/eop:identifier}" ];
+
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant oml:Observation;
+        ]
+    ];
+
+    rr:predicateObjectMap [
+    rr:predicate dct:spatial;
+    rr:objectMap [
+       rrx:function rrxf:asWKT;
+       rrx:argumentMap ([rml:reference "om:featureOfInterest/eop:Footprint/eop:multiExtentOf/*";]);
+           rr:datatype ogc:wktLiteral;	];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate oml:resultTime;
+        rr:objectMap [
+            rml:reference "om:resultTime/gml:TimeInstant/gml:timePosition";
+            rr:datatype xsd:dateTime
+        ]
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate oml:phenomenonTime;
+       rr:objectMap [
+            rr:parentTriplesMap <#PhenomenonTime>;
+       ];
+    ];
+
+#Earth Observation Metadata
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:identifier";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:parentIdentifier;
+        rr:objectMap [
+            rr:template "http://www.w3.org/ns/dcat#Dataset/{eop:metaDataProperty/eop:EarthObservationMetaData/eop:parentIdentifier}";
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:productType;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:productType";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:acquisitionType;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:acquisitionType";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:acquisitionSubType;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:acquisitionSubType";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:status;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:status";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:productQualityDegradation;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:productQualityDegradation";
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:processingMode;
+        rr:objectMap [
+            rml:reference "eop:metaDataProperty/eop:EarthObservationMetaData/eop:processing/eop:ProcessingInformation/eop:processingMode";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate oml:result;
+       rr:objectMap [
+            rr:parentTriplesMap <#Result>;
+            rr:datatype rdf:Class
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate oml:procedure;
+       rr:objectMap [
+            rr:parentTriplesMap <#Process>
+       ];
+    ];
+    .
+
+<#PhenomenonTime>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode;
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ical:dtstart;
+        rr:objectMap [
+            rml:reference "om:phenomenonTime/gml:TimePeriod/gml:beginPosition";
+            rr:datatype xsd:dateTime
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ical:dtend;
+        rr:objectMap [
+            rml:reference "om:phenomenonTime/gml:TimePeriod/gml:endPosition";
+            rr:datatype xsd:dateTime
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+           rr:constant oml:TemporalObject
+        ]
+    ];
+    .
+
+<#Result>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant rdf:Class;
+        ]
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate opt:cloudCover;  
+       rr:objectMap [
+            rml:reference "om:result/opt:EarthObservationResult/opt:cloudCoverPercentage";
+            rr:datatype xsd:double;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate media:group;
+       rr:objectMap [
+            rr:parentTriplesMap <#ContentBrowse>;
+            rr:datatype media:Content
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate media:group;
+       rr:objectMap [
+            rr:parentTriplesMap <#ContentProduct>;
+            rr:datatype media:Content
+       ];
+    ];
+    .
+
+<#ContentBrowse>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:template"{om:result/opt:EarthObservationResult/eop:browse/eop:BrowseInformation/eop:fileName/ows:ServiceReference/@xlink:href}"
+    ];
+
+        rr:predicateObjectMap [
+            rr:predicate rdf:type;
+            rr:objectMap [
+                rr:constant oml:Observation;
+            ]
+        ];
+
+    rr:predicateObjectMap [
+       rr:predicate media:category;
+       rr:objectMap [
+            rr:template "http://www.opengis.net/eop/2.1#{om:result/opt:EarthObservationResult/eop:browse/eop:BrowseInformation/eop:type}"
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate dct:conformsTo;
+       rr:objectMap [
+            rr:template "http://www.opengis.net/def/crs/EPSG/0/{om:result/opt:EarthObservationResult/eop:browse/eop:BrowseInformation/eop:referenceSystemIdentifier}";
+       ];
+    ];
+    .
+
+<#ContentProduct>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:template "{om:result/opt:EarthObservationResult/eop:product/eop:ProductInformation/eop:fileName/ows:ServiceReference/@xlink:href}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant media:Content
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate media:fileSize;
+       rr:objectMap [
+            rml:reference "om:result/opt:EarthObservationResult/eop:product/eop:ProductInformation/eop:size";
+            rr:datatype xsd:double
+       ];
+    ];
+    .
+
+<#Platform>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:template "http://www.opengis.net/eop/2.1#Platform/{om:procedure/eop:EarthObservationEquipment/eop:platform/eop:Platform/eop:shortName}{om:procedure/eop:EarthObservationEquipment/eop:platform/eop:Platform/eop:serialIdentifier}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate skos:prefLabel;
+       rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:platform/eop:Platform/eop:shortName";
+            rr:datatype xsd:string;
+       ];
+    ];
+    .
+
+<#Instrument>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:template "http://www.opengis.net/eop/2.1#Instrument/{om:procedure/eop:EarthObservationEquipment/eop:instrument/eop:Instrument/eop:shortName}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate skos:prefLabel;
+       rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:instrument/eop:Instrument/eop:shortName";
+            rr:datatype xsd:string;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate ssn:onPlatform;
+       rr:objectMap [
+            rr:parentTriplesMap <#Platform>;
+       ];
+    ];
+    .
+
+<#Process>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant oml:Process
+        ]
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate eop:platform;
+       rr:objectMap [
+            rr:parentTriplesMap <#Platform>;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate eop:instrument;
+       rr:objectMap [
+            rr:parentTriplesMap <#Instrument>;
+       ];
+    ];
+
+    # Acquisition parameters:
+    rr:predicateObjectMap [
+        rr:predicate eop:orbitNumber;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:orbitNumber";
+            rr:datatype xsd:integer
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:orbitDirection;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:orbitDirection";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:wrsLongitudeGrid;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:wrsLongitudeGrid";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:wrsLatitudeGrid;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:wrsLatitudeGrid";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:illuminationAzimuthAngle;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:illuminationAzimuthAngle";
+            rr:datatype xsd:decimal
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:illuminationZenithAngle;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:illuminationZenithAngle";
+            rr:datatype xsd:decimal
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:illuminationElevationAngle;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:acquisitionParameters/eop:Acquisition/eop:illuminationElevationAngle";
+            rr:datatype xsd:decimal
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate eop:sensorType;
+        rr:objectMap [
+            rml:reference "om:procedure/eop:EarthObservationEquipment/eop:sensor/eop:Sensor/eop:sensorType";
+            rr:datatype xsd:string
+        ]
+    ];
+
+    .
+
+<#EPSG>
+    rml:logicalSource [
+        rml:source "__INPUT_XML__";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/opt:EarthObservation" ];
+
+    rr:subjectMap [
+        rr:template "http://www.opengis.net/def/crs/EPSG/0/{om:result/opt:EarthObservationResult/eop:browse/eop:BrowseInformation/eop:referenceSystemIdentifier}";
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept];
+    ];
+    .

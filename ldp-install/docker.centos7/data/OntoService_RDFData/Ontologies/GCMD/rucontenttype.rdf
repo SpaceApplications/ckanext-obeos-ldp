@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"><gcmd:termsOfUse xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">See http://gcmd.nasa.gov/r/l/TermsOfUse</gcmd:termsOfUse><gcmd:keywordVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">8.0</gcmd:keywordVersion><gcmd:schemeVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">2012-10-19 14:09:54</gcmd:schemeVersion>
+<skos:Concept rdf:about="029540bb-7f5c-44ba-8578-61e2f858be60"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET WEB COVERAGE SERVICE (WCS)</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="0b50c12d-a6ae-4d63-b42b-d99bf7aa2da0"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">LAADS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="0c3aa5c6-f1f9-4c16-aa96-30672028d26c"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET MAP SERVICE</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="1176fe3c-47fd-4f73-bfe1-f3c89382c6f9"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">EDG</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="20ab6d52-f5a7-439c-a044-6ef2452a2838"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">LAS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="26431afd-cb37-4772-9e97-3a36f6dff32d"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">MODAPS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="29606383-df7e-46e2-b518-5041395e683a"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">ACCESS WEB SERVICE</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="2e869d22-88fe-43dc-852d-9f50c911ad02"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GIOVANNI</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="2f1f3f44-61d5-48db-a8ac-06e3f777bf35"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">OPENDAP DATA (DODS)</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="2fc3797c-71b5-4d01-8ae1-d5634ec625ce"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">DATACAST URL</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+   <skos:changeNote>2012-09-17 09:53:43.0 [saritz] Insert Concept 
+add broader relation (DATACAST URL [2fc3797c-71b5-4d01-8ae1-d5634ec625ce,40585] - GET DATA [750f6c61-0f15-4185-94d8-c029dec04bc5,39451]); 
+</skos:changeNote>
+</skos:Concept>
+
+<skos:Concept rdf:about="3779ec72-c1e0-4a0f-aff8-8e2a2a7af486"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">EOSDIS DATA POOL</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="3c2a68a6-d8c2-4f14-8208-e57a4446ad71"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">ON-LINE ARCHIVE</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="3c9d4493-22fd-48a8-9af5-bf0d16b7ede5"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">VIEW EXTENDED METADATA</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="411d2781-822c-4c48-8d5b-4b51b100ce0a"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET WORKFLOW (SERVICE CHAIN)</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="52a320c4-1e83-4ce6-b494-f29531b7b1e2"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET SERVICE</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+   <skos:narrower rdf:resource="029540bb-7f5c-44ba-8578-61e2f858be60"/>
+   <skos:narrower rdf:resource="c1c61697-b4bd-467c-9db4-5bd0115545a3"/>
+   <skos:narrower rdf:resource="411d2781-822c-4c48-8d5b-4b51b100ce0a"/>
+   <skos:narrower rdf:resource="5fedeefd-2609-488c-a897-fe168cae34dd"/>
+   <skos:narrower rdf:resource="c4d406e6-7a34-42aa-bd79-f7f9265cc7bd"/>
+   <skos:narrower rdf:resource="0c3aa5c6-f1f9-4c16-aa96-30672028d26c"/>
+   <skos:narrower rdf:resource="ca8b62c9-5f31-40bd-92a9-8d30081309e2"/>
+   <skos:narrower rdf:resource="b0e2089c-3c1d-4c12-b833-e07365a4038e"/>
+   <skos:narrower rdf:resource="29606383-df7e-46e2-b518-5041395e683a"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="5c0cd574-0255-4202-9b5b-3da8711b7ed7"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GDS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="5cb9c24e-1afe-471d-9f1a-808d390ab623"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">REVERB</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="5ec1bb9d-0efc-4099-9b31-ec791bbd8145"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">VIEW RELATED INFORMATION</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+   <skos:narrower rdf:resource="d1996d91-e824-4b24-b94e-3aae4543b63b"/>
+   <skos:narrower rdf:resource="b292f51f-d2b4-4e65-84a9-e50306238989"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="5fedeefd-2609-488c-a897-fe168cae34dd"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">ACCESS MOBILE APP</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="62919237-f020-4f9d-abcb-3d46b9b021e6"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">OPENDAP DIRECTORY (DODS)</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="6e72d128-7d28-4bd0-bac0-8c5ffd8b31f1"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">VIEW PROJECT HOME PAGE</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="6ffc54ea-001a-4c03-afff-5086b2da8f59"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">SSW</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="750f6c61-0f15-4185-94d8-c029dec04bc5"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET DATA</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+   <skos:narrower rdf:resource="0b50c12d-a6ae-4d63-b42b-d99bf7aa2da0"/>
+   <skos:narrower rdf:resource="9b05d2a3-9a5a-425c-b6ed-59e0e56814fa"/>
+   <skos:narrower rdf:resource="b174d375-cb2e-4c74-9817-b19f1f6b4e44"/>
+   <skos:narrower rdf:resource="26431afd-cb37-4772-9e97-3a36f6dff32d"/>
+   <skos:narrower rdf:resource="2f1f3f44-61d5-48db-a8ac-06e3f777bf35"/>
+   <skos:narrower rdf:resource="9a35f184-be2e-4b86-bc98-697039233c94"/>
+   <skos:narrower rdf:resource="2fc3797c-71b5-4d01-8ae1-d5634ec625ce"/>
+   <skos:narrower rdf:resource="5c0cd574-0255-4202-9b5b-3da8711b7ed7"/>
+   <skos:narrower rdf:resource="1176fe3c-47fd-4f73-bfe1-f3c89382c6f9"/>
+   <skos:narrower rdf:resource="aa11ac15-3042-4634-b47e-acc368f608bd"/>
+   <skos:narrower rdf:resource="3c2a68a6-d8c2-4f14-8208-e57a4446ad71"/>
+   <skos:narrower rdf:resource="5cb9c24e-1afe-471d-9f1a-808d390ab623"/>
+   <skos:narrower rdf:resource="77cae7cb-4676-4c69-a88b-d78971496f97"/>
+   <skos:narrower rdf:resource="6ffc54ea-001a-4c03-afff-5086b2da8f59"/>
+   <skos:narrower rdf:resource="a36f1716-a310-41f5-b4d8-6c6a5fc933d9"/>
+   <skos:narrower rdf:resource="3779ec72-c1e0-4a0f-aff8-8e2a2a7af486"/>
+   <skos:narrower rdf:resource="b434314f-949f-4c26-be57-2ea4c7f03643"/>
+   <skos:narrower rdf:resource="9d75fcf8-fa66-41e3-bcf1-1944377d0711"/>
+   <skos:narrower rdf:resource="20ab6d52-f5a7-439c-a044-6ef2452a2838"/>
+   <skos:narrower rdf:resource="bce8edaa-bbf0-4f6d-9b2d-c4131078e72d"/>
+   <skos:narrower rdf:resource="2e869d22-88fe-43dc-852d-9f50c911ad02"/>
+   <skos:narrower rdf:resource="62919237-f020-4f9d-abcb-3d46b9b021e6"/>
+   <skos:changeNote>2012-09-17 09:53:43.0 [saritz] Insert Concept 
+add narrower relation (GET DATA [750f6c61-0f15-4185-94d8-c029dec04bc5,39451] - DATACAST URL [2fc3797c-71b5-4d01-8ae1-d5634ec625ce,40585]); 
+</skos:changeNote>
+</skos:Concept>
+
+<skos:Concept rdf:about="77cae7cb-4676-4c69-a88b-d78971496f97"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">THREDDS DATA</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="80c7f017-a5b3-4e3f-9359-f52930744719"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET RELATED DATA SET METADATA (DIF)</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="8759ab63-ac04-4136-bc25-0c00eece1096"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">Related URL Content Types</skos:prefLabel>
+   <skos:narrower rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+   <skos:narrower rdf:resource="80c7f017-a5b3-4e3f-9359-f52930744719"/>
+   <skos:narrower rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+   <skos:narrower rdf:resource="6e72d128-7d28-4bd0-bac0-8c5ffd8b31f1"/>
+   <skos:narrower rdf:resource="3c9d4493-22fd-48a8-9af5-bf0d16b7ede5"/>
+   <skos:narrower rdf:resource="dd2adc64-c7bd-4dbf-976b-f0496966817c"/>
+   <skos:narrower rdf:resource="ca04650e-9e65-4ce6-93ac-597b77afcba6"/>
+   <skos:narrower rdf:resource="f00cf885-8fc5-42ca-a70e-1689530f00cf"/>
+   <skos:narrower rdf:resource="5ec1bb9d-0efc-4099-9b31-ec791bbd8145"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="9a35f184-be2e-4b86-bc98-697039233c94"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">THREDDS DIRECTORY</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="9b05d2a3-9a5a-425c-b6ed-59e0e56814fa"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">MIRADOR</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="9d75fcf8-fa66-41e3-bcf1-1944377d0711"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">ECHO</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="a36f1716-a310-41f5-b4d8-6c6a5fc933d9"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">NOAA CLASS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="aa11ac15-3042-4634-b47e-acc368f608bd"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">LANCE</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="b0e2089c-3c1d-4c12-b833-e07365a4038e"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET WEB MAP SERVICE (WMS)</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="b174d375-cb2e-4c74-9817-b19f1f6b4e44"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">THREDDS CATALOG</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="b292f51f-d2b4-4e65-84a9-e50306238989"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">PRODUCT HISTORY</skos:prefLabel>
+   <skos:broader rdf:resource="5ec1bb9d-0efc-4099-9b31-ec791bbd8145"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="b434314f-949f-4c26-be57-2ea4c7f03643"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">NOMADS</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="bce8edaa-bbf0-4f6d-9b2d-c4131078e72d"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">KML</skos:prefLabel>
+   <skos:broader rdf:resource="750f6c61-0f15-4185-94d8-c029dec04bc5"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="c1c61697-b4bd-467c-9db4-5bd0115545a3"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">ACCESS MAP VIEWER</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="c4d406e6-7a34-42aa-bd79-f7f9265cc7bd"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET WEB FEATURE SERVICE (WFS)</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="ca04650e-9e65-4ce6-93ac-597b77afcba6"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET RELATED SERVICE METADATA (SERF)</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="ca8b62c9-5f31-40bd-92a9-8d30081309e2"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET SOFTWARE PACKAGE</skos:prefLabel>
+   <skos:broader rdf:resource="52a320c4-1e83-4ce6-b494-f29531b7b1e2"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="d1996d91-e824-4b24-b94e-3aae4543b63b"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">USER'S GUIDE</skos:prefLabel>
+   <skos:broader rdf:resource="5ec1bb9d-0efc-4099-9b31-ec791bbd8145"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="dd2adc64-c7bd-4dbf-976b-f0496966817c"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">GET RELATED VISUALIZATION</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="f00cf885-8fc5-42ca-a70e-1689530f00cf"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/rucontenttype"/>
+   <skos:prefLabel xml:lang="en">VIEW PROFESSIONAL HOME PAGE</skos:prefLabel>
+   <skos:broader rdf:resource="8759ab63-ac04-4136-bc25-0c00eece1096"/>
+</skos:Concept>
+</rdf:RDF>

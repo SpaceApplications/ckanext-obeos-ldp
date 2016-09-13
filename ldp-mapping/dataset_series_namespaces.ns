@@ -1,0 +1,14 @@
+eop http://www.opengis.net/eop/2.1/
+rdf http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rdfs http://www.w3.org/2000/01/rdf-schema#
+dcat http://www.w3.org/ns/dcat#
+dct http://purl.org/dc/terms/
+skos http://www.w3.org/2004/02/skos/core#
+vcard http://www.w3.org/2006/vcard/ns#
+atom http://www.w3.org/2005/Atom/
+dc http://purl.org/dc/elements/1.1/
+gmd http://www.isotc211.org/2005/gmd
+gmi http://www.isotc211.org/2005/gmi
+gmx http://www.isotc211.org/2005/gmx
+gco http://www.isotc211.org/2005/gco
+gml http://www.opengis.net/gml/3.2

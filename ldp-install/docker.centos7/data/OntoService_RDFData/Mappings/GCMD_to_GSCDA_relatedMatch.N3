@@ -1,0 +1,116 @@
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6bc39a6d-cc60-467a-9181-d8b4e02a1cb0> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bac88c42-fd8d-4970-878d-441977f00ffc> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d8bea85a-4578-410f-b58a-4927b8963aef> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a228b67f-0791-470b-a4ca-71b8da279332> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fb1e4438-d142-4750-a3c8-24b10c5bc3b5> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmospheric_Natural_Risk> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmosphere_Monitoring> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d4313915-2d24-424c-a171-30ee9a6f4bb5> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Critical_Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e0c40575-4033-4e91-9874-3cd83ce80bc1> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/46206e8c-8def-406f-9e62-da4e74633a58> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5c52009f-2c44-4db1-b62b-135c6181bad2> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/29dbe37e-22e6-4d02-844f-60359fbbc130> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/dd316647-9043-40c3-9329-f22f9215fefa> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Stratospheric_Ozone> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/40d6a3e7-89dd-4399-8fa5-bbc7a0917b4e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4f7ad022-70ea-4254-b0ae-7a231fc2e46a> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/25fcdcb7-efd2-4d2f-ba57-92bbcc7ba69a> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ee0fce70-2097-4f5b-853a-c34e6cbff929> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6a426480-c58f-4b6b-8e35-0975b7f6edb5> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b632d0cc-d4b0-458e-a182-16bbd2a5ab05> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biochemical_Oxygen_Demand> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pollution_By_Oxygen_Consuming_Substances> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6f6537f5-773f-4df1-862b-d9ab80eb5e04> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1ee8a323-f0ba-4a21-b597-50890c527c8e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Quality_Monitoring> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e6c260ca-4f1e-4ed9-92d8-b50d1927f88e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biologically_Effective_UV_Dose> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f043c0a8-9cee-4c51-bf64-a4aaa34ab75d> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cefe2205-809c-4386-915e-a8737ae8e68e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Active_Volcanoes> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f54cb873-f20a-4476-835e-fd968c9b1937> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/90aa8838-79bd-4b28-b518-8217e863c385> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biochemical_Oxygen_Demand> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pollution_By_Oxygen_Consuming_Substances> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/04fa9023-ab68-4dd0-a82e-abe685105a53> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7ca1ab0a-2aa1-438c-b4c0-93dd8db37bb1> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/63c7d604-707e-4c38-8baf-19a620e61917> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ed7c506e-b18e-4a93-ac03-4bdfe119b72f> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5fb90409-f9b5-46bc-8a6a-7c42e250c7c3> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biochemical_Oxygen_Demand> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8ed9f39d-986e-4b36-83f9-f29f6a4df89b> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7e95b5fc-1d58-431a-af36-948b29fa870d> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/db5357c9-cc9d-4693-86fe-6bb88555d434> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8ef6f360-10d0-4dc5-8fcb-c532eb23fe5d> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Pollution> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a7ae5843-479c-4055-b8fc-ba651e485750> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d1426df9-7653-442b-8e38-fa28757ec748> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b51b3708-a662-4cf1-bf13-e67f36b001c4> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Wetness> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c5bc5153-d8ed-455b-9a05-aebb1026e2fb> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/37a6c8e2-f2ac-48a4-a4fa-d80f700f68db> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Transportation_Accident> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Transport_Network> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/548a3f85-bf22-473b-b641-45c32d9c6a0c> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7b76bca5-32ee-4285-8550-0de120b01a13> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pollution_By_Metals> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cece77b6-42bf-44f6-9193-050cbc5f4cf7> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4b12439a-45fc-42fa-ae19-535826f6247b> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Fire_Emission> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ee3df8b7-0b0b-40ed-b9fa-cc3205d95669> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bdfd401f-7eed-4a48-bd6f-f0c2a890594a> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Reflectance> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/085edf65-1c8c-414a-b8e4-a1a08ff08f22> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Population_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e1179e7f-59e5-465a-9879-6bda6985744e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/61594015-4ab4-4b38-ae4f-e31a4757b065> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/15fdef7c-7fb7-4a1d-a24b-01164a8ba11a> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c47f6052-634e-40ef-a5ac-13f69f6f4c2a> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmosphere_Monitoring> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7b5c02c-724d-4a19-b824-98180f3900c9> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation_Disturbance> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation_Productivity> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9a583e74-34e9-4eb5-af7a-03418d702af6> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Quality_Monitoring> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9315c474-b65f-400d-beba-611c9a6a62cb> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a2a5a2e1-6ac8-4bd4-9fe6-00f043bc148b> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a0f3474e-9a54-4a82-97c4-43864b48df4c> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5ed7811a-2ba1-4985-9f1c-a78c802fa27f> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0aad04f5-5438-4800-a0c9-6155656a720e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Gust> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Speed> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Direction> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bc320625-d9ba-41f5-9336-57e86fd878f3> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Pollution> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/75c312bc-79f9-4d74-a7c0-3c67c019196c> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .

@@ -1,0 +1,383 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rrx: <http://www.w3.org/ns/r2rml-ext#> .
+@prefix rrxf: <http://www.w3.org/ns/r2rml-ext/functions/def/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix mail: <http://example.com/mail#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogc: <http://www.opengis.net/ont/geosparql#>.
+@prefix opt: <http://www.opengis.net/opt/2.1#> .
+@prefix eop: <http://www.opengis.net/eop/2.1#> .
+@prefix om: <http://www.opengis.net/om/2.0#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix oml: <http://def.seegrid.csiro.au/ontology/om/om-lite#> .
+@prefix mrss: <http://search.yahoo.com/mrss/> .
+@prefix ows: <http://www.opengis.net/ows/2.0#> .
+@prefix xlink: <http://www.w3.org/1999/xlink#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ogc: <http://www.opengis.net/ont/geosparql#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gmd: <http://www.isotc211.org/2005/gmd> .
+@prefix gml: <http://www.opengis.net/gml/3.2#> .
+@prefix gmx: <http://www.isotc211.org/2005/gmx#> .
+
+
+<#Observation>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [ 
+        rr:template "http://www.w3.org/ns/dcat#Dataset/{gmd:fileIdentifier/gco:CharacterString}" ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant dcat:Dataset
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:description;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString";
+            rr:datatype xsd:string
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:identifier;
+        rr:objectMap [
+            rml:reference "gmd:fileIdentifier/gco:CharacterString";
+            rr:datatype xsd:string
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:title;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString";
+            rr:datatype xsd:string
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ical:dtstart;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition";
+            rr:datatype xsd:dateTime
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ical:dtend;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition";
+            rr:datatype xsd:dateTime
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:issued;
+        rr:objectMap [
+            rml:reference "gmd:dateStamp/gco:Date";
+            rr:datatype xsd:dateTime
+       ]
+    ];
+
+   rr:predicateObjectMap [
+        rr:predicate dcat:keyword;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString";
+            rr:datatype rdfs:Literal
+       ]
+   ];
+
+    rr:predicateObjectMap [
+       rr:predicate dct:language;
+       rr:objectMap [
+            rr:parentTriplesMap <#Language>;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:subject;
+        rr:objectMap [
+          rr:parentTriplesMap <#Subject>;
+        ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate dct:subject;
+        rr:objectMap [
+          rr:parentTriplesMap <#SubjectImageryBaseMapsEarthCover>;
+        ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate eop:platform;
+       rr:objectMap [
+            rr:parentTriplesMap <#Platform>;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate eop:instrument;
+       rr:objectMap [
+            rr:parentTriplesMap <#Instrument>;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate dcat:contactPoint;
+       rr:objectMap [
+            rr:parentTriplesMap <#Contact>;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate dcat:theme;
+       rr:objectMap [
+           rr:parentTriplesMap <#Theme>;
+           rr:joinCondition [
+               rr:childTriplesMap <#Theme>;
+           ];
+      ];
+    ];
+    .
+
+<#Theme>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword" ];
+
+    rr:subjectMap [
+        rr:template "{gmx:Anchor/@xlink:href}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate skos:prefLabel;
+        rr:objectMap [
+             rml:reference "gmx:Anchor";
+             rr:datatype xsd:string
+        ];
+    ];
+    .
+
+<#Language>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:template "{gmd:language/gmd:LanguageCode/@codeList}_{gmd:language/gmd:LanguageCode}"
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant skos:Concept
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant dct:LinguisticSystem
+       ]
+    ];
+    .
+
+<#SubjectImageryBaseMapsEarthCover>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:constant "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/imageryBaseMapsEarthCover";
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant skos:Concept
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate skos:prefLabel;
+        rr:objectMap [
+            rr:constant "imageryBaseMapsEarthCover";
+            rr:datatype xsd:string
+       ]
+    ];
+    .
+
+<#Subject>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:template "http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/{gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode}";
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rdf:type;
+        rr:objectMap [
+            rr:constant skos:Concept
+       ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate skos:prefLabel;
+        rr:objectMap [
+            rml:reference "gmd:identificationInfo/gmd:MD_DataIdentification/gmd:topicCategory/gmd:MD_TopicCategoryCode";
+            rr:datatype xsd:string
+       ]
+    ];
+    .
+<#Platform>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:template "{gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gmx:Anchor/@xlink:href}"
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate skos:prefLabel;
+        rr:objectMap [
+           rml:reference "gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gmx:Anchor";
+           rr:datatype xsd:string
+        ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept;
+       ];
+    ];
+    .
+
+<#Instrument>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:template "{gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gmx:Anchor/@xlink:href}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate ssn:onPlatform;
+       rr:objectMap [
+            rr:template "{gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:identifier/gmd:MD_Identifier/gmd:code/gmx:Anchor/@xlink:href}"
+       ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate skos:prefLabel;
+        rr:objectMap [
+           rml:reference "gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/gmi:MI_Platform/gmi:instrument/gmi:MI_Instrument/gmi:citation/gmd:CI_Citation/gmd:title/gmx:Anchor";
+           rr:datatype xsd:string
+        ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant skos:Concept;
+       ];
+    ];
+    .
+
+<#Contact>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode;
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant vcard:Kind;
+       ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vcard:hasOrganizationName;
+        rr:objectMap [
+          rml:reference "gmd:contact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString";
+          rr:datatype xsd:string
+        ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vcard:hasTitle;
+        rr:objectMap [
+          rml:reference "gmd:contact/gmd:CI_ResponsibleParty/gmd:positionName/gco:CharacterString";
+          rr:datatype xsd:string
+        ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate vcard:hasRole;
+        rr:objectMap [
+          rml:reference "gmd:contact/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode";
+          rr:datatype xsd:string
+        ];
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate vcard:hasEmail;
+       rr:objectMap [
+            rr:parentTriplesMap <#Email>;
+       ];
+    ];
+    .
+
+<#Email>
+    rml:logicalSource [
+        rml:source "input_test_dataset_series_1.xml";
+        rml:referenceFormulation ql:XPath;
+        rml:iterator  "/gmi:MI_Metadata" ];
+
+    rr:subjectMap [
+        rr:template "mailto:{gmd:contact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString}"
+    ];
+
+    rr:predicateObjectMap [
+       rr:predicate rdf:type;
+       rr:objectMap [
+            rr:constant vcard:Email;
+       ];
+    ];
+    .
+

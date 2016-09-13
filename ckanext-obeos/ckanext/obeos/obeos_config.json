@@ -1,0 +1,37 @@
+{
+  "QUERY_RESOLVER_URL" : "http://obeos.spaceapplications.com/qa-resto/rest/2.1/api/query/analyze.json",
+  "ONTOLOGY_SERVICE_URL" : "http://prodtrees.spaceapplications.com/ontologies/",
+  "CACHE_EXPIRATION_TIME": 100,
+  "ENDPOINTS":
+  [
+   {
+      "type":"strabon",
+      "endpoints":[
+         {
+           "name":"strabon_docker",
+            "url":"http://strabon:8080/strabon/Describe",
+            "timeout": 60
+         },
+         {
+            "name":"strabon1",
+            "url":"http://obeos.spaceapplications.com/strabon1/Describe",
+            "timeout": 60
+         }
+      ]
+   },
+   {
+      "type":"fedeo",
+      "endpoints":[
+         {
+            "key_parameters":[
+              "eo:instrument",
+              "eo:platform"
+            ],
+            "name":"fedeo",
+            "dcat":"http://obeos.spacebel.be/opensearch/",
+            "timeout" :60
+         }
+      ]
+   }
+]
+}

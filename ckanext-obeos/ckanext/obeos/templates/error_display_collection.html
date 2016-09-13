@@ -1,0 +1,12 @@
+{% extends "error_document_template.html" %}
+
+{% block primary %}
+
+<article class="module">
+    <div class="module-content">
+      <h1>Error</h1>
+        No display available for dataset {{ dataset_id }} in endpoint {{ endpoint_name }}
+    </div>
+  </article>
+
+{% endblock %}

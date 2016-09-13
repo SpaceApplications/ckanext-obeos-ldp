@@ -1,0 +1,38 @@
+#!/bin/bash
+set -eu
+
+if [ ! -f ${CATALINA_HOME}/scripts/.tomcat_admin_created ]; then
+	  echo "=> Creating and admin user with a 'admin' password in Tomcat"
+    sed -i -r 's/<\/tomcat-users>//' ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="manager"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="manager-gui"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="manager-script"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="manager-jmx"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="admin-gui"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '<role rolename="admin-script"/>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo "<user username=\"admin\" password=\"admin\" roles=\"manager,manager-gui,manager-script,manager-jmx,admin-gui, admin-script\"/>" >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo '</tomcat-users>' >> ${CATALINA_HOME}/conf/tomcat-users.xml
+    echo "=> Done!"
+
+    # Update strabon credentials in credentials.properties  (for Tomcat)
+    sed -i 's/^\(username=*\).*$/\1'"$STRABON_TOMCAT_USER"'/' /opt/tomcat/webapps/strabon/WEB-INF/credentials.properties
+    sed -i 's/^\(password=*\).*$/\1'"$STRABON_TOMCAT_PASS"'/' /opt/tomcat/webapps/strabon/WEB-INF/credentials.properties
+
+    # Update postgres credentials in connections.properties (for Postgres)
+    sed -i 's/^\(username=*\).*$/\1'"$STRABON_PSQL_USER"'/' /opt/tomcat/webapps/strabon/WEB-INF/connection.properties
+    sed -i 's/^\(password=*\).*$/\1'"$STRABON_PSQL_PASS"'/' /opt/tomcat/webapps/strabon/WEB-INF/connection.properties
+    sed -i 's/^\(hostname=*\).*$/\1'"$POSTGRES_HOST_NAME"'/' /opt/tomcat/webapps/strabon/WEB-INF/connection.properties
+    sed -i 's/^\(dbname=*\).*$/\1'"$STRABON_PSQL_DB"'/' /opt/tomcat/webapps/strabon/WEB-INF/connection.properties
+
+    touch ${CATALINA_HOME}/scripts/.tomcat_admin_created
+
+fi
+
+# Check if Data has been ingested in the PSQL DB (by "60_ingestData" script)
+until [ -f "/var/tmp/data_ingested" ];
+do
+	printf 'Waiting for Data to be ingested in PSQL DB before starting Tomcat\n'
+	sleep 2;
+done
+
+exec catalina.sh run

@@ -1,0 +1,57 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcat:  <http://www.w3.org/ns/dcat#>
+PREFIX dct:   <http://purl.org/dc/terms/>
+PREFIX geo:   <http://www.opengis.net/ont/geosparql#>
+PREFIX geof:  <http://www.opengis.net/def/function/geosparql/>
+PREFIX ical:  <http://www.w3.org/2002/12/cal/ical#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX eop:   <http://www.opengis.net/eop/2.1#>
+
+CONSTRUCT {
+    ?id ?p ?o .
+    ?o skos:prefLabel ?l .
+}
+WHERE {
+    ?id a dcat:Dataset .
+
+    {% if geo__geometry is defined %}
+    ?id dct:spatial ?geometry
+    FILTER (geof:sfIntersects(?geometry, "{{ geo__geometry }};<http://www.opengis.net/def/crs/EPSG/0/4326>"^^geo:wktLiteral))
+    {% endif %}
+
+    {% if time__end is defined %}
+    ?id ical:dtstart ?start
+    FILTER (str(?start) < "{{ time__end }}")
+    {% endif %}
+
+    {% if time__start is defined %}
+    ?id ical:dtend ?end
+    FILTER (str(?end) > "{{ time__start }}")
+    {% endif %}
+
+    {% if eo__platform is defined %}
+    ?id eop:platform/skos:prefLabel ?platformLabel
+    FILTER regex(?platformLabel, "{{ eo__platform }}", "i")
+    {% endif %}
+
+    {% if eo__instrument is defined %}
+    ?id eop:instrument/skos:prefLabel ?instrumentLabel
+    FILTER regex(?instrumentLabel, "{{ eo__instrument }}", "i")
+    {% endif %}
+
+    {% if eo__processingLevel is defined %}
+    ?id ^eop:parentIdentifier/eop:processingLevel ?processingLevel
+    FILTER regex(?processingLevel, "{{ eo__processingLevel }}", "i")
+    {% endif %}
+
+    {% if semantic__classifiedAs is defined %}
+    ?id dcat:theme ?theme
+    FILTER (?theme = <{{ semantic__classifiedAs }}>)
+    {% endif %}
+
+    ?id ?p ?o .
+    FILTER (?p != dct:parentIdentifier)
+
+    OPTIONAL { ?o skos:prefLabel ?l }
+}

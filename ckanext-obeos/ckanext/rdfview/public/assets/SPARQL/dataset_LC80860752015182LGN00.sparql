@@ -1,0 +1,25 @@
+CONSTRUCT {
+  <http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8> ?p ?o .
+  ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l .
+  ?o <http://purl.org/dc/terms/identifier> ?i .
+  ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t .
+
+
+  ?ss ?pp <http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8> .
+  ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll .
+  ?ss <http://purl.org/dc/terms/identifier> ?ii .
+  ?ss <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?tt .
+
+}
+WHERE {
+  <http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8> ?p ?o .
+  OPTIONAL { ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l }
+  OPTIONAL { ?o <http://purl.org/dc/terms/identifier> ?i }
+  OPTIONAL { ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t }
+
+  OPTIONAL { ?ss ?pp <http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8> }
+  OPTIONAL { ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll }
+  OPTIONAL { ?ss <http://purl.org/dc/terms/identifier> ?ii }
+  OPTIONAL { ?ss <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?tt }
+
+}

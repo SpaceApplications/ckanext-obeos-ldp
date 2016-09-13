@@ -1,0 +1,39 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcat:  <http://www.w3.org/ns/dcat#>
+PREFIX dct:   <http://purl.org/dc/terms/>
+PREFIX geo:   <http://www.opengis.net/ont/geosparql#>
+PREFIX strdf: <http://strdf.di.uoa.gr/ontology#>
+PREFIX ical:  <http://www.w3.org/2002/12/cal/ical#>
+
+CONSTRUCT
+{
+?id ?p ?o.
+
+
+?o ?x ?y.
+}
+
+WHERE {
+    ?id a dcat:Dataset ;
+        dct:identifier ?identifier ;
+        dct:parentIdentifier <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1GT>
+ .
+
+    OPTIONAL { ?id dct:title ?title }
+    OPTIONAL { ?id dct:description ?description }
+
+    OPTIONAL { ?id dct:spatial ?geometry }
+
+    OPTIONAL { ?id ical:dtstart ?start }
+    FILTER (!BOUND(?start) || (BOUND(?start) && (str(?start) < "2015-07-15T00:00:00")))
+
+    OPTIONAL { ?id ical:dtend ?end }
+    FILTER (!BOUND(?end) || (BOUND(?end) && (str(?end) > "2015-07-01T00:00:00")))
+
+?id ?p ?o .
+
+
+OPTIONAL{?o ?x ?y.}
+
+} ORDER BY ?id LIMIT 100

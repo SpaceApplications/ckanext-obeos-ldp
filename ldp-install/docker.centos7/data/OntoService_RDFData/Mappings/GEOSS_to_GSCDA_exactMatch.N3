@@ -1,0 +1,36 @@
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20water> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20health> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/air%20quality> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20temperature> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%20depth> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/stratospheric%20ozone> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Stratospheric_Ozone> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Use> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ground%20water> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/agriculture> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/topography> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/precipitation> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface%20temperature> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20level> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20surface%20temperature> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .

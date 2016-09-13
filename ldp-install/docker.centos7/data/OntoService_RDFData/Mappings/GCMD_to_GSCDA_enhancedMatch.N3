@@ -1,0 +1,50 @@
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/021714ad-1cae-441c-bb6f-4be866a0f742> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/240ff021-6a9c-4603-983d-f135ee7e49ab> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5b4dde5a-733e-4e55-97c9-2108b337cfeb> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b68ab978-6db6-49ee-84e2-5f37b461a998> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Vapor> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f3743f11-06bb-4337-969a-d5616b96038f> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Classification> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Thickness> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Navigational_Aid> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Change_Detection> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Areal_Change> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a5ad4f63-7483-4f07-86c7-57037e5faf6c> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cloud> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9db10fb2-0ceb-412e-9936-a286c579fa9f> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Alert> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/44d0ad8f-fe22-4d17-bc47-c0b728a82baf> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Oil_Pollution> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Oilspill> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/86c95fdb-17b9-4224-a020-b1aacbea00fd> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sun_Exposure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/881eea51-e32c-4174-a73f-d56c94122c2e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Vapor> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b29ee2f4-b2ce-4b19-b8e3-2d74d071549b> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f5717312-c3ca-4492-a166-9f17c6d9b273> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sulphur_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0546b91a-294d-45d9-8b45-76aaad0cc024> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/407a0bc5-b520-4f20-a99c-425283747883> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Classification> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Thickness> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Navigational_Aid> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Change_Detection> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Areal_Change> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/26f5bb2a-b872-41e8-922f-3a9a0e9f9bcd> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/251c87cd-03b3-464f-8390-8ede2fec28fc> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c5563d03-2f68-4dac-a50b-3b8450725356> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/94668478-3b79-4819-847e-b154bf241aa3> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cloud> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/16bfcf54-f8e1-4c8e-9bd4-a1ac06ea95a0> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Elevation> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Digital_Elevation_Model> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e3d3f76d-0ffe-4616-9988-0520e78cf842> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sulphur_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c6c0c5dd-c0ca-4670-bbaa-c22d39e73570> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Alert> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ea936862-2c98-41e5-8514-6b7288a5f941> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Classification> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Thickness> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Navigational_Aid> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Change_Detection> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Areal_Change> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4811065d-7aed-45e0-ac31-6417123be10e> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Alert> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/742e6889-1ebf-4441-b803-4892c7176822> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sulphur_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4931dcac-8b89-4bc9-ba59-469cfdcf6f12> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> .

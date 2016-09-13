@@ -1,0 +1,94 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX dcat:  <http://www.w3.org/ns/dcat#>
+PREFIX dct:   <http://purl.org/dc/terms/>
+PREFIX co:    <http://purl.org/ontology/co/core#>
+PREFIX geo:   <http://www.opengis.net/ont/geosparql#>
+PREFIX geof:  <http://www.opengis.net/def/function/geosparql/>
+PREFIX ical:  <http://www.w3.org/2002/12/cal/ical#>
+PREFIX oml:   <http://def.seegrid.csiro.au/ontology/om/om-lite#>
+PREFIX eop:   <http://www.opengis.net/eop/2.1#>
+PREFIX atom:  <http://www.w3.org/2005/Atom/>
+PREFIX media: <http://search.yahoo.com/mrss/>
+
+CONSTRUCT {
+    ?parent ?x ?y.
+    ?parent a co:Counter.
+    ?parent co:count ?resCount.
+    ?resource a oml:Observation.
+    ?resource dct:identifier ?resId.
+    ?resource dct:spatial ?resGeometry.
+    ?resource ical:start ?resStart.
+    ?resource ical:end ?resEnd.
+    ?resource atom:icon ?resIcon.
+}
+
+WHERE {
+    {
+        ?parent a dcat:Dataset;
+                  dct:identifier "{{ eo__parentIdentifier }}"^^xsd:string;
+                  ?x ?y.
+     } UNION {
+        SELECT ?parent (count(?resource) as ?resCount)
+        WHERE {
+            ?parent a dcat:Dataset;
+                dct:identifier "{{ eo__parentIdentifier }}"^^xsd:string.
+
+            ?resource a oml:Observation;
+                eop:parentIdentifier ?parent.
+
+            {% if geo__geometry is defined %}
+            ?resource oml:featureOfInterest | dct:spatial ?resGeometry.
+            FILTER (geof:sfIntersects(?resGeometry, "{{ geo__geometry }};<http://www.opengis.net/def/crs/EPSG/0/4326>"^^geo:wktLiteral))
+            {% endif %}
+
+            {% if time__end is defined %}
+            ?resource oml:phenomenonTime / ical:dtstart ?resStart
+            FILTER (str(?resStart) < "{{ time__end }}")
+            {% endif %}
+
+            {% if time__start is defined %}
+            ?resource oml:phenomenonTime / ical:dtend ?resEnd
+            FILTER (str(?resEnd) > "{{ time__start }}")
+            {% endif %}
+
+        } GROUP BY ?parent
+        
+    } UNION {
+        SELECT ?resource ?resId ?resGeometry ?resStart ?resEnd ?resIcon
+        WHERE {
+            ?parent a dcat:Dataset;
+                dct:identifier "{{ eo__parentIdentifier }}"^^xsd:string.
+
+            ?resource a oml:Observation;
+                eop:parentIdentifier ?parent;
+                dct:identifier ?resId.
+
+            {% if geo__geometry is defined %}
+            ?resource oml:featureOfInterest | dct:spatial ?resGeometry
+            FILTER (BOUND(?resGeometry) &&
+                geof:sfIntersects(?resGeometry, "{{ geo__geometry }};<http://www.opengis.net/def/crs/EPSG/0/4326>"^^geo:wktLiteral))
+            {% else %}
+            OPTIONAL { ?resource oml:featureOfInterest | dct:spatial ?resGeometry }
+            {% endif %}
+
+            OPTIONAL { ?resource oml:phenomenonTime / ical:dtstart ?resStart }
+            {% if time__end is defined %}
+            FILTER (BOUND(?resStart) && (str(?resStart) < "{{ time__end }}"))
+            {% endif %}
+
+            OPTIONAL { ?resource oml:phenomenonTime / ical:dtend ?resEnd }
+            {% if time__start is defined %}
+            FILTER (BOUND(?resEnd) && (str(?resEnd) > "{{ time__start }}"))
+            {% endif %}
+
+            OPTIONAL { ?resource atom:icon ?resIcon }
+            
+            OPTIONAL { ?resource oml:result / media:group ?resMedia .
+                       ?resMedia media:category eop:QUICKLOOK .
+                       BIND (?resMedia as ?resIcon) }
+
+        } LIMIT 100
+    }
+}

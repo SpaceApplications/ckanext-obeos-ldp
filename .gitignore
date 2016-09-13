@@ -1,0 +1,20 @@
+# tarballs
+*.tar.gz
+
+# For html viewer
+*.iml
+.idea/
+node_modules/
+bower_components/
+*.log
+
+# Virtual env
+venv
+
+# Python
+*.pyc
+
+nohup.out
+
+# ldp-test outputs
+output_*.rdf

@@ -1,0 +1,616 @@
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3e801e91-897e-4528-8f4c-4ec527ad33cc> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4539272a-f041-4fc6-883d-4c4c5bef1683> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/04922ba6-8f00-4f54-b80c-ce2414c91e2e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d81b77be-0177-4e26-942c-aa911239482d> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/139b0dae-27bb-42bd-8027-81fb9fd8f85d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/86dfb9ca-6587-4a91-b397-f220bb48a1eb> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b8018326-a186-4847-961d-8bd0727bbd5e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/21474df3-f9a6-48ca-be15-bdb3611fe062> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ca227ff0-4742-4e51-a763-4582fa28291c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4a11a257-99c6-4f87-8884-2a2aa46a49fa> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5e3c573f-a787-4afa-80a4-047c2c5d83f2> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a246a8cf-e3f9-4045-af9f-dc97f6fe019a> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4cc9b4fa-5097-447f-914c-eb90820938c6> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ozone> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1baa552d-c563-43fb-b618-54651f8b07e6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cb5193ab-2d7a-4b35-b7ec-f16ce78ae270> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ac50c468-df2f-429c-8394-9d63efcc6f9d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d46a5046-e1c6-4a09-a2f1-db6a21eda611> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Chlorofluorocarbons> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d138302a-03b3-4cf7-95db-ac98f863c04f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/42aa1fa1-56a9-4e96-8063-077bd7ba88d8> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/457883c4-b30c-4d26-bed8-6c2887ebbc90> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ee49d315-1fe5-42ce-a5f8-232450dfa408> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/486f2c33-2401-4292-9d74-8756ee95211f> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c9f1a861-2173-4124-962c-759f71b6f131> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/280b66ac-b3a9-45da-8eb1-ba1db93f5149> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1455c369-88e2-411b-83f7-c914b20609b1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c84b61fe-720a-4240-b6c8-8dcc9ae24a36> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b7de16ed-c090-449b-81c1-44fe5b1195f0> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5fa04fa9-06c7-41c7-98f9-f92756f080ea> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/112e71ec-c0a1-49a8-82d7-bcb317b45860> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f1682ed1-2d9c-41ec-9553-49b9ab55df9b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Eutrophication> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ce4b2c6e-3d69-4cf1-8416-c36e5f9b1b2c> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f9fe1bc0-88c5-4c26-9b4c-a9867d027685> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7ca345d4-8e15-49ae-98a7-1c387f61ea85> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1e2557c5-d232-48e4-8276-369a22ae6aae> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5a7bb095-4d12-4232-bc75-b8e82197cb92> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/af0d756e-784e-4747-97d0-3425baf5d09b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b77b2591-a1ed-4d21-bc44-9aa375b399df> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a957363b-2f2c-4169-a656-c2f24933eb72> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d9667e73-30db-45f9-861c-e0a5caaf2bf0> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/47f4e7ac-b4ca-4ef9-824b-a36ea5510526> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b7812c71-4b9e-4016-b4ba-dfcdb7e62365> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1151dc7e-7441-4a21-95b6-1d03a1053f60> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/19ab681c-bdd7-4793-bbdb-1ec498575314> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8809d604-5fce-47fa-8e24-d9df19067aae> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fe6b37b9-f95a-491e-a58e-22aa66be9a9d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5beaf99c-0675-4af3-9236-f55d8d206d85> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5553fe9d-ab0a-4305-86a6-1f7f697e15e4> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/22a4ddef-90f0-4935-a13d-26b14723a956> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7f038c19-7b28-4588-b128-9d5518035919> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3e4a5e0-2243-4039-bd5d-fdf4f89927e1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f0cd20bd-41e8-4ca0-9ae3-7c602c251858> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8916dafb-5ad5-45c6-ab64-3500ea1e9577> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b6085d71-a7ee-4b65-9c9c-ff374bdc3974> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ce3a1edd-a2fe-4efd-8971-9dd7b97b6d79> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bf0ddf9c-39ba-4b2d-91ac-63021d644276> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d3ce1677-f3a8-452e-91c8-0ff80e6a3f09> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6f47ae88-f28f-43e3-be6a-34f86b15fe19> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Landslide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f6e7aa9a-ae65-480e-84fa-b3a5d523e822> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6a2107ab-38ab-42dc-beb0-8ba5f65e8022> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ff5d5c12-74d9-435d-9164-1c9d69f967d7> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6eb3919b-85ce-4988-8b78-9d0018fd8089> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bb27bbb7-7bc4-4e38-833a-30e0a7861ccc> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f7d2e34a-c5c2-4c21-9132-2472620dbda1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f6a54329-486b-4d5f-b105-c639cec42351> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/120f9132-a756-4f6f-a74c-78e94dfcd2a1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b5cb1fab-7281-478f-bb3b-ff04f900b3fc> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Landslide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0976b778-91be-40e7-9ed7-ebbf214bb818> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/064f9784-697e-414c-b463-29cfd734e689> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/10a128a6-12d4-4bce-b25d-2ffc464182f4> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/72780b84-17b2-4dc1-a53f-7cd30c41ec57> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cad5c02a-e771-434e-bef6-8dced38a68e8> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3f45aadf-ec7c-43a1-a008-b24ca139837a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7112a64-be39-414a-9125-f63ab44ecb5b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c1f9f5fa-245c-4055-81cf-5230c076c0ce> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2b9ad978-d986-4d63-b477-0f5efc8ace72> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/449ad1fb-8010-43c7-b994-178a049d4cff> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f9405e92-0c1c-4443-9cc4-45d662d8b5f2> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d53e1951-fb68-4ad8-8725-d19c10751da5> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3cdebef6-902d-4c1a-9d7e-7609f8ee6ef6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/12433114-d15a-46cf-aba9-ce4b569119ce> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a28eeef3-b252-4309-957b-860d2e0f97ef> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c87c086a-933f-44c7-a128-33279b36d7b5> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/eca0080c-b001-4b6a-b978-f76415e28421> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8c02f5d1-ce86-4bf5-84d5-b3496cdba6ad> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d2d4ee50-99ed-4ee7-b957-22271a60c031> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/960037c5-57b1-4cdf-84be-4542beee7d5a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/286d2ae0-9d86-4ef0-a2b4-014843a98532> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Vapor> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b9c56939-c624-467d-b196-e56a5b660334> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Chlorofluorocarbons> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ozone> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2590519a-c2bb-448a-b2f3-d10aaa7e057c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/de0ace5c-fa2b-47ca-93db-79d8df7ab6f2> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bad08657-da2b-4e2b-9804-25c5732bc795> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/08a4f002-f368-414d-b923-83dd498452d8> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5bdb3251-4811-439c-b172-9bbcd98e84b3> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/885735f3-121e-4ca0-ac8b-f37dbc972f03> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0408bac9-c247-4b00-80de-f4665b813658> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d4e8b5c5-9203-4982-82bc-2611b517ffdb> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fee25cad-7ffe-4ee2-a6f2-8116b8a0a707> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Areas> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/536a86bd-3dd1-4f4a-9b4a-222a12746db5> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5569b7a3-3a4b-4799-8c68-98126757074b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9e5ec924-2fd3-4cbb-a7eb-ffde114d0cb9> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4b276110-57bc-4ed6-b741-1ec0383fa962> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7406a787-6ab6-429f-bc09-9a86d393e114> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/afd084b9-1f4c-4eb5-a58e-689a360e7abf> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f717330e-3656-4910-beed-d54cc9a19c2b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d1f086a0-8e75-4814-8d1b-8e1fa0892a5c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f0d4b06b-c498-4760-bc92-877e28f3a098> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/25be3b9a-9d4c-4b5b-8d24-b1f519913d90> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9337898d-68dc-43d7-93a9-6afdb4ab1784> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a1588b7d-7307-4543-9908-76d7877c4010> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/aa35a52f-e3d9-41bd-abd2-ec7e1a8101d1> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0bfb8ae4-c08a-4d69-82d2-1b1b0d4acef6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5164162a-60eb-4c94-a0f0-2caaa3bb1754> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9d99408d-0d8b-4642-a2cb-edee8319fe1d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/91697b7d-8f2b-4954-850e-61d5f61c867d> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6eaed241-db16-4a1a-a06c-893da5d98b45> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a69dd814-e7c0-437f-ba2a-63500f68c9a3> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/afc54d28-de94-4674-9528-39f00bf74d6d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a1bf1e84-c4e7-4154-ad0a-4b9eedf45066> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9bcb805c-718e-42c3-913d-174bdf06d4c1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ea85ea0b-1b7d-464a-9f8c-1f80383ffc51> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/269c7277-fa8f-4c1c-bd8b-ab772c1df4e5> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1009557b-0d4b-4c13-81a0-fd95c15bf158> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e9c3b6ca-a534-4f3e-82de-b8b921e8f312> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/db692676-a2f6-4fd9-91b6-92ae4f9c04fd> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/638a22af-4e97-450e-a278-b81338443230> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f5d7cafc-13bf-4ec8-bc6e-a6d850fae5c8> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7708bb6-a0fa-4905-b99d-c468da7d951a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ae1c9b54-caf2-4726-b180-5c6544f09111> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c59b0666-e20f-4134-847b-89719ed5621a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ca8d77f2-9257-4298-9244-e81cd890f000> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/79b0b1d3-5279-4ce5-a387-6ecb4ee2a335> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bca1b724-3370-4a26-bcbc-3530ce4ddc97> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/18a8197e-3a3f-408c-9c51-e9fe89dd6b45> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2e5a401b-1507-4f57-82b8-36557c13b154> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f523f73f-efcc-4193-b9e3-1161ed7f4881> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e9f67a66-e9fc-435c-b720-ae32a2c3d8f5> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c9a5b3eb-7556-41a8-a2b8-c015db80e5b2> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b98f3a77-397d-41d7-9507-e7a3e47210b1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5e3999ec-d864-43fd-8d84-bd23630c405f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4ad0c52d-6449-48ff-8678-adc6b2cebcb7> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Radiative_Forcing> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f24c4f33-5b89-4e8d-8de7-296078a7f18a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a90306f0-353c-4083-941a-0973a6fd6584> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bfa56100-6fb5-4e49-9633-298fa3b45508> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pressure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/89fc22ca-326e-468c-ad3d-171c4ad34977> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e5815f58-8232-4c7f-b50d-ea71d73891a9> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5237fae3-c98e-4d4a-9013-d7c824b3862b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b153bcea-3114-4809-8e6f-f22cf9a3be87> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2a664e2d-4e50-463a-af9f-b14b86eb42a7> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5d7ea074-225b-4221-b122-e6a085cdce24> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/16a7b4d6-e47f-4753-8803-f72edc4e1c5e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a368da76-b191-4859-bd55-8643f4fab812> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6a2a2417-1a9c-4767-bffd-6b99f9747bab> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fa0a36c3-2503-4662-98cd-7f3e74ce9f80> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3d64f625-fb84-4178-ad08-4be2dd15979b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3ec3b00e-52e1-4df9-99cd-c93120d97645> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/686feba9-87ba-474c-8280-7f67565cfb2f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d64094ae-774b-4435-8f2e-a54d114e5555> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2a60df4a-a0d7-4e4b-b02a-372a083f0170> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/91c64c46-d040-4daa-b26c-61952fdfaf50> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/22ec2f9b-1f1a-469b-bc09-851d58637ff4> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b41894fa-2e3e-475b-b8f0-b6ffdd2d6e9c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e5a8c6ed-5b59-40fe-a83b-18b39fb7c31b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8435030e-8d16-409f-a812-ace5d8ffc122> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f2f37978-d942-43d2-9c51-79e9f5bdfe24> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6e2f1371-05b1-41db-a6d9-bccd7cc2b3da> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a8d3f9a0-be0b-4690-86b9-ac64d951886a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c6455081-132d-4661-bb5f-22edf2f90800> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ca551e61-4b8c-46d5-8590-80cada40ebbd> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/df597f06-8575-4726-acac-65b2bd432d59> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/26089a3e-469d-44b3-a9aa-231d0a072ef9> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/536a5a5a-28bb-473a-aa95-6d2dd1e5098d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e749bafe-9a0a-42cc-bed8-9b42e3e088c8> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/be7f6de0-f51e-42bc-9a66-fff30d809a67> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a6c3e78f-f408-4b72-941a-f40e3d83dd60> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/50b8fe04-9149-4b7f-a8b2-b33b1e3aa192> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/672d6958-4bbc-4b33-adc8-927e4348908b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Subsidence> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c3090318-c845-4242-bf2f-ff1631b88831> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/05bef198-cfff-48be-b0cb-14e296d38dbc> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/32259124-81f7-4845-b2fb-6435d7bb5804> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f9cdf3ae-fe8b-4a19-a946-a8c8780d7894> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a47ab696-7ed9-4374-8965-c8996e61463d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5cb5d5b9-0c0b-497f-a4ea-a8cece52d13d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d6560f20-3bef-41c6-8eec-9f913329b9ac> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1efe6ac1-d375-44c3-b8ec-d0ff2987a881> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a200e677-384a-42d6-8519-1c7735f0adb9> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fb93d937-c17c-45d0-a9e3-ca5c8a800ca8> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Areas> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7fdc339e-017f-4e4b-89a3-12e441a40bad> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8012fda7-3ea4-4ef2-bb4e-0f66d4d9e850> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e86ea427-f735-4998-af16-9bd619df4974> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0c28d9e4-c848-4628-9c00-45a540707b59> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/39f5a91f-c5b6-4aa9-a0c6-05530306f17b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e5b724af-b661-406a-ae1f-7cd2730c0576> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ecbe9f17-6012-4e39-a707-713973b7d167> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7118d286-6629-48e5-931f-052cd347395e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/eb9b8c19-3b39-4865-bcfc-d2a12689094a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/40766d01-bda1-420b-9fd1-fba6d6924f3f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3526afb8-0dc9-43c7-8ad4-f34f250a1e91> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/70acf223-7895-4cbe-aca6-815babb2b7ed> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d2056285-8249-4c11-810b-783600030525> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/23703b6b-ee15-4512-b5b2-f441547e2edf> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/76b8c21c-c221-4724-86ef-c07222cb152b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/72304037-ce59-451a-beeb-4258f3db296a> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cf9ef34d-ed39-4c8d-bf00-ca1b0bb11363> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3fcccdd-745f-4299-94b3-e72e37f551be> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/45325a01-2522-48d3-bffa-0edf1a934d48> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0e06e528-e796-4b7c-9878-dbcb061d878d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1f3c543d-9ca9-4db4-b4a5-d3e2fd71e4a4> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a735d8ca-182c-4307-9305-186a065e84a4> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4f0f606c-6bf8-4b8c-9431-d5696fe8a5f2> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/74ed1690-968e-444c-8a31-7b8344a2aad3> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3488309d-ef21-4d60-81a3-78fb99ffa756> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/926c1b80-6c11-40eb-ae7f-f5bcfdc43fac> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7245882-84a1-4192-acfa-a758b5b9c151> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b6fd22ab-dca7-4dfa-8812-913453b5695b> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/dba19648-3f52-48ba-b00b-8527d44c4d74> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/aa15804c-5f7f-40cc-b949-aa3e4418fc27> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d7742082-5461-4610-9ced-e0ec3bb64697> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6bfd4d52-fad4-470f-9da0-fa7df2a5b4aa> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a6212424-1146-4a79-a14c-8ce88543b08b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/06053150-d796-477b-b305-292442d658ed> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9244fe19-b86f-4a8d-82bf-c52f804a77e3> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/89554e78-d69d-4a38-b7f1-78d9e1e4aa57> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fd19a3f1-8eeb-49ab-bcaf-e7b4b267d415> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/db69ecb1-0738-4d82-943f-ae92093f500d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6f52de55-f5f2-45c0-b83f-59dbfb1fe221> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3c1c65c3-e1ef-4163-9695-c39ff7fb48da> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3609b843-d840-460c-b1a3-d4fcc69a32f6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6e923275-f9e3-4faf-8a7f-2c96f3d5a280> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7a0bd777-be0d-43c8-80eb-5ac58f4832de> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/abbba948-9b77-4e19-a855-49a7fbc17696> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/346cade5-801a-4afc-9652-48d02905bc4f> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fec2eb53-bc69-4d35-849c-c2bedf5dc6cf> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/199e3af8-4cf3-48ba-8b28-b9b54756b3db> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> ;
+	<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/df160e31-ae45-41a4-9093-a80fe5303cea> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/223ce1f2-e2f1-4612-8fce-b96b7d34710f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/213cefd8-806f-40f5-b3ca-05022cde9498> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c26693ea-ca5a-44e8-9e8e-32427bc62aa0> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/59a203f9-f818-42a6-8d00-4301385cafc3> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/23336b57-1ba3-42a6-9ec7-152285c55689> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b9957bbc-3c12-481d-86a0-0f6cf2bb8219> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/31d01087-d5b8-4474-820c-d84d523dfb39> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1eb0ea0a-312c-4d74-8d42-6f1ad758f999> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3b1d75b6-7559-4921-8edb-63f4dff370cf> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/79f18259-bd76-4c7b-bd18-cbd2edafd24f> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3063d3a-af53-44f9-a532-4cea2880c198> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/652349bd-f6f9-4c8d-8573-d71e05ad1208> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ff141ffe-05ea-4901-a243-e6186826b05c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fbec5145-79e6-4ed0-a804-6228aa6daba5> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2dda92a8-6c26-4506-9881-43b6d9a83b18> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2473e776-4449-4351-9835-1507532ae60e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b09b4731-f357-4838-829b-f38c0f5075aa> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/934bfe13-908b-40d9-b346-a347a8a6855e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b376a9f9-585e-4567-ba1f-55ef45cfa8df> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/09d00879-6d96-4df4-9f50-73bd761118d9> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e4781de7-a4a4-4157-a549-4ac238d36512> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7241d799-4f5c-4ae3-a4ec-2e9cdbf656aa> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/25c5c222-c053-4081-ac0f-52e6c774198c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5c6df811-bebf-4dae-a70f-f49fece3fa1e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4962dabc-b426-4c84-8147-12e15645baff> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5273c8c2-d30b-4666-b2d5-0388ce2741d0> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e0c0af2a-1429-4248-8d5b-ccae510da0c9> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/53231d78-471d-4afe-a435-b577b7d53b17> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5c05e69f-f6db-4296-abd3-3b07e6093579> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1fc22c9d-cf29-4bd7-90b1-b0f6f139fd92> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f12d8026-f24a-4413-91d0-4704c243c9e7> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3b14df8-5197-4a26-ae61-882fdba706f3> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d0da93ff-af45-4e26-8b94-8b90d0e06438> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3676ebab-9aa0-43c2-94e5-5d59a34317d2> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/db9b56da-e05f-4d58-b9d5-34edc83ca650> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2f57fd58-d8e4-4e6d-b8c3-2a9ef7e64f54> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/dcd7a439-6021-4fc3-b3d8-a8936ef171f6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6edf1b99-fe00-493e-b0d1-ad6b36b8da75> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/85d7c19a-6d05-446f-a490-382e7c199e09> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e4daef1d-e672-41d0-bc6d-80c6b5c0799b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fb3ce3be-d830-407f-bd7c-58d66c24b6be> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7570528-f2d5-42b0-b8e9-d12a2432e87e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3c0bbd0f-6d4d-4036-afa9-03f9b4f8fba0> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2a9bce94-c391-4834-96bb-a9685d3590b1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/8b3939b6-1c11-4a79-878e-0be1b231c528> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5d1b53b2-7d69-4b7c-903f-d8cf29430f93> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d302aeaa-3a86-4ddf-9755-60b7bb4404a5> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2c31fc22-747a-476f-b76d-fec61220b5b1> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/88e1a654-5cfd-423f-9350-0ef48d85e085> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3985ce6b-e0c3-42a8-b40f-9dd948350c6e> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3b54403e-25a1-43cc-97ac-7c14e73bda96> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/afd1d3cb-d31d-4069-8cff-b592887aa18c> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7367c08c-304f-4ce7-b716-975f835ba711> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3a1e091-0bc2-4c9b-a89c-bd003fdd5889> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/83da5ac6-5981-4929-9e19-f46522c1babe> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/83cf51f6-8c03-4f6d-b605-fde9818c7805> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7ee9d286-0742-4844-b7eb-b7550d3f782b> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/eb1627c2-0061-466c-9935-399e53a06024> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0ab5ead8-6037-42b3-b3c0-0746f3645af6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/adeb4c27-a115-4ced-9827-5f022883f606> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/63317fb1-01d9-4658-93e8-9800c5359454> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/49804617-d59b-4e97-8030-2c4ab79a3057> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d23b37cd-5e05-4356-b8b4-df6d7af236d6> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/68033b72-7f8d-48a4-8f63-638e4e96fd23> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/41b30b1b-5dbb-4ef8-849c-e1949ad04227> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cac79930-334e-49c5-836b-4f2ee8e0b098> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/62d5fb39-e9ee-47db-a426-1991537f8a4d> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7112e739-cb5d-427e-95bd-5419360e91d8> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5c349776-dd95-483e-a5da-e8d1b1434985> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c07fe67b-234e-4293-9f09-abaf9612c0e9> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2b91245e-a779-42fa-89c2-303217463b95> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/356a10e1-c81d-44c7-9706-31f7f2642586> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/894f9116-ae3c-40b6-981d-5113de961710> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> .

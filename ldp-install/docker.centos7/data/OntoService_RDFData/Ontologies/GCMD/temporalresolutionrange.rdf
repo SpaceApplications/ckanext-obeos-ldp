@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"><gcmd:termsOfUse xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">See http://gcmd.nasa.gov/r/l/TermsOfUse</gcmd:termsOfUse><gcmd:keywordVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">8.0</gcmd:keywordVersion><gcmd:schemeVersion xmlns:gcmd="http://gcmd.gsfc.nasa.gov/">2012-10-19 14:09:54</gcmd:schemeVersion>
+<skos:Concept rdf:about="027dee16-b361-481e-868d-add966eb5b71"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Hourly Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Daily - &lt; Weekly</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="2de882f0-d84a-471e-8fb5-9f8a1c7913c1"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Weekly Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="31765761-b153-478a-92b3-1088997fd74b"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Hourly - &lt; Daily</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="3d97e993-dc6a-41ff-8a49-3e837c1fc2b1"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Decadal</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="40e09855-fb48-4a7d-9851-d6e809e6c309"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Annual</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="42a2f639-d1c3-4e82-a8b8-63f0f4a60ac6"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">&lt; 1 second</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="48ff676f-836c-4cff-bc88-4c4cc06b2e1b"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">1 second - &lt; 1 minute</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="502ad03c-dba8-4b32-8af5-13fa947c3988"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Temporal Resolution Ranges</skos:prefLabel>
+   <skos:narrower rdf:resource="027dee16-b361-481e-868d-add966eb5b71"/>
+   <skos:narrower rdf:resource="1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9"/>
+   <skos:narrower rdf:resource="42a2f639-d1c3-4e82-a8b8-63f0f4a60ac6"/>
+   <skos:narrower rdf:resource="8c8c70b1-f6c5-4f34-89b5-510049b8c8ab"/>
+   <skos:narrower rdf:resource="2de882f0-d84a-471e-8fb5-9f8a1c7913c1"/>
+   <skos:narrower rdf:resource="f308a8db-40ea-4932-a58c-fb0a093959dc"/>
+   <skos:narrower rdf:resource="48ff676f-836c-4cff-bc88-4c4cc06b2e1b"/>
+   <skos:narrower rdf:resource="7b2a303c-3cb7-4961-9851-650548964674"/>
+   <skos:narrower rdf:resource="af931dca-9a7d-4ba9-b40f-2a21e31f2d5b"/>
+   <skos:narrower rdf:resource="31765761-b153-478a-92b3-1088997fd74b"/>
+   <skos:narrower rdf:resource="e0040d4b-e398-4b65-bd42-d39434b5cc95"/>
+   <skos:narrower rdf:resource="f86e464a-cf9d-4e15-a39b-501855d1dc5a"/>
+   <skos:narrower rdf:resource="8900c323-8789-4403-91e9-c399de369935"/>
+   <skos:narrower rdf:resource="40e09855-fb48-4a7d-9851-d6e809e6c309"/>
+   <skos:narrower rdf:resource="bca20202-2b06-4657-a425-5b0e416bce0c"/>
+   <skos:narrower rdf:resource="3d97e993-dc6a-41ff-8a49-3e837c1fc2b1"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="7b2a303c-3cb7-4961-9851-650548964674"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Weekly - &lt; Monthly</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="8900c323-8789-4403-91e9-c399de369935"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Monthly - &lt; Annual</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="8c8c70b1-f6c5-4f34-89b5-510049b8c8ab"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Monthly Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="af931dca-9a7d-4ba9-b40f-2a21e31f2d5b"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Annual Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="bca20202-2b06-4657-a425-5b0e416bce0c"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">1 minute - &lt; 1 hour</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="e0040d4b-e398-4b65-bd42-d39434b5cc95"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Pentad Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="f308a8db-40ea-4932-a58c-fb0a093959dc"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Climate Normal (30-year climatology)</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+
+<skos:Concept rdf:about="f86e464a-cf9d-4e15-a39b-501855d1dc5a"
+   xml:base="http://gcmdservices.gsfc.nasa.gov/kms/concept/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+   <skos:inScheme rdf:resource="http://gcmdservices.gsfc.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange"/>
+   <skos:prefLabel xml:lang="en">Daily Climatology</skos:prefLabel>
+   <skos:broader rdf:resource="502ad03c-dba8-4b32-8af5-13fa947c3988"/>
+</skos:Concept>
+</rdf:RDF>

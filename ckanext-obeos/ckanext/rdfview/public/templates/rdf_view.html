@@ -1,0 +1,532 @@
+{% block head_extras%}
+
+  <link href="/assets/bower_components/bootstrap-sortable/Contents/bootstrap-sortable.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/bower_components/highlight/src/styles/default.css">
+  <link rel="stylesheet" href="/assets/Openlayers/ol.css" type="text/css">
+  <style>
+    #map {
+      height: 180px;
+    }
+
+    body.container-fluid {
+      padding: 0;
+    }
+
+    .debugBox,
+    .debugLabel {
+      display: none;
+    }
+
+    /* Propeties in Title */
+    #title-properties ul
+    {
+      list-style: none;
+      clear:both;
+      margin:0;
+      padding:0;
+    }
+    #title-properties li
+    {
+      float: left;
+    }
+    #title-properties li:after {
+      content: ", ";
+    }
+    #title-properties li:last-child:after {
+    content: "";
+    }
+
+    .table thead {
+      background-color: #f6f6f6 !important;
+    }
+
+    .table .table>tbody>tr>td,
+    .table .table>tbody>tr>th,
+    .table .table>tfoot>tr>td,
+    .table .table>tfoot>tr>th,
+    .table .table>thead>tr>td,
+    .table>thead>tr>th {
+      padding: 4px;
+      /*line-height: 1.42857143;
+      vertical-align: top;
+      border-top: 1px solid #ddd;*/
+    }
+
+    .table .table {
+      margin-bottom: 5px;
+    }
+
+    .table thead th:first-of-type {
+      width: 20%;
+    }
+
+    .table .table thead th:first-of-type {
+      width: 30%;
+    }
+
+    #rdf-view-container {
+      padding:0;
+    }
+
+    #properties-container {
+      /*margin-top: 226px;*/
+      /* For Debbugging */
+      /* margin-top: 141px;*/
+      float: left;
+    }
+
+
+    nav.navbar {
+      padding: .8em;
+      z-index: 100000;
+      /* position: fixed; */
+      /* box-shadow: 10px 1px 23px #5E5E5E; */
+      width:100%;
+      left: 0;
+    }
+
+    nav .navbar-header {
+      float: none;
+    }
+
+    #toggleNamespaces {
+      float: right
+    }
+    /*.table .table thead{
+        display: none;
+    }*/
+    /* Subtables */
+
+    table table {
+      font-size: .9em;
+    }
+
+    .namespacePrefix {
+      color: #aaa;
+    }
+
+    /*.debugBox {
+      display: inherit;
+    }*/
+
+    .debugLabel {
+      font-size: .6em;
+    }
+    /*.debugForwardTable
+    {
+      background-color:crimson;
+    }
+    .debugBackwardTable
+    {
+      background-color: paleTurquoise ;
+    }
+
+    .debugForwardLink
+    {
+      background-color:#14B1C9;
+    }
+
+    .debugLiteralValue
+    {
+      background-color:#ff9512;
+    }
+
+    .debugSimpleLink
+    {
+      background-color: lightCoral;
+    }
+
+    .debugAnonymousNode
+    {
+      background-color: lightGreen;
+    }*/
+
+    #please-wait
+    {
+      background:white;
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0;
+      z-index:1000000;
+    }
+
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+
+    .link {
+      stroke: #999;
+      stroke-opacity: .6;
+    }
+
+    .navbar-default {
+      background-color: #f8f8f8;
+      border-color: #e7e7e7;
+    }
+    .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    }
+
+    </style>
+
+{% endblock %}
+
+<div ng-cloak class="ng-cloak container-fluid" ng-app="myApp" ng-controller="myCtrl">
+
+  <div id="please-wait">
+        <h3 style="text-align:center"><span class="icon-refresh icon-refresh-animate"></span> Loading...</h3>
+            <h4 id="indicator"></h4>
+  </div>
+  <h1 id="please-wait-rdf">Resource is being processed - Please wait...</h1>
+
+  <div id="rdf-viewer-content" class="row" style="margin:0" style='display:none'>
+
+    <!-- RDFQuery View -->
+    <div class="col-md-12" id="rdf-view-container" ng-if="RDFStore" >
+
+      <nav class="navbar navbar-default">
+        <!-- Toggle namespace Button -->
+        <button type="button" id="toggleNamespaces" title="Toggle Namespace" class="btn btn-default btn-sm" onclick="$('.namespaceLabel').toggle();$( 'span', this ).toggleClass( 'icon-resize-small' ).toggleClass('icon-resize-full')">
+          <span class="icon-resize-small" aria-hidden="true"></span>
+        </button>
+        <!-- Title -->
+        <div class="navbar-header" ng-if="SELECTED_SUBJECT">
+          <h4>
+              <img style="width: 18%;" ng-if="isImage(SELECTED_SUBJECT)" ng-src="[[ SELECTED_SUBJECT ]]" class="img-responsive img-thumbnail" />
+              <strong>[[ SELECTED_SUBJECT ]]</strong>
+          </h4>
+        </div>
+
+        <!-- Titles Properties (Label, Preflabel...) -->
+        <div id="title-properties" ng-init="s0=SELECTED_SUBJECT">
+
+          <!-- PrefLabel's -->
+          <ul>
+            <li ng-repeat="t in getTriples(SELECTED_SUBJECT, 'http://www.w3.org/2004/02/skos/core#prefLabel', null)">
+              [[ N3Util.getLiteralValue(t.object) ]]
+            </li>
+          </ul>
+          <!-- AltLabel's -->
+          <ul>
+            <li ng-repeat="t in getTriples(SELECTED_SUBJECT, 'http://www.w3.org/2004/02/skos/core#altLabel', null)">
+              [[ N3Util.getLiteralValue(t.object) ]]
+            </li>
+          </ul>
+          <!-- Title's -->
+          <ul>
+            <li ng-repeat="t in getTriples(SELECTED_SUBJECT, 'http://purl.org/dc/terms/title', null)">
+              [[ N3Util.getLiteralValue(t.object) ]]
+            </li>
+          </ul>
+          <!-- Source's -->
+          <ul>
+            <li ng-repeat="t in getTriples(SELECTED_SUBJECT, 'http://purl.org/dc/elements/1.1/source', null)">
+              <a href="[[N3Util.getLiteralValue(t.object) ]]" target="_blank" title="External link">[[ N3Util.getLiteralValue(t.object) ]]</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="properties-container">
+        <!-- Forward Links -->
+        <div id="forwardPropertiesContainer" rdf-loaded ng-if="hasForwardLinks(SELECTED_SUBJECT)" ng-init="s0=SELECTED_SUBJECT" ng-include="'displayForwardPropertyFORSUBJECT'">
+        </div>
+        <!-- Backward Links -->
+        <div id="backwardPropertiesContainer" rdf-loaded ng-if="hasBackwardLinks(SELECTED_SUBJECT)" ng-init="bs0=SELECTED_SUBJECT" ng-include="'displayBackwardPropertyFORSUBJECT'">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- N3 Graph Display -->
+  <div class="row debugBox">
+      <div class="col-md-12">
+        <h2>Graph</h2>
+        <div id="N3-graph"></div>
+      </div>
+  </div>
+
+    <!-- N3 List Debug Display -->
+    <!-- <div class="row debugBox">
+        <div class="col-md-12">
+          <h2>N3</h2>
+          <table class="table table-bordered table-striped  sortable">
+            <thead>
+              <tr class="tableizer-firstrow">
+                <th>Line</th>
+                <th>Subject</th>
+                <th>Predicate</th>
+                <th>Object</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="triple in getTriples(null, null, null)">
+                <td>[[ $index ]]</td>
+                <td>[[triple.subject]]</td>
+                <td>[[triple.predicate]]</td>
+                <td>[[triple.object]]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div> -->
+
+
+  <!-- Display a table for s0 subject  -->
+  <!-- With: -->
+  <!-- Column 1: Predicates (with no duplicate) -->
+  <!-- Column 2: Objects for Predicates of Column 1 -->
+  <!-- Template used for recursion -->
+  <!-- Parameter: s0: subject -->
+  <script type="text/ng-template" id="displayForwardPropertyFORSUBJECT">
+    <table class="table table-bordered sortable" class="debugForwardTable">
+      <thead>
+        <tr class="tableizer-firstrow">
+          <!-- <th>Unfiltered Predicate</th> -->
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- If not cyclic links (something like S1->p1->o2->p2->S1) -->
+        <tr ng-repeat="p1 in forwardPredicates(s0)" ng-if="!isRedudantPredicate(s1, p1)" ng-init="s1=s0" ng-include="'displayForwardProperty'">
+        </tr>
+      </tbody>
+    </table>
+  </script>
+
+
+
+  <!-- Display a table row for subject s1 and predicate p1 where (1 predicate (p1)) -> (n objects)  -->
+  <!-- Parameter: s1: subject -->
+  <!-- Parameter: p1: predicate -->
+  <script type="text/ng-template" id="displayForwardProperty">
+
+    <td ng-init="p2 = p1" ng-include="'displayPropertyLabel'" style="font-weight:bold">
+      <!-- Template here -->
+    </td>
+    <!-- Get all the objects for a (s1,p1) pair -->
+    <td ng-init="objectsForPredicateP1 = getTriples(s1, p1, null)">
+      <div ng-repeat="t_5 in objectsForPredicateP1">
+        <div ng-init="o3 = t_5.object" ng-include="'displayValueDetail'">
+          <!-- Template here -->
+        </div>
+      </div>
+    </td>
+  </script>
+
+  <!-- Template -->
+  <!-- Display predicate as a simple label -->
+  <!-- Parameter: p2 -->
+  <script type="text/ng-template" id="displayPropertyLabel">
+    <!-- Predicate is injected here as 'p2' -->
+
+    <!-- Display Predicate Label -->
+    <span title="[[p2]]">
+        <span class="namespaceLabel" style="display:none">
+          <span class="namespacePrefix">[[shortNamespaceFromIRI(p2)]]:</span>[[machineLabel(p2)]]
+    </span>
+    <span class="namespaceLabel">[[humanReadableLabelFromIRI(p2)]]</span>
+    <span ng-if="getIcon(p2)">
+          <span class="[[getIcon(p2)]]" aria-hidden="true"></span>
+    </span>
+    <div class="debugLabel">[[p2]]</div>
+    </span>
+  </script>
+
+  <!-- Template -->
+  <!-- Display object according to its nature (Literal or not-literal)-->
+  <!-- Parameter: o3 -->
+  <script type="text/ng-template" id="displayValueDetail">
+    <!-- Value is injected here as 'o3' -->
+
+    <!-- If object is the selected subject, this means that we are in a redondant cycle. Stopping here. -->
+    <div ng-if="o3 == SELECTED_SUBJECT">
+      Redondant call: Cant Display Subject as object:
+      <div class="debugLabel">[[o3]]</div>
+    </div>
+
+    <!-- Else -->
+    <span ng-if="o3 != SELECTED_SUBJECT">
+      <!-- If Object is a Literal Value-->
+      <span ng-if="N3Util.isLiteral(o3)" ng-init="o4=o3" ng-include="'displayLiteralValue'" />
+      </span>
+
+      <!-- Else if Object is a Non-Literal Value-->
+      <span ng-if="N3Util.isLiteral(o3)==false">
+
+        <!-- if Anonymous node, then fetch its links and display them in a nested table -->
+        <div ng-if="N3Util.isBlank(o3)" class="debugAnonymousNode">
+          <div class="debugLabel">Anonymous Node: [[o3]]</div>
+          <!-- Display only if anonymous node has more than one link -->
+          <div ng-init="s0 = o3" ng-if="getTriples(o3, null, null).length > 1" ng-include="'displayForwardPropertyFORSUBJECT'" style="background:pink">
+          <!-- Template "displayForwardPropertyFORSUBJECT" rendered here -->
+          </div>
+        </div>
+
+        <!-- if not anonymous node -->
+        <span ng-if="N3Util.isBlank(o3)==false" ng-init="triples_with_o_as_subject = removeBacklinksToMainsubject( getTriples(o3, null, null) )">
+          <!-- If there is some objects for (o, null, null) -->
+          <div ng-if="triples_with_o_as_subject.length > 0">
+            <!-- If just one triple, then display the label only -->
+            <div class="debugLabel">[[triples_with_o_as_subject.length]] objects for subject [[o3]]</div>
+            <div ng-if="triples_with_o_as_subject.length == 1" ng-init="t_item2 = triples_with_o_as_subject[0]; o4 = t_item2.object" >
+              <span ng-init="l1 = t_item2.subject" ng-include="'displayLink'"></span>
+            </div>
+            <!-- Elseif several, display -->
+            <div ng-if="triples_with_o_as_subject.length > 1" ng-init="s0=o3" ng-include="'displayForwardPropertyFORSUBJECT'">
+            </div>
+          </div>
+          <!-- Else display link -->
+          <span ng-if="triples_with_o_as_subject.length == 0">
+            <!-- Display the hyperlink  -->
+            <span ng-init="l1 = o3" ng-include="'displayLink'"></span>
+            <!-- If it is an image  -->
+            <a href="[[o3]]" target="_blank" ng-if="isImage(o3)" ><img style="width: 10%;" src="[[ o3 ]]" class="img-responsive img-thumbnail" /></a>
+            <!-- Else it is a link  -->
+            <div class="debugLabel">[[o3]]</div>
+          </span>
+          <!--
+          Sequence:
+          IF THERE IS SOME OBJECTS FOR (o, null, null)
+          IF JUST ONE, THEN DISPLAY THE LABEL ONLY
+          ELSEIF SEVERAL, DISPLAY
+          ELSE DISPLAY LINK
+          IF LINK: DISPLAY LABEL
+          IF IMG: DISPLAY IMG -->
+        </span>
+        <!-- ------ENDOF not anonymous node -->
+
+      </span>
+      <!-- ------ENDOF Else if Object is a Non-Literal Value-->
+    </span>
+    <!-- ------ENDOF else -->
+  </script>
+
+  <!-- Template -->
+  <!-- Display a Link as Internal and External -->
+  <!-- Parameters: l1   -> an URI -->
+  <script type="text/ng-template" id="displayLink">
+
+    <span ng-init="triples_l = removeBacklinksToMainsubject( getTriples(l1, null, null) )">
+      <!-- External link -->
+      <!-- If entity has no links to other objects, display  it as an external link -->
+      <span ng-if="triples_l.length == 0">
+        <a href="[[buildHyperlink(l1)]]" target="[[getHyperLinkTarget()]]">[[ rawLabelFromIRI(l1)]]</a>
+      </span>
+      <!-- Internal link -->
+      <!-- If entity has a link to only one object. This means that this shall be a dc/terms/id, or skos:Preflabel or skos:Altlabel or URI -->
+      <span ng-if="triples_l.length == 1" ng-init="tl_item = triples_l[0]">
+        <a href="[[ buildInternalNavURL(l1) ]]" target="[[getHyperLinkTarget()]]">
+          <span ng-if="N3Util.isLiteral(tl_item.object)" ng-init="o4=tl_item.object" ng-include="'displayLiteralValue'"></span>
+        </a>
+      </span>
+      <!-- If entity has a link to more than one object. -->
+      <span ng-if="triples_l.length > 1">
+         console.error("Error: There shall not be more than one link (and except SELECTED_SUBJECT) going of this subject ([[l1]]))");
+      </span>
+
+    </span>
+  </script>
+
+
+  <!-- Template -->
+  <!-- Display a RDF Literal Value -->
+  <!-- Parameters: o4 -->
+  <script type="text/ng-template" id="displayLiteralValue">
+    <span class="debugLiteralValue" title="[[o4]]" ng-init="literal_o4 = N3Util.getLiteralValue(o4); type_o4 = N3Util.getLiteralType(o4)">
+         <div ng-if="isWKT(literal_o4, type_o4)" ng-controller="openlayerController" ng-init="WKTpoly = literal_o4">
+           <!-- Display an OpenLayer Map -->
+            <div id="map_" current-polygon="WKTpoly"></div>
+        </div>
+        <span ng-if="!isWKT(literal_o4, type_o4)">
+            <!-- Literal Value is an URL -->
+            <span ng-if="isURL(literal_o4)">
+              <!-- Display a Link -->
+              <a href="[[literal_o4]]" target="_blank" title="External Link">[[literal_o4]]</a>
+            </span>
+            <!-- Literal Value is not an URL -->
+            <span ng-if="!isURL(literal_o4)">
+              [[ displayPrettyLiteral(literal_o4); ]]
+            </span>
+        </span>
+    <div class="debugLabel">[[o4]]</div>
+    </span>
+  </script>
+
+
+  <!-- Display a table of backward link for bs0 subject (considered here as object)-->
+  <!-- With: -->
+  <!-- Column 1: Predicates (with no duplicate) -->
+  <!-- Column 2: Subjects for Predicates of Column 1 -->
+  <!-- Template used for recursion -->
+  <!-- Parameter: bs0: subject used as object() -->
+  <script type="text/ng-template" id="displayBackwardPropertyFORSUBJECT">
+    <table class="table table-bordered sortable" class="debugBackwardTable">
+      <thead>
+        <tr class="tableizer-firstrow">
+          <!-- <th>Unfiltered Predicate</th> -->
+          <th>Property</th>
+          <th>Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="bp_item in backwardPredicates(bs0)" ng-init="bs1=bs0; bp1=bp_item" ng-include="'displayBackwardProperty'">
+        </tr>
+      </tbody>
+    </table>
+  </script>
+
+  <!-- Display a table row for subject bs1 and predicate bp1 where (1 predicate (bp1)) -> (n objects)  -->
+  <!-- Parameter: bs1: subject -->
+  <!-- Parameter: bp1: predicate -->
+  <script type="text/ng-template" id="displayBackwardProperty">
+    <td style="font-weight:bold">
+      Is<span ng-init="p2 = bp1" ng-include="'displayPropertyLabel'">
+          <!-- Template here -->
+        </span>of
+    </td>
+    <!-- Get all the objects for a (bp1,bs1) pair -->
+    <td ng-init="subjectsForPredicateP1 = getTriples(null, bp1, bs1)">
+      <div ng-repeat="t_item in subjectsForPredicateP1">
+        <!-- Filter here "displayValueDetail" TO NOT DISPLAY MAIN SUBJECT AS PROPERTY (NO DISPLAY OF BP1 Links) -->
+        <div ng-init="o3 = t_item.subject" ng-include="'displayValueDetail'">
+          <!-- Template here -->
+        </div>
+      </div>
+    </td>
+  </script>
+
+
+  <!-- JS Libs -->
+  <script src="/assets/bower_components/underscore/underscore-min.js"></script>
+  <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/bower_components/angular/angular.min.js"></script>
+  <script src="/assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/assets/bower_components/bootstrap-sortable/Scripts/bootstrap-sortable.js"></script>
+  <script src="/assets/bower_components/moment/min/moment.min.js"></script>
+  <script src="/assets/N3.js/browser/n3-browser.min.js"></script>
+
+  <!-- <script src="http://local.obeos/assets/bower_components/openlayers/lib/OpenLayers.js"></script>\ -->
+  <script src="/assets/Openlayers/ol.js"></script>
+
+  <!-- D3 Removed for prod -->
+  <script src="/assets/bower_components/d3/d3.min.js"></script>
+
+  <script src="/assets/scripts-common.js"></script>
+  <script src="/assets/scripts-view.js"></script>
+
+  <!-- Pass information from 'CKAN server templates' -> 'Angular' -> 'HTML client template'  -->
+  <script>
+    if (!IS_STANDALONE_DEBUGGER) {
+      n3_from_parent = '{{ h.literal(raw_graph) }}';
+      selected_subject_from_parent = '{{ h.literal(subject_uri) }}';
+      endpoint_name = '{{ h.literal(endpoint_name) }}';
+    }
+  </script>
