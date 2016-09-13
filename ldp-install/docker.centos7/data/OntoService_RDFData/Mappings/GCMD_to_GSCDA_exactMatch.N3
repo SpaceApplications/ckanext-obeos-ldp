@@ -1,0 +1,188 @@
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b3657e71-acd1-4be4-9c70-a54e074a40a4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Subsidence> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/47bc8942-6fdd-4173-bf38-209e933d843f> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d4313915-2d24-424c-a171-30ee9a6f4bb5> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/4fad64ce-32fe-413d-8b55-c78000d1980c> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Radiative_Forcing> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0fcce7dc-496f-4078-96f0-2035a73563fb> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/50f0cf56-c119-4ac1-9a88-8eb04fa666ad> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/46206e8c-8def-406f-9e62-da4e74633a58> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d73e969a-4b66-4713-8d63-fa3cbb1e25e3> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f634ab55-de40-4d0b-93bc-691bf5408ccb> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/78f5a84f-1b5b-44a9-97e7-4a1996cd2e36> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Colour> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bd24a9a9-7d52-4c29-b2a0-6cefd216ae78> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/59b3849e-6704-402f-9a3e-512db10c2f51> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5575125b-7f15-4d46-ba47-f86de96a1a25> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/32777aa3-a06a-4719-bbe5-7dcecb1a06f5> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Eutrophication> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/14555831-70ae-4650-8983-956d65595575> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/dd316647-9043-40c3-9329-f22f9215fefa> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ozone> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a9b89557-c09f-4a4a-a1eb-47c632f8eb59> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/88a1b416-1589-45a4-9923-452975ec35c7> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d71f94cb-e773-487a-a8ff-9c5f11c1dbc4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood_Plain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b51f738c-7061-4ced-b216-53734ce4cb43> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/68e2c729-f729-4936-af2e-0ecf7ee7d231> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/84784fef-5b76-45a0-91e0-28788e09fea6> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pressure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/36c862a7-7117-4fd2-8e33-0dda03097178> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/90e7fd13-2da2-4ba6-9e0c-dbecdf7c2215> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/37dac8df-b04b-4561-91fb-886e1bded2c1> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/26afa886-4866-4536-be3a-6f9db9aacd97> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1e2b1b67-a401-4fb6-9ee9-b022c1c023dc> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cb21c5cb-cc49-4328-a72d-94ccca1fa888> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/daab3b2a-1fe7-4ad9-8340-1a7cfa54a2ac> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/87feb47e-aee3-42f1-8c39-5109d9d5422e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/59719c53-a2b7-4200-9b3c-dfa5d39607f7> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/080389c4-68d4-41ee-ab89-070794038c8e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/14c8721e-4d05-4aaa-90be-8607ae2f84b1> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3e822484-c94a-457b-a32f-376fcbd6fd35> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Topography> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c3b81888-8a39-4b3f-8033-4c077797bcba> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e6c260ca-4f1e-4ed9-92d8-b50d1927f88e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e82ebd1c-8241-4ca0-95a9-a6e1432519cd> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/91d73256-925d-4d04-9b55-aaf088080cac> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/28dc7895-3365-4bab-9946-3b247f4137b0> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/63b37017-9d57-4247-af4e-2df36ee3ed03> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b0ad34ee-4b38-4a8d-a483-b3bfea66fa82> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a4aea007-d297-4051-8b41-5cdde00b4d1e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b7d562cf-9b9b-4461-900b-50423a8c4d29> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Data> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/9512b90f-f495-41bb-9600-ff25e4cfc571> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/63c7d604-707e-4c38-8baf-19a620e61917> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/860e2af9-ce29-4f3f-b027-ae3747eb3e01> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/49c8e881-7100-42cf-9c2e-48f2012e5671> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e5563c99-0fb6-43a9-8e20-6b47b1144394> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/35e1f93b-99b3-4430-b477-0ecafa80d67a> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/dd025312-0d27-44e0-ae05-7cfcc1aa17f0> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Pressure> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/3678d18c-9dca-4743-abc0-1442b4d438d2> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/734f8f27-6976-4b67-8794-c7fc79d6161e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/5debb283-51e4-435e-b2a2-e8e2a977220d> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/426aee98-764c-4c21-ab65-1e9d4bd6b0d0> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a956d045-3b12-441c-8a18-fac7d33b2b4e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b1f63bf1-a547-4189-9c7e-66a8d11facc4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Areas> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0948a59e-cc72-4e5d-b97d-4ea0335b0906> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b51b3708-a662-4cf1-bf13-e67f36b001c4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/77397026-09c9-44e0-b85f-77b2bc9b1630> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/aa645419-cff3-4f5b-84af-e3de41dd0d16> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/bb8c48bc-a36e-4f7e-afda-3244b058bc9c> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/adcd37fe-9f4a-4d8d-8f79-489775707ea2> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/2565d1be-7468-4969-9367-e21719c006a1> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/15029eb0-6342-4066-8ac9-c50f7dbfb392> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Vapor> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/227cf2d4-968a-4312-89e6-8c6bcf616e5d> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/548a3f85-bf22-473b-b641-45c32d9c6a0c> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a756fd6b-6208-4af0-ac56-6ee914fc4597> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/eec5b471-bcc5-4d9b-8274-f3990e79ed84> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f0d83687-bc0a-4491-bb3e-697f1018da13> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/61594015-4ab4-4b38-ae4f-e31a4757b065> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/15fdef7c-7fb7-4a1d-a24b-01164a8ba11a> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/b53939ae-1264-409d-8434-3bb3d22b2848> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/6eef914d-ff9f-44b0-a3a6-3dcf911023d4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/1532e590-a62d-46e3-8d03-2351bc48166a> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e78ae4ce-807a-4417-ad6e-a458c6da6638> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Chlorofluorocarbons> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/d559b900-eca6-42a4-9311-0297b2ef98ab> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/f8e65155-27c1-483e-a9b8-85399897c3ae> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/ef034881-8bf4-403f-a4ee-c68771769c93> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind_Stress> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/c7b5c02c-724d-4a19-b824-98180f3900c9> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/09a57dc7-3911-4a65-9f12-b819652b8671> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Rain> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/12a896f3-993d-49f6-aafc-17378ffa3998> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/19409c76-09d4-455c-b1f1-dc2e647f7403> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/008708ac-65a4-481a-8e03-640376f42f56> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/fe06f678-7155-4f93-9e28-4c083d60cccc> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/54054bc3-5faa-4b0d-b5dd-cf04595369b5> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/cd7a7748-7231-4a73-b85c-b5696066230a> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e1dbe955-7285-4df2-a854-07693fce44ec> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/a0f3474e-9a54-4a82-97c4-43864b48df4c> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_Radiation> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/7c892333-f4c4-4f81-b825-d6a86e107e9f> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0aad04f5-5438-4800-a0c9-6155656a720e> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/0eaf009f-f92b-48b5-8a71-9c44c80d03d4> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/75c312bc-79f9-4d74-a7c0-3c67c019196c> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/54e5d072-5a2c-471b-bca0-7e4ca32a2001> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Landslide> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/235996b1-b1a8-4c20-bb1f-711fb1a0c952> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .

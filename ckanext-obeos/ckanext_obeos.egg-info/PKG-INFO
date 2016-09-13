@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ckanext-obeos
+Version: 0.1
+Summary: CKAN Extension for OBEOS
+Home-page: http://obeos.spaceapplications.com
+Author: SpaceApps
+Author-email: bernard.valentin@spaceapplications.com
+License: SpaceApps limited software license
+Description: 
+            
+Platform: UNKNOWN

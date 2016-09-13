@@ -1,0 +1,150 @@
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice%20depth> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20depth%20%28shallow%20near-shore%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/groundwater> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/normalized%20difference%20vegetation%20index%20%28ndvi%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/upper%20level%20temperature> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/oceans> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/floods> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20plant%20science> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20use%2Fland%20cover> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/leaf%20area%20index%20%28lai%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20in%20subsurface%20ocean> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20salinity> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/pathogen%20population%20dynamic> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/source%20of%20drinking%20water> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/geologic%20stratification> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/stand%20density%2Fheight%2Fvolume> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20type> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/hydrology> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation%20cover> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thaw> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/biomass> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20infiltration%2Fpercolation-land%20surface> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20aquatic%20sciences> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmospheric%20chemistry> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Stratospheric_Ozone> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/non-native%20species> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20carbon> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20run-off> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20air%20temperature> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20surface%20%28skin%29%20temperature> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/nutrients%20%28phosphorous%2C%20nitrogen%2C%20potassium%2C%20nitrates%2Csulfates%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/health%20care%20access> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/surface%20albedo> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/chlorophyll> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/inundated%20vegetation> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/phenology> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soils> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/biosphere> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20science> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/cryosphere> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/plant%20commodities> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20emergence> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/human%20dimensions> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/snow%2Fice> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/suspended%20particulates%2Fturbidity%2Fwater%20attenuation%20coefficient> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/terrestrial%20hydrosphere> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow_Height> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ground_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality%20%26%20composition%2C%20ph%20and%20salinity%2C%20dissolved%20oxygen%20content> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/sea%20ice%20cover> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20litter> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/glacier%2Fice%20sheet%20extent> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/coastal%20processes> <http://www.w3.org/2004/02/skos/core#narrowMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20adjusted%20vegetation%20index%20%28savi%29%2Bc29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/impervious%20surface%20extent> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20moisture> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20structure> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/carbon%20%28stores%2C%20uptake%2C%20flux%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/thermokarst> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/species%20composition> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ambient%20volatile%20organic%20compounds> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20science> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/agricultural%20engineering> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/other%20long-lived%20ghgs> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/aquatic%20ecosystem%20condition> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/photosynthetically%20active%20radiation%20%28par%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/enhanced%20vegetation%20index%20%28evi%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/density%20of%20animal%20hosts> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/river%20flow%20observations> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/fraction%20of%20absorbed%20photosynthetically%20active%20radiation%20%28fapar%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/crop%20yield> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20composition> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/permafrost> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/forest%20management%20practices> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20thickness> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/soil%20type> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/cultivation> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/animal%20activity%20%28range%2C%20season%20length%2C%20migration%20patterns%29> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .

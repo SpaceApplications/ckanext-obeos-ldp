@@ -1,0 +1,9 @@
+requests==2.7.0
+jinja2==2.6
+requests_futures==0.9.7
+dogpile.cache==0.5.7
+pylibmc==1.5.1
+rdflib==4.2.1
+Markdown==2.4
+Genshi==0.6
+# dogpile==0.2.2   # Desactived because namespace conflict with dogpile.cache

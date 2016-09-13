@@ -1,0 +1,30 @@
+{% set tags = h.get_facet_items_dict('tags', limit=3) %}
+{% set placeholder = _('eg. Belgium 2014') %}
+
+<div class="module module-search module-narrow module-shallow box">
+  <form id="search_form" class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
+    <h3 class="heading">{{ _("Search Your Data") }}</h3>
+    <div class="search-input control-group search-giant">
+      <input autofocus type="text" class="search" name="q" value="" autocomplete="off" placeholder="{{ placeholder }}" />
+        <button type="submit" class="btn btn-default" data-loading-text="Loading ..."><i class="icon-search"></i></button>
+    </div>
+  </form>
+  {% snippet 'home/snippets/obeos_insertconcept.html' %}
+  <div class="tags">
+    <h3>{{ _('Popular Tags') }}</h3>
+    {% for tag in tags %}
+      <a class="tag" href="{% url_for controller='package', action='search', tags=tag.name %}">{{ h.truncate(tag.display_name, 22) }}</a>
+    {% endfor %}
+  </div>
+</div>
+
+
+        <script>
+
+window.onload = function (){
+    $(".btn").click(function(){
+        $(this).button('loading');
+        $("#search_form").submit();
+    });
+};
+        </script>

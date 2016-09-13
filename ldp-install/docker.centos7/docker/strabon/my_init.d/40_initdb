@@ -1,0 +1,61 @@
+#!/bin/bash
+set -eu
+
+if [[ ! -e "/var/tmp/db_configured" ]]; then
+  init_db () {
+    echo "Configuring Strabon database: $STRABON_PSQL_DB"
+
+    #### STRABON ####
+    # Just an alias for simplicity sake
+    export psqlRemote="psql -h $POSTGRES_HOST_NAME -U $POSTGRES_ENV_DBCREATE_USER -d $POSTGRES_ENV_DBCREATE_DB -c"
+
+    # Create Strabon user
+    export PGPASSWORD=$POSTGRES_ENV_DBCREATE_PASS; \
+      $psqlRemote "CREATE USER $STRABON_PSQL_USER WITH PASSWORD '$STRABON_PSQL_PASS';"
+
+    # Create Strabon DB
+    export PGPASSWORD=$POSTGRES_ENV_DBCREATE_PASS; \
+      $psqlRemote  "CREATE DATABASE $STRABON_PSQL_DB WITH TEMPLATE template_postgis;"
+
+    # Grand rights for user on DB
+    export PGPASSWORD=$POSTGRES_ENV_DBCREATE_PASS; \
+      $psqlRemote  "GRANT ALL PRIVILEGES ON DATABASE $STRABON_PSQL_DB to $STRABON_PSQL_USER;"
+
+
+    ## STRABON_END ##
+
+    # Database configured
+    touch /var/tmp/db_configured
+  }
+else
+  init_db () {
+    echo "Strabon database already configured"
+  }
+fi
+
+init_db_when_ready () {
+  # calls init_db when postgres is running
+  while ! nc ${POSTGRES_HOST_NAME} 5432 </dev/null; do
+    printf 'Waiting for PostgreSQL server to be up ...\n'
+    sleep 2;
+  done
+
+  # Check if HBA as been opened for external communiccation
+  # (This means that the Postgres container has been correctly built, and GIS extension installed)
+  # Check is made on a simple "\du" command that shall be callable if the HBA is well configured
+  until export PGPASSWORD=dbcreate_pass;psql -h postgres -U dbcreate_user -d dbcreate_db -c "\du" &>/dev/null;
+  do
+    printf 'Waiting for PostgreSQL to provide an external access to containers...\n'
+     sleep 2;
+  done
+
+  printf "Successfully connected to PostgreSQL container"
+  # until $(curl --output /dev/null --silent --head --fail http://${POSTGRES_HOST_NAME}:5432); do
+  #   printf 'Waiting for PostgreSQL server to be up ...'
+  #   sleep 2
+  # done
+
+  init_db
+}
+
+init_db_when_ready &

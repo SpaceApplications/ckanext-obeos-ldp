@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -eu
+
+if [[ ! -e "/var/tmp/data_ingested" ]]; then
+
+  while [ ! -f /var/tmp/db_configured ]
+  do
+    printf "Waiting for $STRABON_PSQL_DB DB to be configured, before ingesting data in."
+    sleep 2
+  done
+
+  find /data -iname "*.n3" -exec /scripts/strabon.sh -db $STRABON_PSQL_DB -p 5432 -h $POSTGRES_HOST_NAME -u $STRABON_PSQL_USER -pass $STRABON_PSQL_PASS store -f n3 {} \;
+  find /data -iname "*.rdf" -exec /scripts/strabon.sh -db $STRABON_PSQL_DB -p 5432 -h $POSTGRES_HOST_NAME -u $STRABON_PSQL_USER -pass $STRABON_PSQL_PASS store  -f rdfxml {} \;
+
+  # Data ingested
+  printf "Data for $STRABON_PSQL_DB has been ingested"
+  touch /var/tmp/data_ingested
+fi

@@ -1,0 +1,4 @@
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/evaporation> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Vapor> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ocean%20temperature> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Surface_Temperature> .

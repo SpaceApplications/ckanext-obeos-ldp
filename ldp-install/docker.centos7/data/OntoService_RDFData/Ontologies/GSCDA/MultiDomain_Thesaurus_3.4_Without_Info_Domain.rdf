@@ -1,0 +1,2959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:base="http://thesauri.esa.int/MultiDomain_Thesaurus/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    
+<!-- ************** Level 0 ************** 
+
+	<skos:Concept rdf:about="Info_Domain">
+		<skos:prefLabel xml:lang="en">Info Domain</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Application Domain</skos:altLabel>		
+		<skos:narrower rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Atmosphere_Monitoring"/>
+		<skos:narrower rdf:resource="Emergency_Response"/>
+		<skos:narrower rdf:resource="Marine_Environment"/>
+	</skos:Concept>
+
+    -->
+
+<!-- ************** Level 1 ************** -->
+
+	<skos:Concept rdf:about="Land_Monitoring">
+		<skos:prefLabel xml:lang="en">Land Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Land monitoring includes all the services and activities in order to chek status and make decisions in the fields of agriculture, water quality, soil protection, forest monitoring, urban development, biodiversity, etc.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Tailored DAP for OTE (modified)
+		</skos:scopeNote>
+		<!-- skos:broader rdf:resource="Info_Domain"/ -->
+		<skos:narrower rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Water_Management"/>
+		<skos:narrower rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Urban_And_Industry"/>
+		<skos:narrower rdf:resource="Topography"/>
+		<skos:narrower rdf:resource="Bio_Geophysical"/>
+	    <skos:narrower rdf:resource="Periodicity"/>
+	</skos:Concept>
+	
+<!-- ************** Level 2 ************** -->
+
+	<skos:Concept rdf:about="Agriculture">
+		<skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Agriculture refers to the production of food and goods through farming and forestry.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Agriculture#Etymology
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		pesticide, groundwater, food, crop, cultivation, fibers, fuels, raw materials, pharmaceuticals, illegal drugs, arable land
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Water_Use"/>
+		<skos:narrower rdf:resource="Soil"/>
+		<skos:narrower rdf:resource="Land_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Land_Use"/>
+		<skos:narrower rdf:resource="Vegetation_Productivity"/>
+        <skos:narrower rdf:resource="Crops"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Bio_Geophysical">
+		<skos:prefLabel xml:lang="en">Bio Geophysical</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Bio-geophysical refers to the composite of biological, geological, and physical processes operating in an area the biogeophysical effects of land use.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wiktionary.org/wiki/biogeophysical
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		essential climate variables
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Vegetation"/>
+		<skos:narrower rdf:resource="Radiation_Budget"/>
+		<skos:narrower rdf:resource="Water"/>
+	</skos:Concept>	
+
+	<skos:Concept rdf:about="Periodicity">
+		<skos:prefLabel xml:lang="en">Periodicity</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The periodicity is specified as a date range between which something is valid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		https://wiki.ceh.ac.uk/display/cehigh/Temporal+Extent
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Dekad"/>
+		<skos:narrower rdf:resource="Month"/>
+	</skos:Concept>	
+	
+	<skos:Concept rdf:about="Climate">
+		<skos:prefLabel xml:lang="en">Climate</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Climate encompasses the temperatures, humidity, rainfall, atmospheric particle count and numerous other meteorogical factors in a given region over long periods of time.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Climate
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		temperature, weather
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:broader rdf:resource="Atmosphere_Monitoring"/>
+		<skos:narrower rdf:resource="Weather"/>
+		<skos:narrower rdf:resource="Bioclimatology"/>
+		<skos:narrower rdf:resource="Solar_Radiation"/>
+		<skos:narrower rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Fire_Emission"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Topography">
+		<skos:prefLabel xml:lang="en">Topography</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Topography is the study of Earth's surface features; it is concerned with local detail in general, including not only relief but also vegetative and human-made features.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Topography
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		earth surface, relief, land use
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Land_Cover"/>
+		<skos:narrower rdf:resource="Digital_Elevation_Model"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Geographic_Feature"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Urban_And_Industry">
+		<skos:prefLabel xml:lang="en">Urban And Industry</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Mapping for city planning, at local scale, construction, noise modelling, and mining; it is also helpful in support of industrial development from civil engineering to oil prospecting, and in the monitoring of urban change and population mapping for planning and control purposes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+        https://earth.esa.int/web/guest/earth-topics/land/urban-industry
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		urban monitoring, city, town, settlement, urbanization
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Land_Use"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Water_Management">
+		<skos:prefLabel xml:lang="en">Water Management</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Use</skos:altLabel>
+		<skos:altLabel xml:lang="en">Water Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Water Usage</skos:altLabel>
+		<skos:altLabel xml:lang="en">Irrigation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Farming</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Water management is the practice of planning, developing, distributing and optimum utilizing of water resources under defined water polices and regulations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Water_management
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water quality, water chemistry, fertilizers, pesticides
+		</skos:note>
+		<skos:broader rdf:resource="Land_Monitoring"/>
+		<skos:narrower rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Ground_Water"/>
+		<skos:narrower rdf:resource="Water_Use"/>
+	</skos:Concept>
+
+<!-- ************** Level 3 ************** -->
+
+	<skos:Concept rdf:about="Dekad">
+		<skos:prefLabel xml:lang="en">Dekad</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A dekad is a period which extends over 10 consecutive days (with special regard to rainfall).
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wiktionary.org/wiki/dekad
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Periodicity"/>
+	</skos:Concept>	
+
+	<skos:Concept rdf:about="Month">
+		<skos:prefLabel xml:lang="en">Month</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A period into which a year is divided, historically based on the phases of the moon.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wiktionary.org/wiki/month
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Periodicity"/>
+	</skos:Concept>	
+
+	<skos:Concept rdf:about="Vegetation">
+		<skos:prefLabel xml:lang="en">Vegetation</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Vegetation is a general term for the plant life of a region; it refers to the ground cover provided by plants.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Vegetation
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		grass, crops, forest
+		</skos:note>
+		<skos:broader rdf:resource="Bio_Geophysical"/>
+		<skos:narrower rdf:resource="Vegetation_Productivity"/>
+		<skos:narrower rdf:resource="Canopy"/>
+		<skos:narrower rdf:resource="Vegetation_Disturbance"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Radiation_Budget">
+		<skos:prefLabel xml:lang="en">Radiation Budget</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Energy budget.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Radiation_budget
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Bio_Geophysical"/>
+		<skos:narrower rdf:resource="Land_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Surface_Reflectance"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water">
+		<skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		This term refers to the distribution of water on Earth.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Water#On_Earth
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Bio_Geophysical"/>
+		<skos:narrower rdf:resource="Inland_Water"/>
+		<skos:narrower rdf:resource="Coastal_Areas"/>
+		<skos:narrower rdf:resource="Wetland"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Crops">
+		<skos:prefLabel xml:lang="en">Crops</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A crop is a non-animal species or variety that is grown to be harvested as food, livestock fodder, fuel or for any other economic purpose.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Crop
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		maize, wheat, rice, soybeans, hay, potatoes, cotton
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Canopy"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Cloud">
+		<skos:prefLabel xml:lang="en">Cloud</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Data about cloud cover, height, speed and so on may be useful for weather monitoring and forecasting.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Cloud
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		cloud cover, cloud height, cloud base, cloud top, cloud speed, cloud direction
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Meteorological_Data"/>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Cover">
+		<skos:prefLabel xml:lang="en">Land Cover</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Land cover is a way of portraying the surface of the earth. Often this is done through a process of classification where regions of the earth are identified according to some of their more prominent, quantifiable attributes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://glcf.umiacs.umd.edu/services/landcoverchange/
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		land cover, land change, land change monitoring, land take
+		</skos:note>
+		<skos:broader rdf:resource="Topography"/>
+		<skos:broader rdf:resource="Land_Use"/>
+		<skos:narrower rdf:resource="Forest"/>
+		<skos:narrower rdf:resource="Wetland"/>
+		<skos:narrower rdf:resource="Protected_Area"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Digital_Elevation_Model">
+		<skos:prefLabel xml:lang="en">Digital Elevation Model</skos:prefLabel>
+		<skos:altLabel xml:lang="en">DEM</skos:altLabel>
+		<skos:altLabel xml:lang="en">Digital Terrain Model</skos:altLabel>
+		<skos:altLabel xml:lang="en">DTM</skos:altLabel>
+		<skos:altLabel xml:lang="en">Relief Map</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A digital elevation model (DEM) is a digital representation of ground surface topography or terrain. It is also widely known as a digital terrain model (DTM). DEMs are commonly built using remote sensing techniques, however, they may also be built from land surveying. DEMs are used often in geographic information systems, and are the most common basis for digitally-produced relief maps.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Digital_elevation_model
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Topography"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Use">
+		<skos:prefLabel xml:lang="en">Land Use</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Land Cover</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Change</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Change Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Land Take</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Land use is the human modification of natural environment or wilderness into built environment such as fields, pastures, and settlements. Land-use change, together with use of fossil fuels, are the major anthropogenic sources of carbon dioxide, a dominant greenhouse gas. It has also been defined as "the total of arrangements, activities, and inputs that people undertake in a certain land cover type".
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Land_use
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		urbanization
+		</skos:note>
+		<skos:broader rdf:resource="Urban_And_Industry"/>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Land_Cover"/>
+		<skos:narrower rdf:resource="Infrastructure"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Surface_Water">
+		<skos:prefLabel xml:lang="en">Surface Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Surface waters include rivers and lakes; their quality is defined by biological and chemical parameters.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		river, lake, inland water
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:broader rdf:resource="Topography"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Hormones"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Oxygen_Consuming_Substances"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Triclosan"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Use">
+		<skos:prefLabel xml:lang="en">Water Use</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Without quantitative knowledge of water balance and the performance of irrigation systems, the potential to improve them remains largely unknown. A major effort is required for understanding water systems and the implications of reallocation of water to increase efficiency of use. Full understanding of the processes, based on river basin data, is needed for devising adequate policies and management action.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.fao.org/ag/magazine/9901sp4.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		irrigation, farming, water resources, water management
+		</skos:note>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:broader rdf:resource="Agriculture"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Soil">
+		<skos:prefLabel xml:lang="en">Soil</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Soil Protection</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Soil is the naturally occurring, unconsolidated or loose covering on the Earth's surface. Soil is composed of particles of broken rock that have been altered by chemical and environmental processes including weathering and erosion. Soil is  a mixture of mineral and  organic constituents that are in solid, gaseous and aqueous states.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Soil
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ground water, agriculture, food
+		</skos:note>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:narrower rdf:resource="Ground_Water"/>
+		<skos:narrower rdf:resource="Soil_Erosion"/>
+		<skos:narrower rdf:resource="Wetland"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ground_Water">
+		<skos:prefLabel xml:lang="en">Ground Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The water that fills the empty spaces and cracks in the soil is called ground water.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://pubs.usgs.gov/of/1993/ofr93-643/
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		inland water, soil, agriculture
+		</skos:note>
+		<skos:broader rdf:resource="Soil"/>
+		<skos:broader rdf:resource="Water_Management"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Metals"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Nitrates"/>
+		<skos:narrower rdf:resource="Water_Pollution_By_Organic_Micropollutants"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Surface_Temperature">
+		<skos:prefLabel xml:lang="en">Land Surface Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Earth Temperature</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ground Temperature</skos:altLabel>
+		<skos:definition xml:lang="en">
+		It is the temperature of the land surface i.e. kinetic temperature of the Earth surface.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Satellite Remote Sensing and GIS applications in Agricultural Meteorology, Proceedings of the Training Workshop 7-11 July, 2003, Dehra Dun, India, World Meteorological Organisation
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Agriculture"/>
+		<skos:broader rdf:resource="Global_Temperature"/>
+		<skos:broader rdf:resource="Radiation_Budget"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Weather">
+		<skos:prefLabel xml:lang="en">Weather</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The weather is a set of all the phenomena occurring in a given atmosphere at a given time. Weather phenomena lie in the hydrosphere and troposphere. Weather refers to current activity, as opposed to the term climate, which refers to the average atmospheric conditions over longer periods of time.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Weather
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate, atmospheric conditions, meteorological data, meteorology
+		</skos:note>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Precipitation"/>
+		<skos:narrower rdf:resource="Temperature"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Wind"/>
+		<skos:narrower rdf:resource="Meteorological_Data"/>
+		<skos:narrower rdf:resource="Drought"/>
+		<skos:narrower rdf:resource="Global_Temperature"/>
+		
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Bioclimatology">
+		<skos:prefLabel xml:lang="en">Bioclimatology</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The study of climate in relation to fauna and flora.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/818		
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Pollen"/>
+		<skos:narrower rdf:resource="Solar_UV_Radiation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Solar_Radiation">
+		<skos:prefLabel xml:lang="en">Solar Radiation</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The electromagnetic radiation and particles emitted by the sun.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7912
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Solar_UV_Radiation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Climate_Change">
+		<skos:prefLabel xml:lang="en">Climate Change</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Climate change is one of our greatest environmental, social and economic threats. The warming of the climate system is unequivocal, says the Intergovernmental Panel on Climate Change (IPCC). Observations show increases in global average air and ocean temperatures, widespread melting of snow and ice, and rising global mean sea level.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/climate
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming, greenhouse effect, radiative forcing
+		</skos:note>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Temperature"/>
+		<skos:narrower rdf:resource="Land_Ice"/>
+		<skos:narrower rdf:resource="Global_Temperature"/>
+		<skos:narrower rdf:resource="Ice_Change_Detection"/>
+		<skos:narrower rdf:resource="Ocean_Level"/>
+		<skos:narrower rdf:resource="Greenhouse_Effect"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Fire_Emission">
+		<skos:prefLabel xml:lang="en">Fire Emission</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Global Fire Emission</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Emissions of gases and particulate matter originated from the combustion of wildfires that consume biomasses.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.gmes-atmosphere.eu/services/gac/fire/
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Climate"/>
+		<skos:broader rdf:resource="Wildfire"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+		<skos:narrower rdf:resource="Carbon_Monoxide"/>
+		<skos:narrower rdf:resource="Formaldehyde"/>
+		<skos:narrower rdf:resource="Nitrogen_Oxides"/>
+	</skos:Concept>
+
+<!-- ************** Level 4 ************** -->
+
+	<skos:Concept rdf:about="Inland_Water">
+		<skos:prefLabel xml:lang="en">Inland Water</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		An inland water body refers to an water area within a continent.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.britannica.com/EBchecked/topic/288440/inland-water-ecosystem
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water,continent
+		</skos:note>
+		<skos:broader rdf:resource="Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Coastal_Areas">
+		<skos:prefLabel xml:lang="en">Coastal Areas</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The coastal zone is the transitional area between land and sea.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Coast
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		coastline,seashore
+		</skos:note>
+		<skos:broader rdf:resource="Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Surface_Reflectance">
+		<skos:prefLabel xml:lang="en">Surface Reflectance</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Surface reflectance is the fraction of incident radiation reflected by a surface.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Surface_reflectivity
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		optics,photometry,fraction
+		</skos:note>
+        <skos:broader rdf:resource="Radiation_Budget"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Vegetation_Productivity">
+		<skos:prefLabel xml:lang="en">Vegetation Productivity</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Vegetation productivity refers to the biomass. In particular ''Vegetation productivity is a measure of rangeland vigor and growth capacity, which are important components of rangeland management and health assessment.''
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.cpap.embrapa.br/agencia/congressovirtual/pdf/ingles/03en01.pdf
+		</skos:scopeNote>
+        <skos:broader rdf:resource="Vegetation"/>
+        <skos:broader rdf:resource="Agriculture"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Canopy">
+		<skos:prefLabel xml:lang="en">Canopy</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		In biology, the canopy is the aboveground portion of a plant community or crop, formed by plant crowns.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Canopy_(biology)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		plant, crowns
+		</skos:note>
+        <skos:broader rdf:resource="Vegetation"/>
+        <skos:broader rdf:resource="Crops"/>
+        <skos:broader rdf:resource="Forest"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Vegetation_Disturbance">
+		<skos:prefLabel xml:lang="en">Vegetation Disturbance</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		This terms covers all disturbances on vegetation due to multiple factors.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Vegetation
+		</skos:scopeNote>
+        <skos:broader rdf:resource="Vegetation"/>
+        <skos:narrower rdf:resource="Wildfire"/>
+        <skos:narrower rdf:resource="Flood"/>
+        <skos:narrower rdf:resource="Drought"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Forest">
+		<skos:prefLabel xml:lang="en">Forest</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Vegetation</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A forest is an area with a high density of trees. These plant communities cover approximately 9.4% of the Earth's surface (or 30% of total land area) and function as habitats for organisms, hydrologic flow modulators, and soil conservers, constituting one of the most important aspects of the Earth's biosphere. 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Forest
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		forests, plants, agriculture, trees, timbering, restoration, afforestation, revegetation
+		</skos:note>
+		<skos:broader rdf:resource="Land_Cover"/>
+	        <skos:narrower rdf:resource="Canopy"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Hormones">
+		<skos:prefLabel xml:lang="en">Water Pollution By Hormones</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Hormone-like substances can change the sexual characteristics of fish species, such as roach.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Surface_Water"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Water_Pollution_By_Oxygen_Consuming_Substances">
+		<skos:prefLabel xml:lang="en">Water Pollution By Oxygen Consuming Substances</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Organic matter, measured as Biochemical Oxygen Demand (BOD) and ammonium, are key indicators of the oxygen content of water bodies.Concentrations of these determinands normally increase as a result of organic pollution caused by discharges from waste water treatment plants, industrial effluents and agricultural run-off. Severe organic pollution may lead to rapid de-oxygenation of river water, a high concentration of ammonia and the disappearance of fish and aquatic invertebrates.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-oxygen
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ammonium, BOD, biochemical oxygen demand, organic pollution
+		</skos:note>
+		<skos:broader rdf:resource="Surface_Water"/>
+		<skos:narrower rdf:resource="Biochemical_Oxygen_Demand"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Triclosan">
+		<skos:prefLabel xml:lang="en">Water Pollution By Triclosan</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Triclosan is an antimicrobially active substance used for many purposes such as disinfectants, preservatives and personal-care products. Triclosan is transformed to methyltriclosan in the environment through a path which is not fully understood. This substance persists in the environment and accumulates in organisms.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-surface-waters/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water pollution, chemicals
+		</skos:note>
+		<skos:broader rdf:resource="Surface_Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Metals">
+		<skos:prefLabel xml:lang="en">Water Pollution By Metals</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Depending on the soil type, inorganic trace elements, including metals, occur in groundwater in higher or lower concentrations. Metals occur naturally in groundwater, but lowering of the groundwater table and oxidation of metallic minerals can raise the concentration. High concentrations of metalloids, such as arsenic in the groundwater and drinking water, can be extremely harmful.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>	
+
+	<skos:Concept rdf:about="Water_Pollution_By_Organic_Micropollutants">
+		<skos:prefLabel xml:lang="en">Water Pollution By Organic Micropollutants</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Organic micropollutants that have been used in large amounts, or have been dispersed in the environment may also affect groundwater quality, in particular aromatic hydrocarbons and chlorinated solvents.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-hazardous-substances
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		organic pollution
+		</skos:note>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pollution_By_Nitrates">
+		<skos:prefLabel xml:lang="en">Water Pollution By Nitrates</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Agriculture is the largest contributor of nitrogen pollution to groundwater. Nitrogen from excess fertilizer percolates through the soil and is detectable as elevated nitrate concentrations under aerobic conditions and as elevated ammonium concentrations under anaerobic conditions. The rate of percolation is often slow and excess nitrogen concentrations may be the effects of pollution on the surface from up to 40 years prior, depending on the hydro-geological conditions.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eea.europa.eu/themes/water/status-and-monitoring/state-of-groundwater/water-quality-and-pollution-by-nutrients
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		fertilizers, agriculture
+		</skos:note>
+		<skos:broader rdf:resource="Ground_Water"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Meteorological_Data">
+		<skos:prefLabel xml:lang="en">Meteorological Data</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric Phenomena</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Meteorological data describe the actual weather condition, including precipitations, wind, cloud cover and so on. It is useful for weather monitoring and forecast.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		meteorology meteorological forecasting, weather, atmosphere, climate, wind, rain, cloud
+		</skos:note>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Wave_Climate"/>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Wind"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Drought">
+		<skos:prefLabel xml:lang="en">Drought</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A period of abnormally dry weather sufficiently prolonged so that the lack of water causes a serious hydrologic imbalance (such as crop damage, water supply shortage) in the affected area.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2347
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		drought forecast
+		</skos:note>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Vegetation_Disturbance"/>
+		<skos:broader rdf:resource="Precipitation"/>
+		<skos:broader rdf:resource="Meteorological_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Pollen">
+		<skos:prefLabel xml:lang="en">Pollen</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		It is a measure of pollen dissemination over specific areas, concerning in particular highly allergenic taxa in order to facilate medical measures.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.enviport.org/promote/pollen/index.html (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Bioclimatology"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Solar_UV_Radiation">
+		<skos:prefLabel xml:lang="en">Solar UV Radiation</skos:prefLabel>
+		<skos:altLabel xml:lang="en">UV Radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ultraviolet Radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ultraviolet</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The part of the electromagnetic spectrum with wavelengths shorter than light but longer than x-rays; in the range of 4-400 nm.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8742
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		sunburn, UV-index, ultra-violet, ultra-violet radiation
+		</skos:note>
+		<skos:broader rdf:resource="Solar_Radiation"/>
+		<skos:broader rdf:resource="Bioclimatology"/>
+		<skos:narrower rdf:resource="Biologically_Effective_UV_Dose"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Global_Temperature">
+		<skos:prefLabel xml:lang="en">Global Temperature</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Global temperature is obtained by collecting measurements of air temperatures at a large number of measuring stations around the Globe, weighing them according to the area they represent, and then calculating the yearly average according to the usual method of adding all values and dividing by the number of points.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.sciencedaily.com/releases/2007/03/070315101129.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming, climate change
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Temperature"/>
+		<skos:narrower rdf:resource="Land_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Sea_Surface_Temperature"/> 
+		<skos:narrower rdf:resource="Air_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Change_Detection">
+		<skos:prefLabel xml:lang="en">Ice Change Detection</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The cryosphere is sensitive to changes in mean ambient temperature and precipitation on a wide range of time scales, thus various components of the cryosphere are senstitive monitors of climate change.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://southport.jpl.nasa.gov/scienceapps/dixon/report7.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, ice retreat, ice build-up, flooding
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:broader rdf:resource="Sea_Ice"/>
+ 		<skos:broader rdf:resource="Glacier"/> <!-- Added in version V2.1 -->
+		<skos:narrower rdf:resource="Surface_Elevation"/> <!-- Added in version V2.1 -->
+		<skos:narrower rdf:resource="Mass_Flux"/> <!-- Added in version V2.1 -->
+		<skos:narrower rdf:resource="Areal_Change"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ocean_Level">
+		<skos:prefLabel xml:lang="en">Ocean Level</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Level</skos:altLabel>
+		<skos:altLabel xml:lang="en">Sea Level</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Changes in sea level are connected to tides, air pressures, winds and global warming. Such changes are important to predict floods and other damages. Sea level may be monitored using tide gauges installed along the coastlines, through seabed devices measuring pressure and using satellite radar altimetry.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">		http://www.oceansatlas.com/servlet/CDSServlet?status=ND0xMjc1NCZjdG5faW5mb192aWV3X3NpemU9Y3RuX2luZm9fdmlld19mdWxsJjY9ZW4mMzM9KiYzNz1rb3M~
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		tide gauge, flood
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:broader rdf:resource="Offshore_Environment"/>
+		<skos:narrower rdf:resource="Tide_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Greenhouse_Effect">
+		<skos:prefLabel xml:lang="en">Greenhouse Effect</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The warming of the Earth's atmosphere caused by the increasing concentration of atmospheric gases, such as water vapour and carbon dioxide. These gases absorb radiation emitted by the Earth, thus slowing down the loss of radiant energy from the Earth back to space.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3761
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global warming
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+		<skos:narrower rdf:resource="Cloud"/>
+		<skos:narrower rdf:resource="Greenhouse_Gas"/>
+		<skos:narrower rdf:resource="Radiative_Forcing"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Carbon_Monoxide">
+		<skos:prefLabel xml:lang="en">Carbon Monoxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Carbonous Oxide</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Colorless, odourless, tasteless, non-corrosive, highly poisonous gas of about the same density as that of air. Very flammable, burning in air with bright blue flame. Although each molecule of CO has one carbon atom and one oxygen atom, it has a shape similar to that of an oxygen molecule (two atoms of oxygen), which is important with regard to it's lethality.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/1173
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Formaldehyde">
+		<skos:prefLabel xml:lang="en">Formaldehyde</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Methanal</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Formaldehyde is an organic compound with the formula CH2O. It is the simplest aldehyde, hence its systematic name methanal. In view of its widespread use, toxicity and volatility, exposure to formaldehyde is a significant consideration for human health.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Formaldehyde
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		glyoxal
+		</skos:note>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nitrogen_Oxides">
+		<skos:prefLabel xml:lang="en">Nitrogen Oxides</skos:prefLabel>
+		<skos:altLabel xml:lang="en">NOx</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Oxides formed and released in all common types of combustion; they are formed by the oxidation of atmospheric nitrogen at high temperatures. Introduced into the atmosphere from car exhausts, furnace stacks, incinerators, power stations and similar sources, the oxides include nitrous oxide, nitric oxide, nitrogen dioxide, nitrogen pentoxide and nitric acid. The oxides of nitrogen undergo many reactions in the atmosphere to form photochemical smog.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5613
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		nitrous oxide, nitrogen monoxide, nitrogen dioxide
+		</skos:note>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+		<skos:narrower rdf:resource="Nitrogen_Dioxide"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Aerosol">
+		<skos:prefLabel xml:lang="en">Aerosol</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A gaseous suspension of ultramicroscopic particles of a liquid or a solid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/157
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Fire_Emission"/>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+		<skos:broader rdf:resource="Air_Quality"/>
+		<skos:broader rdf:resource="Volcanic_Eruption"/>
+		<skos:narrower rdf:resource="Particulate_Matter"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Soil_Erosion">
+		<skos:prefLabel xml:lang="en">Soil Erosion</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Erosion</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Detachment and movement of topsoil or soil material from the upper part of the profile, by the action of wind or running water, especially as a result of changes brought about by human activity, such as unsuitable or mismanaged agriculture.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7858
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		shallow landslide
+		</skos:note>
+		<skos:broader rdf:resource="Soil"/>
+		<skos:broader rdf:resource="Risk_Factor"/>
+	</skos:Concept>
+
+<!-- ************** Level 5 ************** -->
+	
+	<skos:Concept rdf:about="Biochemical_Oxygen_Demand">
+		<skos:prefLabel xml:lang="en">Biochemical Oxygen Demand</skos:prefLabel>
+		<skos:altLabel xml:lang="en">BOD</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Biochemical oxygen demand is a measure of how much dissolved oxygen is being consumed as microbes break down organic matter. A high demand, therefore, can indicate that levels of dissolved oxygen are falling, with potentially dangerous implications for the river's biodiversity. High biochemical oxygen demand can be caused by high levels of organic pollution, caused usually by poorly treated wastewater; or high nitrate levels, which trigger high plant growth. Both result in higher amounts of organic matter in the river. When this matter decays, the microbiological activity uses up the oxygen.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://themes.eea.europa.eu/Specific_media/water/indicators/bod
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		nitrates, water pollution, river
+		</skos:note>
+		<skos:broader rdf:resource="Water_Pollution_By_Oxygen_Consuming_Substances"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind">
+		<skos:prefLabel xml:lang="en">Wind</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind data include wind speed, direction, gust and temperature.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www5.ncdc.noaa.gov/documentlibrary/pdf/wind1996.pdf
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wind speed, wind direction, peak gust
+		</skos:note>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:broader rdf:resource="Meteorological_Data"/>
+		<skos:broader rdf:resource="Wave_Climate"/>
+		<skos:narrower rdf:resource="Wind_Stress"/>
+		<skos:narrower rdf:resource="Wind_Direction"/>
+		<skos:narrower rdf:resource="Wind_Gust"/>
+		<skos:narrower rdf:resource="Wind_Speed"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Biologically_Effective_UV_Dose">
+		<skos:prefLabel xml:lang="en">Biologically Effective UV Dose</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Biologically Effective UV Radiation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Biologically Effective Dose Of UV Radiation</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Amount (in time) of irradiation that is required to reach target cells or organ, and to produce effects on biological entities - e.g. on human skin to have sunburn.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.businessdictionary.com/definition/biologically-effective-dose.html (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		biologically effective ultra-Violet radiation
+		</skos:note>
+		<skos:broader rdf:resource="Solar_UV_Radiation"/>
+		<skos:broader rdf:resource="Sun_Exposure"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Air_Temperature">
+		<skos:prefLabel xml:lang="en">Air Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric Temperature</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The temperature of the atmosphere which represents the average kinetic energy of the molecular motion in a small region and is defined in terms of a standard or calibrated thermometer in thermal equilibrium with the air.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.answers.com/topic/air-temperature#ixzz1LxqvKw1f
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		global temperature
+		</skos:note>
+		<skos:broader rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sea_Surface_Temperature">
+		<skos:prefLabel xml:lang="en">Sea Surface Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Skin Temperature</skos:altLabel>
+		<skos:altLabel xml:lang="en">SST</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The measure of the temperature of a very thin layer (about 10 micrometres thick) or skin of the ocean, representing the top millimeter. High water skin temperatures are generally favorable for the formation and sustaining of tropical cyclones.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Sea_surface_temperature
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		tropical cyclones
+		</skos:note>
+		<skos:broader rdf:resource="Global_Temperature"/>
+		<skos:broader rdf:resource="Ocean_Surface_Monitoring"/>
+		<skos:broader rdf:resource="Water_Temperature"/>
+		<skos:broader rdf:resource="Wave_Climate"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Tide_Monitoring">
+		<skos:prefLabel xml:lang="en">Tide Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Measuring tides requires some elaboration of simple water level data, in order to distinguish actual periodical tides from occasional water level variations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.vims.edu/physical/research/TCTutorial/tidemeasure.htm;  http://oceanservice.noaa.gov/education/kits/tides
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		high tide, low tide, high water, water level
+		</skos:note>
+		<skos:broader rdf:resource="Ocean_Level"/>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:broader rdf:resource="Ocean_Surface_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Greenhouse_Gas">
+		<skos:prefLabel xml:lang="en">Greenhouse Gas</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The concentration of those components of the atmosphere that influence the greenhouse effect, namely carbon dioxide, methane, nitrous oxides, ozone, CFCs and water vapour.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3763
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, global warming, greenhouse effect
+		</skos:note>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+		<skos:narrower rdf:resource="Methane"/>
+		<skos:narrower rdf:resource="Ozone"/>
+		<skos:narrower rdf:resource="Chlorofluorocarbons"/>
+		<skos:narrower rdf:resource="Carbon_Dioxide"/>
+		<skos:narrower rdf:resource="Water_Vapor"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Radiative_Forcing">
+		<skos:prefLabel xml:lang="en">Radiative Forcing</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Climate Forcing</skos:altLabel>
+		<skos:definition xml:lang="en">
+		In climate science, radiative forcing is loosely defined as the change in net irradiance at the atmospheric boundary between the troposphere and the stratosphere (the tropopause). Net irradiance  is the difference between the incoming radiation energy and the outgoing radiation energy in a given climate system and is measured in Watts per square meter. The change is computed based on "unperturbed" values, defined by the Intergovernmental Panel on Climate Change (IPCC) as the measured difference relative to a base period.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Climate_forcing
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		climate change, climate change study, climatic change
+		</skos:note>
+		<skos:broader rdf:resource="Greenhouse_Effect"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Particulate_Matter">
+		<skos:prefLabel xml:lang="en">Particulate Matter</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Particulate</skos:altLabel>
+		<skos:altLabel xml:lang="en">Fine Dust</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM10</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM25</skos:altLabel>
+		<skos:altLabel xml:lang="en">PM1</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Air-borne solid particles, originating from human activity and natural sources, such as wind-blown soil and fires, that eventually settle through the force of gravity, and can cause injury to human and other animal respiratory systems through excessive inhalation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3209
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		air pollutant, atmospheric pollutant
+		</skos:note>
+		<skos:broader rdf:resource="Aerosol"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nitrogen_Dioxide">
+		<skos:prefLabel xml:lang="en">Nitrogen Dioxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">NO2</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A reddish-brown gas; it exists in varying degrees of concentration in equilibrium with other nitrogen oxides; used to produce nitric acid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5608
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Nitrogen_Oxides"/>
+	</skos:Concept>
+
+<!-- ************** Level 6 ************** -->
+
+	<skos:Concept rdf:about="Wind_Stress">
+		<skos:prefLabel xml:lang="en">Wind Stress</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The horizontal force of the wind on the sea surface is called the wind stress.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://oceanworld.tamu.edu/resources/ocng_textbook/chapter04/chapter04_05.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Direction">
+		<skos:prefLabel xml:lang="en">Wind Direction</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind direction is the direction from which the wind is blowing. It is usually reported in cardinal directions or in azimuth degrees.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Wind_direction
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Gust">
+		<skos:prefLabel xml:lang="en">Wind Gust</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind Gust  Is a sudden, brief increase in speed of the wind.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.srh.noaa.gov/graphical/definitions/defineWindGust.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		peak wind speed
+		</skos:note>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wind_Speed">
+		<skos:prefLabel xml:lang="en">Wind Speed</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Wind speed is affected by a number of factors, situations, operating on varying scales (from micro to macro scales). These include the pressure gradient, Rossby waves and jet streams and local weather conditions. There are also links to be found between wind speed and wind direction, notably with the pressure gradient and surfaces that the air is to be found over.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Wind_speed
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wind velocity, pressure gradient, wind direction
+		</skos:note>
+		<skos:broader rdf:resource="Wind"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Methane">
+		<skos:prefLabel xml:lang="en">Methane</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CH4</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A colourless, odourless, and tasteless gas, lighter than air and reacting violently with chlorine and bromine in sunlight, a chief component of natural gas; used as a source of methanol, acetylene, and carbon monoxide. Also known as methyl hydride.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5199
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ozone">
+		<skos:prefLabel xml:lang="en">Ozone</skos:prefLabel>
+		<skos:altLabel xml:lang="en">O3</skos:altLabel>
+		<skos:definition xml:lang="en">
+		An allotropic form of oxygen containing three atoms in the molecule. It is a bluish gas, very active chemically, and a powerful oxidizing agent. Ozone is formed when oxygen or air is subjected to a silent electric discharge. It occurs in ordinary air in very small amounts only.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5991
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+		<skos:broader rdf:resource="Atmosphere_Monitoring"/>
+		<skos:narrower rdf:resource="Tropospheric_Ozone"/>
+		<skos:narrower rdf:resource="Stratospheric_Ozone"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Chlorofluorocarbons">
+		<skos:prefLabel xml:lang="en">Chlorofluorocarbons</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CFCs</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Gases formed of chlorine, fluorine, and carbon whose molecules normally do not react with other substances; they are therefore used as spray can propellants because they do not alter the material being sprayed.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/1381
+		http://www.eionet.europa.eu/gemet/concept/6570
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Carbon_Dioxide">
+		<skos:prefLabel xml:lang="en">Carbon Dioxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">CO2</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A colourless gas with a faint tingling smell and taste. Atmospheric carbon dioxide is the source of carbon for plants. As carbon dioxide is heavier than air and does not support combustion, it is used in fire extinguishers. It is a normal constituent of the atmosphere, relatively innocuous in itself but playing an important role in the greenhouse effect. It is produced during the combustion of fossil fuels when the carbon content of the fuels reacts with the oxygen during combustion. It is also produced when living organisms respire. It is essential for plant nutrition and in the ocean phytoplankton is capable of absorbing and releasing large quantities of the gas.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/1168
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Vapor">
+		<skos:prefLabel xml:lang="en">Water Vapor</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Vapour</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Water vapor or water vapour (see spelling differences), also aqueous vapor, is the gas phase of water. Water vapor is one state of water within the hydrosphere.Water vapor is lighter than air and triggers convection currents that can lead to clouds. Water vapor is a potent greenhouse gas along with other gases such as carbon dioxide and methane.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Water_vapor
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Greenhouse_Gas"/>
+	</skos:Concept>
+
+<!-- ************** Level 7 ************** -->
+
+	<skos:Concept rdf:about="Tropospheric_Ozone">
+		<skos:prefLabel xml:lang="en">Tropospheric Ozone</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Tropospheric ozone is a secondary pollutant formed from emissions of nitrogen oxides, non-methane volatile organic compounds and carbon monoxide. Ozone scars lung tissue, makes eyes sting and throats itch. It has been implicated as a contributor to forest dieback, damage to agricultural crops, etc.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8696
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		reactive gas, atmospheric pollutant
+		</skos:note>
+		<skos:broader rdf:resource="Ozone"/>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Stratospheric_Ozone">
+		<skos:prefLabel xml:lang="en">Stratospheric Ozone</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A triatomic molecule of oxygen; a natural constituent of the atmosphere, with the highest concentrations in the ozone layer or stratosphere; it is found at a level between 15 and 30 km above the Earth, which prevents harmful ultraviolet B radiation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/632
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ozone layer, ozone hole
+		</skos:note>
+		<skos:broader rdf:resource="Ozone"/>
+	</skos:Concept>
+
+<!-- End of the Land_Monitoring domain -->
+<!-- No longer division per level, due to multi-dependencies between concepts in different ramifications of the taxonomy -->
+<!-- Start of the other domains -->
+
+	<skos:Concept rdf:about="Ship_Monitoring">
+		<skos:prefLabel xml:lang="en">Ship Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Ship monitoring includes the identification of ship location, size and shape, speed and direction. Such data are useful for security puropses as well as for oil pollution management.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7654
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		vessel, tank
+		</skos:note>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:narrower rdf:resource="Piracy"/>
+		<skos:narrower rdf:resource="Illegal_Trafficking"/>
+		<skos:narrower rdf:resource="Illegal_Immigration"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Piracy">
+		<skos:prefLabel xml:lang="en">Piracy</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Maritime Piracy</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Piracy is a war-like act committed by private parties (not affiliated with any government) that engage in acts of robbery and/or criminal violence at sea.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Piracy
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Ship_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Illegal_Trafficking">
+		<skos:prefLabel xml:lang="en">Illegal Trafficking</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Smuggling</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Smuggling is the clandestine transportation of goods or persons past a point where prohibited, such as out of a building, into a prison, or across an international border, in violation of applicable laws or other regulations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Smuggling
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Ship_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Illegal_Immigration">
+		<skos:prefLabel xml:lang="en">Illegal Immigration</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The permanent or semipermanent change of a person's place of residence by entering another country in an illegal way.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5236 (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Ship_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Critical_Assets">
+		<skos:prefLabel xml:lang="en">Critical Assets</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Monitoring and assessment of sensitive industrial and or military facilities and infrastructures.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.gmes-gmosaic.eu/critical-assets.html (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Anthropic_Risk_Factor"/>
+		<skos:narrower rdf:resource="Critical_Infrastructure"/>
+		<skos:narrower rdf:resource="Nuclear_Facility"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Critical_Infrastructure">
+		<skos:prefLabel xml:lang="en">Critical Infrastructure</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Infrastructure</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The basic network or foundation of capital facilities or community investments which are necessary to support critical economic and community activities.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4321 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		nuclear plant, power plant
+		</skos:note>
+		<skos:broader rdf:resource="Critical_Assets"/>
+		<skos:broader rdf:resource="Infrastructure"/> <!-- Changed in version V2.1 (previous value was "Land_Surveillance") -->
+		<skos:narrower rdf:resource="Pipeline"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Pipeline">
+		<skos:prefLabel xml:lang="en">Pipeline</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A line of pipe connected to valves and other control devices, for conducting fluids, gases, or finely divided solids.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/6270
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Critical_Infrastructure"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nuclear_Facility">
+		<skos:prefLabel xml:lang="en">Nuclear Facility</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A place, including buildings, where all the activities relating to nuclear research are performed.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5721
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		power plant, nuclear plant, nuclear decommissioning
+		</skos:note>
+		<skos:broader rdf:resource="Critical_Assets"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Flight_Safety">
+		<skos:prefLabel xml:lang="en">Flight Safety</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Air Safety</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Any measure, technique or design intended to reduce the risk of harm posed by either moving vehicles or projectiles above the earth's surface or pollutants to the earth's atmosphere.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/277
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		aviation alert
+		</skos:note>
+		<skos:broader rdf:resource="Early_Warning"/>
+		<skos:broader rdf:resource="Atmospheric_Natural_Risk"/>
+		<skos:narrower rdf:resource="Volcanic_Eruption"/>
+		<skos:narrower rdf:resource="Sand_Storm"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Volcanic_Eruption">
+		<skos:prefLabel xml:lang="en">Volcanic Eruption</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Eruption</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The ejection of solid, liquid, or gaseous material from a volcano.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8999
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		aviation alert
+		</skos:note>
+		<skos:broader rdf:resource="Flight_Safety"/>
+		<skos:broader rdf:resource="Tectonic_Disaster"/>
+		<skos:narrower rdf:resource="Sulphur_Dioxide"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sulphur_Dioxide">
+		<skos:prefLabel xml:lang="en">Sulphur Dioxide</skos:prefLabel>
+		<skos:altLabel xml:lang="en">SO2</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Emissions of the gas given off during the burning of fossil fuels in power stations and other boilers. Sulphur dioxide is created because sulphur is an impurity in most coal and oils. When the fuel is burned the hot sulphur reacts with oxygen in the atmosphere to form sulphur dioxide.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8202
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Volcanic_Eruption"/>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Desert_Dust">
+		<skos:prefLabel xml:lang="en">Desert Dust</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Sand</skos:altLabel>
+		<skos:altLabel xml:lang="en">Mineral Dust</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Fine dust originating from desert regions. Dissemination of desert dust may be related to respiratory problems and other health issues.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.gmvdesertdust.com/ (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		meningitis epidemics
+		</skos:note>
+		<skos:broader rdf:resource="Sand_Storm"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sand_Storm">
+		<skos:prefLabel xml:lang="en">Sand Storm</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A storm of sand. Sand is a loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7413
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Flight_Safety"/>
+		<skos:narrower rdf:resource="Desert_Dust"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Terrain_Analysis">
+		<skos:prefLabel xml:lang="en">Terrain Analysis</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Mobility Assessment</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The collection, analysis, evaluation, and interpretation of geographic information on the natural and manmade features of the terrain, combined with other relevant factors (such as alterations in road infrastructures following natural disasters), to predict the effect of the terrain on military and/or rescue operations.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.thefreedictionary.com/terrain+analysis (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		logistics
+		</skos:note>
+		<skos:broader rdf:resource="Cleanup_Operations"/>
+		<skos:narrower rdf:resource="Transport_Network"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Marine_Environment">
+		<skos:prefLabel xml:lang="en">Marine Environment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Sea</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ocean</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Marine environments include estuaries, coastal marine and nearshore zones, and open-ocean-deep-sea regions. Its monitoring is mostly due to environmental and security reasons.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5033
+		</skos:scopeNote>
+		<!-- skos:broader rdf:resource="Info_Domain"/ -->
+		<skos:narrower rdf:resource="Marine_Pollution"/>
+		<skos:narrower rdf:resource="Offshore_Environment"/>
+		<skos:narrower rdf:resource="Coastal_Environment"/>
+		<skos:narrower rdf:resource="Operational_Oceanography"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Operational_Oceanography">
+		<skos:prefLabel xml:lang="en">Operational Oceanography</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The activity of systematic and long-term routine measurements of the seas, oceans and atmosphere, and their rapid interpretation and dissemination.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.godae.org/Operational-oceanography.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ocean
+		</skos:note>
+		<skos:broader rdf:resource="Marine_Environment"/>
+		<skos:narrower rdf:resource="Ship_Monitoring"/>
+		<skos:narrower rdf:resource="Sea_Ice"/>
+		<skos:narrower rdf:resource="Meteorological_Data"/>
+		<skos:narrower rdf:resource="Wind"/>
+		<skos:narrower rdf:resource="Water_Index"/>
+		<skos:narrower rdf:resource="Tide_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sea_Ice">
+		<skos:prefLabel xml:lang="en">Sea Ice</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Sea ice monitoring occurs year round in the polar regions; it involves sea ice distribution, growth and shrinkage monitoring. Also ice thickness is observed.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://rst.gsfc.nasa.gov/Sect14/Sect14_14.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ice distribution, ice growth, ice shrinkage, ice area, ice cover, ice thickness, iceberg
+		</skos:note>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:narrower rdf:resource="Ice_Classification"/>
+		<skos:narrower rdf:resource="Ice_Change_Detection"/>
+		<skos:narrower rdf:resource="Ice_Navigational_Aid"/>
+		<skos:narrower rdf:resource="Ice_Thickness"/> <!-- Modified in V2.1 (previous value "Ice_Thickness_Classification") -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Classification">
+		<skos:prefLabel xml:lang="en">Ice Classification</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Ice may be classified as Open Water, Light Ice, Intact Ice, Lightly Consolidated Ice or Heavily Consolidated Ice.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		PARD_Thesaurus.doc
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ice thickness, ice cover, flooding
+		</skos:note>
+		<skos:broader rdf:resource="Sea_Ice"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Navigational_Aid">
+		<skos:prefLabel xml:lang="en">Ice Navigational Aid</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Standard ice information products include ice charts containing information on ice edge, ice concentration and the main type of ice at any location, and may include maps of sea surface temperature. Ice reports are text bulletins describing ice conditions and expected short-term evolution.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eomd.esa.int/booklets/booklet167.asp
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ice charts, ice edge, ice concentration, sea surface maps, temperature, ice evolution forecasting, offshore infrustractures ice monitoring
+		</skos:note>
+		<skos:broader rdf:resource="Sea_Ice"/>
+		<skos:narrower rdf:resource="Ice_Extent"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Marine_Pollution">
+		<skos:prefLabel xml:lang="en">Marine Pollution</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Any detrimental alteration of the marine environment caused by the intentional or accidental release of dangerous or toxic substances, such as industrial, commercial and urban waste water.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5044
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		waste water, ocean chemistry, water chemistry
+		</skos:note>
+		<skos:broader rdf:resource="Marine_Environment"/>
+		<skos:narrower rdf:resource="Oil_Pollution"/>
+		<skos:narrower rdf:resource="Turbidity"/>
+		<skos:narrower rdf:resource="Eutrophication"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Oil_Pollution">
+		<skos:prefLabel xml:lang="en">Oil Pollution</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Contamination of any ecosystem, but usually of freshwater or marine ecosystems, by oil or other petroleum products.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5837
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Oilspill"/>
+		<skos:broader rdf:resource="Offshore_Environment"/>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:broader rdf:resource="Marine_Pollution"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Eutrophication">
+		<skos:prefLabel xml:lang="en">Eutrophication</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A process of pollution that occurs when a lake or stream becomes over-rich in plant nutrient; as a consequence it becomes overgrown in algae and other aquatic plants. The plants die and decompose. In decomposing the plants rob the water of oxygen and the lake, river or stream becomes lifeless. Nitrate fertilizers which drain from the fields, nutrients from animal wastes and human sewage are the primary causes of eutrophication.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3007
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		algae, nutrients, animal waste, sewage
+		</skos:note>
+		<skos:broader rdf:resource="Marine_Pollution"/>
+		<skos:narrower rdf:resource="Algal_Bloom"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Algal_Bloom">
+		<skos:prefLabel xml:lang="en">Algal Bloom</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Alga</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae Spreading</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae Observation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae Forecast</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algae Detection</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algal Bloom Detection</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algal Bloom Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algal Bloom Observation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algal Bloom Spreading</skos:altLabel>
+		<skos:altLabel xml:lang="en">Algal Bloom Forecast</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Rapid Increase of the population of algae in an acquatic system. It takes place when there is an excess of nutrients in the water, particularly phosporus, and is aggravated when accompanied by a rise in temperature. Although the algae grow quickly they soon die because they have swallowed up all the water's nutrients.  Algal blooms are monitored using biomass measurements coupled with the examination of species present. A widely-used measure of algal and cyanobacterial biomass is the chlorophyll concentration.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/303
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ecosystem, nutrients in water, nitrogen, phosphates
+		</skos:note>
+		<skos:broader rdf:resource="Eutrophication"/>
+		<skos:narrower rdf:resource="Phytoplankton"/>
+		<skos:narrower rdf:resource="Yellow_Substance"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Phytoplankton">
+		<skos:prefLabel xml:lang="en">Phytoplankton</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Phytoplankton is a small aquatic organisms that form the basis of the oceans food chain and play a key role in the global ecosystem.  The sudden appearance of phytoplankton in massive numbers, enough to colour the ocean and be detected from orbiting sensors, is called bloom. The living cells of the small plant organisms contain chlorophylls and other pigments used for photosynthesis. The photosyntheric pigment chlorophyll-a dominates in most species and can be retrieved by remote sensing measurements.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		I.S. Robinson, 2004 Measuring the Oceans from space
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		bloom, nutrients in water
+		</skos:note>
+		<skos:broader rdf:resource="Algal_Bloom"/>
+		<skos:narrower rdf:resource="Ocean_Colour"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ocean_Colour">
+		<skos:prefLabel xml:lang="en">Ocean Colour</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Water Colour</skos:altLabel>
+		<skos:altLabel xml:lang="en">Water Color</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ocean Color</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Water colour is an indicator of water quality. It is caused by the absorption and scattering of sunlight and skylight by organic and inorganic matter in the water. In mid-ocean water, the only colourant is chlorophyll-bearing phytoplankton and its decay products. In inland waters, the colour of natural water adjacent to or surrounded by a land mass is determined not only by phytoplankton and decay products, but also by other coloured substances, including suspended sediments and dissolved organic matter that come from the land. 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.nwri.ca/sande/jul_aug_2002-e.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		water quality, chlorophyll, sediments, dissolved organic matter
+		</skos:note>
+		<skos:broader rdf:resource="Phytoplankton"/>
+		<skos:broader rdf:resource="Yellow_Substance"/>
+		<skos:broader rdf:resource="Ocean_Surface_Monitoring"/>
+		<skos:broader rdf:resource="Suspended_Particulate_Material"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Yellow_Substance">
+		<skos:prefLabel xml:lang="en">Yellow Substance</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Yellow substance, associated with decayed vegetation, sometimes referred to as DOM or gelbstoff, consists of humic acids and fulvic acids of various forms depending on their origin. It also influences water colour  through its absorption properties. It has strong absorption in the blue and high reflectance peak in the yellow. Some DOM is inevitably found wherever there is a phytoplankton population, being the decayed product od dead cells. Howevere it can also be found independentely of the local phytoplankton, coming tipically from land drainage, through river inflows to the sea. It is therefore likely to be found in coastal waters with strong concentrations in enclosed seas such as the Baltic.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Carder et al., 1989 Limnol. Oceanogr.; Hojerslev, 1980 Rep. Inst. Physical Oceanography. University of Copenhagen; I.S. Robinson, 2004 Measuring the Oceans from space
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		DOM, dissolved organic matter
+		</skos:note>
+		<skos:broader rdf:resource="Algal_Bloom"/>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:narrower rdf:resource="Ocean_Colour"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ocean_Surface_Monitoring">
+		<skos:prefLabel xml:lang="en">Ocean Surface Monitoring</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Sea Surface</skos:altLabel>
+		<skos:altLabel xml:lang="en">Ocean Surface</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Monitoring of currents, waves, temperatures and tides of the ocean surface in order to keep track of changes and forecast interesting phenomena.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5346 (adapted for ocean surface)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Offshore_Environment"/>
+		<skos:narrower rdf:resource="Tide_Monitoring"/>
+		<skos:narrower rdf:resource="Sea_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Water_Pressure"/>
+		<skos:narrower rdf:resource="Ocean_Colour"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Pressure">
+		<skos:prefLabel xml:lang="en">Water Pressure</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Pressure at various ocean depths is usually expressed in units of atmosphere. Pressure in the ocean increases one atmosphere with about every 33 feet of depth.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		https://pao.cnmoc.navy.mil/pao/Educate/OceanTalk2/indexseawater.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Wave_Climate"/>
+		<skos:broader rdf:resource="Water_Index"/>
+		<skos:broader rdf:resource="Ocean_Surface_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Offshore_Environment">
+		<skos:prefLabel xml:lang="en">Offshore Environment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Open Sea</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Environment typical of open sea areas, far away from coastlines.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		(by contrast with the definition of Coastal_Environment)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		oceanography, hydrosphere, marine water, ocean, sea
+		</skos:note>
+		<skos:broader rdf:resource="Marine_Environment"/>
+		<skos:narrower rdf:resource="Wave_Climate"/>
+		<skos:narrower rdf:resource="Ocean_Level"/>
+		<skos:narrower rdf:resource="Oil_Pollution"/>
+		<skos:narrower rdf:resource="Ocean_Surface_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wave_Climate">
+		<skos:prefLabel xml:lang="en">Wave Climate</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A lot of different informations may be used to manitor and predict the behaviour of sea and ocean waves, which is necessary to organize offshore activities, but also to forecast and manage meterological phaenomena such as tropical storms. Such informations include wave height, wind speed and meteorological data.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.golfklimaat.nl/index.cfm?page=uitleg ; http://www.waveclimate.com/cgi-bin/query
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wave height, tropical storms, wind speed, weather, meteorological data
+		</skos:note>
+		<skos:broader rdf:resource="Offshore_Environment"/>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:narrower rdf:resource="Meteorological_Data"/>
+		<skos:narrower rdf:resource="Wind"/>
+		<skos:narrower rdf:resource="Sea_Surface_Temperature"/>
+		<skos:narrower rdf:resource="Water_Temperature"/>
+		<skos:narrower rdf:resource="Water_Pressure"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Temperature">
+		<skos:prefLabel xml:lang="en">Water Temperature</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Water temperature may be measured at different depth level and is a relevant parameter for water quality monitoring; it may be useful for predicting fishing grounds or forecasting cyclons.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.aars-acrs.org/acrs/proceeding/ACRS1990/Papers/PS190-35.htm ; http://en.wikipedia.org/wiki/Sea_surface_temperature
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Water_Index"/>
+		<skos:broader rdf:resource="Wave_Climate"/>
+		<skos:broader rdf:resource="Temperature"/>
+		<skos:narrower rdf:resource="Sea_Surface_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Coastal_Environment">
+		<skos:prefLabel xml:lang="en">Coastal Environment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Coastal Area</skos:altLabel>
+		<skos:altLabel xml:lang="en">Coast</skos:altLabel>
+		<skos:altLabel xml:lang="en">Shore</skos:altLabel>
+		<skos:altLabel xml:lang="en">Seashore</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The areas where the land masses meet the seas. Coastal environments include tidal wetlands, estuaries, bays, shallow near-shore waters, mangrove swamps, and in-shore reef systems.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/1517
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		shoreline, coastline
+		</skos:note>
+		<skos:broader rdf:resource="Marine_Environment"/>
+		<skos:narrower rdf:resource="Oil_Pollution"/>
+		<skos:narrower rdf:resource="Ship_Monitoring"/>
+		<skos:narrower rdf:resource="Yellow_Substance"/>
+		<skos:narrower rdf:resource="Ocean_Level"/>
+		<skos:narrower rdf:resource="Wave_Climate"/>
+		<skos:narrower rdf:resource="Water_Quality_Monitoring"/>
+		<skos:narrower rdf:resource="Turbidity"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Quality_Monitoring">
+		<skos:prefLabel xml:lang="en">Water Quality Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Water quality monitoring involves the chemical condition of water (sediments, fish tissue, dissolved oxygen, nutrients, metals, oils, pesticides), but also physical conditions (temperature, flow, sediments) and biological measurements of the abundance and variety of aquatic plant and animal life.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.epa.gov/OWOW/monitoring/monintr.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ocean biodiversity, water chemistry, ocean chemistry, fertilizers, pesticides
+		</skos:note>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+		<skos:narrower rdf:resource="Water_Index"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Index">
+		<skos:prefLabel xml:lang="en">Water Index</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Measures concerning the quantity and the quality of pollutants, nutrients and suspended solids contained in water bodies.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/9196 (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Water_Quality_Monitoring"/>
+		<skos:broader rdf:resource="Operational_Oceanography"/>
+		<skos:narrower rdf:resource="Turbidity"/>
+		<skos:narrower rdf:resource="Water_Salinity"/>
+		<skos:narrower rdf:resource="Suspended_Particulate_Material"/>
+		<skos:narrower rdf:resource="Water_Temperature"/>
+		<skos:narrower rdf:resource="Water_Pressure"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Turbidity">
+		<skos:prefLabel xml:lang="en">Turbidity</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Turbidity is a measure of the degree to which the water looses its transparency due to the presence of suspended particulates. Turbidity is considered as a good measure of the quality of water, both for drinking and for environmental puprposes. Turbid water are warmer and have less oxygen.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.lenntech.com/turbidity.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		suspended particulates in water, transparency
+		</skos:note>
+		<skos:broader rdf:resource="Water_Index"/>
+		<skos:broader rdf:resource="Marine_Pollution"/>
+		<skos:broader rdf:resource="Coastal_Environment"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Water_Salinity">
+		<skos:prefLabel xml:lang="en">Water Salinity</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Water salinity is measured in grams of salt per liter of water. Salinity index is useful to control the quality of the environment, also for fishing purposes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Salinity ; http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/6246/16792/00774494.pdf ; http://www.onr.navy.mil/Focus/ocean/water/salinity1.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		salt, water quality
+		</skos:note>
+		<skos:broader rdf:resource="Water_Index"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Suspended_Particulate_Material">
+		<skos:prefLabel xml:lang="en">Suspended Particulate Material</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Suspended Particulate Matter</skos:altLabel>
+		<skos:altLabel xml:lang="en">Suspended Matter</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Suspended particualte material may be resuspended bottom sediment, river-borne particles, eroded coastal and beach material or due to the dumping of sewage-sludge waste or dredging spoil. Such materials are mainly found close to the coast and in shallow seas, but not in the open ocean.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		I.S. Robinson, 2004 Measuring the Oceans from space
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		sediment
+		</skos:note>
+		<skos:broader rdf:resource="Water_Index"/>
+		<skos:narrower rdf:resource="Ocean_Colour"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Atmosphere_Monitoring">
+		<skos:prefLabel xml:lang="en">Atmosphere Monitoring</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric Monitoring</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A practice of continuous atmospheric sampling by various levels of government or particular industries.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/631
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		atmosphere
+		</skos:note>
+		<!-- skos:broader rdf:resource="Info_Domain"/ -->
+		<skos:narrower rdf:resource="Atmospheric_Natural_Risk"/>
+		<skos:narrower rdf:resource="Climate"/>
+		<skos:narrower rdf:resource="Air_Quality"/>
+		<skos:narrower rdf:resource="Ozone"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Atmospheric_Natural_Risk">
+		<skos:prefLabel xml:lang="en">Atmospheric Natural Risk</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Probability of harm to human health, property or the environment posed by any aspect of the physical world other than human activity.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/10102
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		natural hazard
+		</skos:note>
+		<skos:broader rdf:resource="Atmosphere_Monitoring"/>
+		<skos:narrower rdf:resource="Human_Health"/>
+		<skos:narrower rdf:resource="Flight_Safety"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Human_Health">
+		<skos:prefLabel xml:lang="en">Human Health</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Health</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The avoidance of disease and injury and the promotion of normalcy through efficient use of the environment, a properly functioning society, and an inner sense of well-being.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4051
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Atmospheric_Natural_Risk"/>
+		<skos:narrower rdf:resource="Sun_Exposure"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Sun_Exposure">
+		<skos:prefLabel xml:lang="en">Sun Exposure</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Sun Exposition</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The amount of sun radiation (light intensity per duration of exposition) present in a given environment that represents a potential health threat to living organisms.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://water.epa.gov/scitech/swguidance/standards/criteria/health/microbial/t55.cfm (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Human_Health"/>
+		<skos:narrower rdf:resource="Biologically_Effective_UV_Dose"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Air_Quality">
+		<skos:prefLabel xml:lang="en">Air Quality</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Air Pollution</skos:altLabel>
+		<skos:altLabel xml:lang="en">Air Quality Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Air Monitoring</skos:altLabel>
+		<skos:altLabel xml:lang="en">Air Quality</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The presence in the air of one or more contaminants in such a concentration and of such duration as to cause a nuisance or to be injurious to human life, animal life or vegetation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/636
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		atmospheric pollutant, atmospheric pollution, atmospheric chemistry
+		</skos:note>
+		<skos:broader rdf:resource="Atmosphere_Monitoring"/>
+		<skos:narrower rdf:resource="Aerosol"/>
+		<skos:narrower rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Gaseous_Air_Pollutant">
+		<skos:prefLabel xml:lang="en">Gaseous Air Pollutant</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Uncondensed or volatile gases, usually comprised of chemical compounds, discharged to the atmosphere.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3572
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Air_Quality"/>
+		<skos:narrower rdf:resource="Glyoxal"/>
+		<skos:narrower rdf:resource="Tropospheric_Ozone"/>
+		<skos:narrower rdf:resource="Carbon_Monoxide"/>
+		<skos:narrower rdf:resource="Formaldehyde"/>
+		<skos:narrower rdf:resource="Nitrogen_Oxides"/>
+		<skos:narrower rdf:resource="Sulphur_Dioxide"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Glyoxal">
+		<skos:prefLabel xml:lang="en">Glyoxal</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Ethanedial</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Glyoxal is an organic compound with the formula OCHCHO. This yellow colored liquid is the smallest dialdehyde (two aldehyde groups).
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Glyoxal
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		formaldehyde
+		</skos:note>
+		<skos:broader rdf:resource="Gaseous_Air_Pollutant"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Emergency_Response">
+		<skos:prefLabel xml:lang="en">Emergency Response</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The whole set of measures taken to to support at global level all stages of intervention cycle from early warning, to crises management and recovery in response to natural, environmental emergencies (e.g. droughts, floods, storms, earthquakes, tsunami, volcano eruptions, landslides fires, etc). 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2657 (modified)
+		</skos:scopeNote>
+		<!-- skos:broader rdf:resource="Info_Domain"/ -->
+		<skos:narrower rdf:resource="Disaster"/>
+		<skos:narrower rdf:resource="Risk_And_Emergency_Management"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Disaster">
+		<skos:prefLabel xml:lang="en">Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The result of a vast ecological breakdown in the relations between man and his environment, a serious and sudden event (or slow, as in drought) on such a scale that the stricken community needs extraordinary efforts to cope with it, often with outside help or international aid.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2215
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Emergency_Response"/>
+		<skos:narrower rdf:resource="Natural_Disaster"/>
+		<skos:narrower rdf:resource="Man_Made_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Man_Made_Disaster">
+		<skos:prefLabel xml:lang="en">Man Made Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Violent, sudden and destructive change in the environment caused by man.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4052
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		accident, human-made disaster
+		</skos:note>
+		<skos:broader rdf:resource="Disaster"/>
+		<skos:narrower rdf:resource="Transportation_Accident"/>
+		<skos:narrower rdf:resource="Technological_Accident"/>
+		<skos:narrower rdf:resource="Oilspill"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Transportation_Accident">
+		<skos:prefLabel xml:lang="en">Transportation Accident</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		An accident occurring while moving tangible objects (persons or goods) from place to place, typically with the use of some type of vehicle (car, truck, ship, train, aircraft) and over some transport infrastructure (road, railway, pipeline, airport, harbour, etc.).
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8641 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		railway, airport, pipeline, aviation support, harbour, ship monitoring
+		</skos:note>
+		<skos:broader rdf:resource="Man_Made_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Technological_Accident">
+		<skos:prefLabel xml:lang="en">Technological Accident</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		An unexpected incident, failure or loss occurring through the application of practical or mechanical sciences to industry or commerce that poses potential harm to persons, property or the environment.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/12784
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		critical assets, critical infrastructure
+		</skos:note>
+		<skos:broader rdf:resource="Man_Made_Disaster"/>
+		<skos:narrower rdf:resource="Chemical_Accident"/>
+		<skos:narrower rdf:resource="Nuclear_Accident"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Chemical_Accident">
+		<skos:prefLabel xml:lang="en">Chemical Accident</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Any unplanned event involving hazardous substances that causes, or is liable to cause, harm to health, the environment or property. This excludes any long-term events (such as chronic pollution).
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.oecd.org/dataoecd/6/57/41269710.pdf (p. 123)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Technological_Accident"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Nuclear_Accident">
+		<skos:prefLabel xml:lang="en">Nuclear Accident</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Nuclear Power Plant Accident</skos:altLabel>
+		<skos:altLabel xml:lang="en">Nuclear Explosion</skos:altLabel>
+		<skos:definition xml:lang="en">
+		An event occurring in a nuclear power plant or anywhere that radioactive materials are used, stored, or transported and involving the release of potentially dangerous levels of radioactive materials into the environment.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5708
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		critical assets, critical infrastructure
+		</skos:note>
+		<skos:broader rdf:resource="Technological_Accident"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Oilspill">
+		<skos:prefLabel xml:lang="en">Oilspill</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Oil Disaster</skos:altLabel>
+		<skos:altLabel xml:lang="en">Oil Spill</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The disaster caused by the dumping and accidental spillage of oil into waterways from ships and land-based or offshore installations. Oil pollution may destroy or damage aquatic life and wildlife such as birds, contaminate water supplies and create fire hazards.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5831
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Man_Made_Disaster"/>
+		<skos:narrower rdf:resource="Oil_Pollution"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Natural_Disaster">
+		<skos:prefLabel xml:lang="en">Natural Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Violent, sudden and destructive change in the environment without cause from human activity, due to phenomena such as floods, earthquakes, fire and hurricanes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5496
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Disaster"/>
+		<skos:narrower rdf:resource="Geological_Disaster"/>
+		<skos:narrower rdf:resource="Meteorological_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Geological_Disaster">
+		<skos:prefLabel xml:lang="en">Geological Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Disaster caused by movements and deformation of the earth's crust.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3647
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Natural_Disaster"/>
+		<skos:narrower rdf:resource="Tectonic_Disaster"/>
+		<skos:narrower rdf:resource="Hydrogeologic_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Hydrogeologic_Disaster">
+		<skos:prefLabel xml:lang="en">Hydrogeologic Disaster</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Hydrologic Disaster</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Violent, sudden and destructive change either in the quality of the earth's water or in the distribution or movement of water on land, below the surface or in the atmosphere.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4111
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Geological_Disaster"/>
+		<skos:narrower rdf:resource="Landslide"/>
+		<skos:narrower rdf:resource="Flood"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Landslide">
+		<skos:prefLabel xml:lang="en">Landslide</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Mass-movement landforms and processes involving the downslope transport, under gravitationary influence of soil and rock material en masse.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4668
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		avalanche
+		</skos:note>
+		<skos:broader rdf:resource="Hydrogeologic_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Flood">
+		<skos:prefLabel xml:lang="en">Flood</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Flash Flood</skos:altLabel>
+		<skos:definition xml:lang="en">
+		An unusual accumulation of water above the ground caused by high tide, heavy rain, melting snow or rapid runoff from paved areas.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3298
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		early warning, water,land
+		</skos:note>
+		<skos:broader rdf:resource="Hydrogeologic_Disaster"/>
+		<skos:broader rdf:resource="Meteorological_Disaster"/>
+		<skos:broader rdf:resource="Vegetation_Disturbance"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Tectonic_Disaster">
+		<skos:prefLabel xml:lang="en">Tectonic Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Disaster caused by movements and deformation of the Earth's crust and/or by the outflow of magma from under the Earth's crust.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3647 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		seismic active zone, active volcanoes
+		</skos:note>
+		<skos:broader rdf:resource="Geological_Disaster"/>
+		<skos:narrower rdf:resource="Seismic_Disaster"/>
+		<skos:narrower rdf:resource="Volcanic_Eruption"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Seismic_Disaster">
+		<skos:prefLabel xml:lang="en">Seismic Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Disaster caused by a sudden and violent decrease or release in a volume of rock of elastic strain accumulated over a long time in regions of seismic activity.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2402 (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Tectonic_Disaster"/>
+		<skos:narrower rdf:resource="Tsunami"/>
+		<skos:narrower rdf:resource="Earthquake"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Earthquake">
+		<skos:prefLabel xml:lang="en">Earthquake</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The violent shaking of the ground produced by deep seismic waves, beneath the epicentre, generated by a sudden decrease or release in a volume of rock of elastic strain accumulated over a long time in regions of seismic activity (tectonic earthquake). The magnitude of an earthquake is represented by the Richter scale; the intensity by the Mercalli scale.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2402
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		tsunami
+		</skos:note>
+		<skos:broader rdf:resource="Seismic_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Tsunami">
+		<skos:prefLabel xml:lang="en">Tsunami</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Seismic Sea Wave</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Tsunamis are water waves or seismic sea waves caused by large-scale sudden movement of the sea floor, due usually to earthquakes and on rare occasions to landslides, volcanic eruptions, or man-made explosions.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.oas.org/DSD/publications/Unit/oea66e/ch11.htm#d.%20tsunamis
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		earthquake, early warning
+		</skos:note>
+		<skos:broader rdf:resource="Seismic_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Meteorological_Disaster">
+		<skos:prefLabel xml:lang="en">Meteorological Disaster</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Violent, sudden and destructive change to the environment related to, produced by, or affecting the earth's atmosphere, especially the weather-forming processes.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5193
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Natural_Disaster"/>
+		<skos:narrower rdf:resource="Flood"/>
+		<skos:narrower rdf:resource="Drought"/>
+		<skos:narrower rdf:resource="Cyclone"/>
+		<skos:narrower rdf:resource="Wildfire"/>
+		<skos:narrower rdf:resource="Avalanche"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Cyclone">
+		<skos:prefLabel xml:lang="en">Cyclone</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Storm</skos:altLabel>
+		<skos:altLabel xml:lang="en">Tornado</skos:altLabel>
+		<skos:altLabel xml:lang="en">Hurricane</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A storm characterized by the converging and rising giratory movement of the wind around a zone of low pressure (the eye) towards which it is violently pulled from a zone of high pressure. Its circulation is counterclockwise round the center in the northern hemisphere, clockwise in the southern hemisphere.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/1941
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		gale, tropical cyclone, wind
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Disaster"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wildfire">
+		<skos:prefLabel xml:lang="en">Wildfire</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Forest Fire</skos:altLabel>
+		<skos:altLabel xml:lang="en">Fire</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A conflagration in or destroying large wooded areas having a thick growth of trees and plants.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3419
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		fire damage, burn scars, burnt area, burned area, forest
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Disaster"/>
+		<skos:broader rdf:resource="Vegetation_Disturbance"/>
+		<skos:narrower rdf:resource="Fire_Emission"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Avalanche">
+		<skos:prefLabel xml:lang="en">Avalanche</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Snowslide</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A fall or slide of a large mass, as of snow or rock, down a mountainside.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/678
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		deforestation, snow coverage
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Disaster"/>
+	</skos:Concept>
+	
+	<skos:Concept rdf:about="Risk_And_Emergency_Management">
+		<skos:prefLabel xml:lang="en">Risk And Emergency Management</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Risk Management</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The process of evaluating and selecting alternative regulatory and non-regulatory responses to prepare for the probability of an accidental occurrence and its expected magnitude of damage, including the consideration of legal, economic and behavioral factors.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/10053
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Emergency_Response"/>
+		<skos:narrower rdf:resource="Disaster_Monitoring"/>
+		<skos:narrower rdf:resource="Disaster_Preparedness"/>
+		<skos:narrower rdf:resource="Disaster_Relief"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Disaster_Monitoring">
+		<skos:prefLabel xml:lang="en">Disaster Monitoring</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		To check regularly in order to perceive and follow the evolution of an emergency situation or a disaster.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/5346 (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Risk_And_Emergency_Management"/>
+		<skos:narrower rdf:resource="Damage_Assessment"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Damage_Assessment">
+		<skos:prefLabel xml:lang="en">Damage Assessment</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The evaluation or determination of losses, harm and injuries to persons, property or the environment.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/12898
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Disaster_Monitoring"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Disaster_Preparedness">
+		<skos:prefLabel xml:lang="en">Disaster Preparedness</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Disaster Prevention</skos:altLabel>
+		<skos:altLabel xml:lang="en">Prevention</skos:altLabel>
+		<skos:altLabel xml:lang="en">Preparedness</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The aggregate of measures to be taken in view of disasters, consisting of plans and action programmes designed to minimize loss of life and damage, to organize and facilitate effective rescue and relief, and to rehabilitate after disaster. Preparedness requires the necessary legislation and means to cope with disaster or similar emergency situations. It is also concerned with forecasting and warning, the education and training of the public, organization and management, including plans, training of personnel, the stockpiling of supplies and ensuring the needed funds and other resources.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2220
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		risk reduction, mitigation, warning plan
+		</skos:note>
+		<skos:broader rdf:resource="Risk_And_Emergency_Management"/>
+		<skos:narrower rdf:resource="Early_Warning"/>
+		<skos:narrower rdf:resource="Risk_Assessment"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Disaster_Relief">
+		<skos:prefLabel xml:lang="en">Disaster Relief</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Relief</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The provision of assistance or intervention during or immediately after a disaster to meet the life preservation and basic subsistence needs of those people affected. It can be of an immediate, short-term, or protracted duration.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://ocha.unog.ch/drptoolkit/PreparednessTools/Disaster%20Preparedness%20Planning/Disaster-preparedness-for-effective-response-web.pdf (p. 42)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Risk_And_Emergency_Management"/>
+		<skos:narrower rdf:resource="Recovery"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Recovery">
+		<skos:prefLabel xml:lang="en">Recovery</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Decisions and actions taken with a view to restoring or improving the pre-disaster living conditions of the affected community while encouraging and facilitating necessary adjustments to reduce disaster risk. Recovery (rehabilitation and reconstruction) affords an opportunity to develop and apply disaster risk reduction measures.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://ocha.unog.ch/drptoolkit/PreparednessTools/Disaster%20Preparedness%20Planning/Disaster-preparedness-for-effective-response-web.pdf (p. 42)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		rehabilitation, reconstruction
+		</skos:note>
+		<skos:broader rdf:resource="Disaster_Relief"/>
+		<skos:narrower rdf:resource="Cleanup_Operations"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Cleanup_Operations">
+		<skos:prefLabel xml:lang="en">Cleanup Operations</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A course or procedure of activity designed to clear the debris or remove harmful substances left by an ecological calamity, natural or human in origin, in a given area.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/2216
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Recovery"/>
+		<skos:narrower rdf:resource="Terrain_Analysis"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Early_Warning">
+		<skos:prefLabel xml:lang="en">Early Warning</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Alert</skos:altLabel>
+		<skos:altLabel xml:lang="en">Warning</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The provision of timely and effective information, through identified institutions, that allows individuals exposed to hazards to take action to avoid or reduce their risk and prepare for effective response. Early warning system entail a chain of concerns, namely: understanding and mapping the hazard, monitoring and forecasting impending events, processing and disseminating understandable warnings to policy authorities and the population and undertaking appropriate and timely action in response to the warnings.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://ocha.unog.ch/drptoolkit/PreparednessTools/Disaster%20Preparedness%20Planning/Disaster-preparedness-for-effective-response-web.pdf (p. 42)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		bulletin, mitigation, warning plan, advisory
+		</skos:note>
+		<skos:broader rdf:resource="Disaster_Preparedness"/>
+		<skos:narrower rdf:resource="Flight_Safety"/>
+		<skos:narrower rdf:resource="Meteorological_Alert"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Meteorological_Alert">
+		<skos:prefLabel xml:lang="en">Meteorological Alert</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Meteorological Warning</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Bulletins issued, whenever the need arises, to put the community on the alert, to give progress reports on development or to give specific warnings of tropical cyclones or other disturbances. 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://severe.worldweather.wmo.int/tc/sp/acronyms.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		meteorological bulletin, meteo, meteo bulletin
+		</skos:note>
+		<skos:broader rdf:resource="Early_Warning"/>
+		<skos:narrower rdf:resource="Cyclone_Alert"/>
+		<skos:narrower rdf:resource="Flood_Alert"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Cyclone_Alert">
+		<skos:prefLabel xml:lang="en">Cyclone Alert</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Cyclone Warning</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A special weather bulletin providing information on the progress of a cyclone still some distance away and with a significant probability of giving gales or stronger winds to a community in the next 24 to 48 hours.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://severe.worldweather.wmo.int/tc/sp/acronyms.html#CA
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		storm, tornado, hurricane, gale, tropical cyclone, wind, cyclone
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Alert"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Flood_Alert">
+		<skos:prefLabel xml:lang="en">Flood Alert</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Flood Watch</skos:altLabel>
+		<skos:altLabel xml:lang="en">Flood Warning</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A flood watch (or flash flood watch) is issued when weather conditions are favorable for very heavy rain and flash flooding. A flood warning (or flash flood warning) is issued when flooding in a certain area is imminent or occurring.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Flood_alert
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		flood, flash flood
+		</skos:note>
+		<skos:broader rdf:resource="Meteorological_Alert"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Risk_Assessment">
+		<skos:prefLabel xml:lang="en">Risk Assessment</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Danger Analysis</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The qualitative and quantitative evaluation performed in an effort to define the risk posed to human health and/or the environment by an action or by the presence or use of a specific substance or pollutant.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7236
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Disaster_Preparedness"/>
+		<skos:narrower rdf:resource="Risk_Area_Mapping"/>
+		<skos:narrower rdf:resource="Risk_Factor"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Risk_Area_Mapping">
+		<skos:prefLabel xml:lang="en">Risk Area Mapping</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Hazard Area</skos:altLabel>
+		<skos:altLabel xml:lang="en">Risk Area</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Any site or region in which there is a physical or chemical agent capable of causing harm to property, persons, animals, plants or other natural resources.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/12783
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Risk_Assessment"/>
+		<skos:narrower rdf:resource="Active_Volcanoes"/>
+		<skos:narrower rdf:resource="Active_Seismic_Zone"/>
+		<skos:narrower rdf:resource="Flood_Plain"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Active_Volcanoes">
+		<skos:prefLabel xml:lang="en">Active Volcanoes</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Active Volcano</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A volcano that is erupting or has erupted in recorded history.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		www.nps.gov/crmo/forteachers/glossary.htm
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		volcano, volcanic eruption
+		</skos:note>
+		<skos:broader rdf:resource="Risk_Area_Mapping"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Active_Seismic_Zone">
+		<skos:prefLabel xml:lang="en">Active Seismic Zone</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Seismic Zone</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A region of the Earth's surface that is experiencing or has experienced in recorded history seismic phenomena.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7575
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		mid Atlantic ridge, southern Italy, Canary Island, Aegean Sea
+		</skos:note>
+		<skos:broader rdf:resource="Risk_Area_Mapping"/>
+		<skos:narrower rdf:resource="Bradyseism_Map"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Flood_Plain">
+		<skos:prefLabel xml:lang="en">Flood Plain</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Floodplain</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Floodplains are land areas adjacent to rivers and streams that are subject to recurring inundation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.oas.org/DSD/publications/Unit/oea66e/ch08.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Risk_Area_Mapping"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Bradyseism_Map">
+		<skos:prefLabel xml:lang="en">Bradyseism Map</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A long-continued, extremely slow vertical instability of the crust, as in the volcanic district west of Naples, Italy, where the Phlegraean bradyseism has involved up-and-down movements between 6 m below sea level and 6 m above over a period of more than 2.000 years.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/986
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Active_Seismic_Zone"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Risk_Factor">
+		<skos:prefLabel xml:lang="en">Risk Factor</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Vulnerability</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Any physical, social, economic or environmental factor or process which increases the susceptibility of a community to the impact of hazards.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://ocha.unog.ch/drptoolkit/PreparednessTools/Disaster%20Preparedness%20Planning/Disaster-preparedness-for-effective-response-web.pdf (variation on the definition of Vulnerability, p. 43)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Risk_Assessment"/>
+		<skos:narrower rdf:resource="Soil_Erosion"/>
+		<skos:narrower rdf:resource="Anthropic_Risk_Factor"/>
+		<skos:narrower rdf:resource="Subsidence"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Subsidence">
+		<skos:prefLabel xml:lang="en">Subsidence</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Urban Subsidence</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The sudden sinking or gradual downward settling of the Earth's surface with little or no horizontal motion. The movement is not restricted in rate, magnitude, or area involved. Subsidence may be caused by natural geologic processes, such as solution, thawing, compaction, slow crustal warping, or withdrawal of fluid lava from beneath a solid crust; or by man's activity, such as subsurface mining or the pumping of oil or ground water.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8163
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		soil erosion
+		</skos:note>
+		<skos:broader rdf:resource="Risk_Factor"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Anthropic_Risk_Factor">
+		<skos:prefLabel xml:lang="en">Anthropic Risk Factor</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Any factor or process depending on the human activities in the natural environment which increases the susceptibility of a community to the impact of hazards.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://ocha.unog.ch/drptoolkit/PreparednessTools/Disaster%20Preparedness%20Planning/Disaster-preparedness-for-effective-response-web.pdf (variation on the definition of Vulnerability, p. 43)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		human impact
+		</skos:note>
+		<skos:broader rdf:resource="Risk_Factor"/>
+		<skos:narrower rdf:resource="Mining"/>
+		<skos:narrower rdf:resource="Critical_Assets"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Mining">
+		<skos:prefLabel xml:lang="en">Mining</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The act, process or industry of extracting coal, ores, etc. from the earth.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/14837
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		landslide
+		</skos:note>
+		<skos:broader rdf:resource="Anthropic_Risk_Factor"/>
+	</skos:Concept>
+
+<!-- End of version V2 (though updates and changes are shown also here above, commented)
+*************************************************************************************************************************************************************
+Here start novelties of version V2.1 -->
+<!-- The following block is copied from extension (V2.1) of the Land_Monitoring based on input from CryoLand and SAFER -->
+
+	<skos:Concept rdf:about="Geographic_Feature">
+		<skos:prefLabel xml:lang="en">Geographic Feature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Geographical Feature</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Geographic features are real world objects, whether natural or man-made, are called features when they are represented on a map. Each map feature has a location, shape, and symbol that represents one or more of its characteristics. Features can be points, lines, or polygons.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://webgis.wr.usgs.gov/globalgis/tutorials/overview/geographic.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Topography"/>
+		<skos:narrower rdf:resource="Glacier_Lake"/>
+		<skos:narrower rdf:resource="Infrastructure"/>
+		<skos:narrower rdf:resource="Population_Data"/>
+		<skos:narrower rdf:resource="Administrative_Boundary"/>
+		<skos:narrower rdf:resource="Settlement_Location"/>
+		<skos:narrower rdf:resource="Protected_Area"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Glacier_Lake">
+		<skos:prefLabel xml:lang="en">Glacier Lake</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Glacial Lake</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A glacial lake is a lake with origins in a melted glacier.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://en.wikipedia.org/wiki/Glacial_lake
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		lake
+		</skos:note>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Land_Ice">
+		<skos:prefLabel xml:lang="en">Land Ice</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Any part of the earth's seasonal or perennial ice cover that has formed over land as the result, principally, of the freezing of precipitation; opposed to sea ice formed by the freezing of seawater. Thus, an iceberg or tabular iceberg is land ice as well as its parent glacier, ice sheet, or ice shelf. The two major concentrations of land ice are the ice sheets of Greenland and Antarctica. Glaciers and ice caps are the other important forms. 
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://amsglossary.allenpress.com/glossary/search?id=land-ice1
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		permafrost
+		</skos:note>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Glacier"/>
+		<skos:narrower rdf:resource="Ice_Extent"/>
+		<skos:narrower rdf:resource="Ice_Thickness"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Extent">
+		<skos:prefLabel xml:lang="en">Ice Extent</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Ice extent is the measure of the extension of ice over one region of Earth's surface.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://nsidc.org/data/g02135.html (modified)
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Land_Ice"/>
+		<skos:broader rdf:resource="Ice_Navigational_Aid"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Glacier">
+		<skos:prefLabel xml:lang="en">Glacier</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Slow moving masses of ice which have accumulated either on mountains or in polar regions. They are found where warm, moist air or warm water meets cold air or water. They move, influenced by the force of gravity and the pressure of the ice, above the underlying slush layers and slide downhill, eventually melting at lower levels to form rivers or reaching sea-level, where they form ice shelves or fall into the water as icebergs.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3673
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ice pack, ice cap, ice sheet, iceberg
+		</skos:note>
+		<skos:broader rdf:resource="Land_Ice"/>
+		<skos:narrower rdf:resource="Ice_Change_Detection"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Areal_Change">
+		<skos:prefLabel xml:lang="en">Areal Change</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Ice Area Change</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Loss or gain in the areal extent. This provides an indication of whether target land uses are increasing or decreasing in area over time. Changes can be presented statistically, graphically, or spatially and identified changes compared and trends observed.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Richard J. Aspinall, Michael James Hill. Land use change: science, policy and management. 2008
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		what had to be the related terms (comma separated terms with lower case initials - unless required by an individual name in the term)
+		</skos:note>
+		<skos:broader rdf:resource="Ice_Change_Detection"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Surface_Elevation">
+		<skos:prefLabel xml:lang="en">Surface Elevation</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Surface Elevation Change</skos:altLabel>
+		<skos:definition xml:lang="en">
+		An accurate map of surface elevation tells us the state of the glacier at the date of the image. If we have an accurate map or DEM from some earlier date, we can subtract the newer DEM from the older to measure the change in elevation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://environmentalresearchweb.org/blog/2009/11/the-aster-global-digital-eleva.html
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		DEM
+		</skos:note>
+		<skos:broader rdf:resource="Ice_Change_Detection"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Mass_Flux">
+		<skos:prefLabel xml:lang="en">Mass Flux</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Mass flux measurement relies on ice velocity and surface height data from satellites combined with climate modelling to calculate how the ice sheet is changing through time.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.bris.ac.uk/geography/research/bgc/research/ (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		calving flux
+		</skos:note>
+		<skos:broader rdf:resource="Ice_Change_Detection"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Snow">
+		<skos:prefLabel xml:lang="en">Snow</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The most common form of frozen precipitation, usually flakes or starlike crystals, matted ice needles, or combinations, and often rime-coated.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7769
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Precipitation"/>
+		<skos:narrower rdf:resource="Snow_Extent"/>
+		<skos:narrower rdf:resource="Snow_Height"/>
+		<skos:narrower rdf:resource="Snow_Wetness"/>
+		<skos:narrower rdf:resource="Snow_Surface_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Snow_Extent">
+		<skos:prefLabel xml:lang="en">Snow Extent</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Snow extent is the measure of the extension of snow cover over one region of Earth's surface, with no distinction between dry snow and wet snow.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7769 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wet snow extent, dry snow extent
+		</skos:note>
+		<skos:broader rdf:resource="Snow"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Snow_Height">
+		<skos:prefLabel xml:lang="en">Snow Height</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Snow Depth</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The vertical height of frozen precipitation on the ground. For this purpose, frozen precipitation includes ice pellets, glaze, hail, any combination of these, and sheet ice formed directly or indirectly from precipitation.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.erh.noaa.gov/er/box/glossary.htm
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Snow"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Snow_Wetness">
+		<skos:prefLabel xml:lang="en">Snow Wetness</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Snow wetness is defined as the percentage of free liquid water in the snow pack.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Hans Koren, Rune Solberg, and Jostein Amlien. Snow wetness estimation from MODIS images. 2006
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		wet snow, dry snow, snow water equivalent
+		</skos:note>
+		<skos:broader rdf:resource="Snow"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Snow_Surface_Temperature">
+		<skos:prefLabel xml:lang="en">Snow Surface Temperature</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Snow Temperature</skos:altLabel>
+		<skos:definition xml:lang="en">http://www.eionet.europa.eu/gemet/concept?14932
+		Snow surface temperature is a key control on energy exchanges at the snow surface, particularly net longwave radiation and turbulent energy fluxes. The snow surface temperature is in turn controlled by the balance between various external fluxes and the conductive heat flux, internal to the snowpack.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		Jinsheng You, David G. Tarboton, Charles H. Luce. Modeling the snow surface temperature in an energy balance snowmelt model. 2004
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Snow"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Administrative_Boundary">
+		<skos:prefLabel xml:lang="en">Administrative Boundary</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Boundary</skos:altLabel>
+		<skos:altLabel xml:lang="en">Borders</skos:altLabel>
+		<skos:definition xml:lang="en">
+		A limit or border of a geographic area under the jurisdiction of some governmental or managerial entity.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/14932
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		region, state, province, county
+		</skos:note>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Settlement_Location">
+		<skos:prefLabel xml:lang="en">Settlement Location</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Settlement</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The geographic location of communities, villages and houses on some land.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/7622 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		toponym
+		</skos:note>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Infrastructure">
+		<skos:prefLabel xml:lang="en">Infrastructure</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		The basic network or foundation of capital facilities or community investments which are necessary to support economic and community activities.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/4321
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		settlement
+		</skos:note>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+		<skos:broader rdf:resource="Land_Use"/>
+		<skos:narrower rdf:resource="Critical_Infrastructure"/>
+		<skos:narrower rdf:resource="Transport_Network"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Transport_Network">
+		<skos:prefLabel xml:lang="en">Transport Network</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Transportation Network</skos:altLabel>
+		<skos:definition xml:lang="en">
+		System of lines of movements or communication by road, rail, water or air.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8653
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		public transport
+		</skos:note>
+		<skos:broader rdf:resource="Infrastructure"/>
+		<skos:broader rdf:resource="Terrain_Analysis"/>
+		<skos:narrower rdf:resource="Road_Network"/>
+		<skos:narrower rdf:resource="Railway_Network"/>
+		<skos:narrower rdf:resource="Port"/>
+		<skos:narrower rdf:resource="Airport"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Road_Network">
+		<skos:prefLabel xml:lang="en">Road Network</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Road</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The system of roads through a country.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/11277
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		highway, urban street
+		</skos:note>
+		<skos:broader rdf:resource="Transport_Network"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Railway_Network">
+		<skos:prefLabel xml:lang="en">Railway Network</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Railway</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The whole system of railway distribution in a country.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/11276
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Transport_Network"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Port">
+		<skos:prefLabel xml:lang="en">Port</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Harbor</skos:altLabel>
+		<skos:altLabel xml:lang="en">Harbour</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Area of water next to the coast, often surrounded by thick walls, where ships and boats can be sheltered.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/3834
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Transport_Network"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Airport">
+		<skos:prefLabel xml:lang="en">Airport</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A landing and taking-off area for civil aircraft, usually with surfaced runways and aircraft maintenance and passenger facilities.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/267
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Transport_Network"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Population_Data">
+		<skos:prefLabel xml:lang="en">Population Data</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Data about the inhabitants of a given region, country or city.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/6527 (modified)
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		population density, statistics, population distribution, population growth
+		</skos:note>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Ice_Thickness"> <!-- In the Land_Monitoring subdomain by version V2.1 (previously was intended only for Sea_Ice) -->
+		<skos:prefLabel xml:lang="en">Ice Thickness</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Ice thickness classified and measured in centimeters.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		PARD_Thesaurus.doc
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		ship routes
+		</skos:note>
+		<skos:broader rdf:resource="Sea_Ice"/>
+		<skos:broader rdf:resource="Land_Ice"/> <!-- Added in version V2.1 -->
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Protected_Area">
+		<skos:prefLabel xml:lang="en">Protected Area</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Reserve</skos:altLabel>
+		<skos:definition xml:lang="en">
+		Portions of land protected by special restrictions and laws for the conservation of the natural environment. They include large tracts of land set aside for the protection of wildlife and its habitat; areas of great natural beauty or unique interest; areas containing rare forms of plant and animal life; areas representing unusual geologic formation; places of historic and prehistoric interest; areas containing ecosystems of special importance for scientific investigation and study; and areas which safeguard the needs of the biosphere.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/6740
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		refuge, protected landscape, wildlife sanctuary
+		</skos:note>
+		<skos:broader rdf:resource="Land_Cover"/>
+		<skos:broader rdf:resource="Geographic_Feature"/>
+	</skos:Concept>
+
+<!-- ********************************************************* NEW from Version 2.2 ********************************************************* -->
+
+	<skos:Concept rdf:about="Temperature">
+		<skos:prefLabel xml:lang="en">Temperature</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		A property that determines the direction of heat flow when an object is brought into thermal contact with other objects: heat flows from regions of higher to those of lower temperatures.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/8366
+		</skos:scopeNote>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:broader rdf:resource="Climate_Change"/>
+		<skos:narrower rdf:resource="Water_Temperature"/>
+		<skos:narrower rdf:resource="Global_Temperature"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Precipitation">
+		<skos:prefLabel xml:lang="en">Precipitation</skos:prefLabel>
+		<skos:altLabel xml:lang="en">Atmospheric Precipitation</skos:altLabel>
+		<skos:definition xml:lang="en">
+		The settling out of water from cloud in the form of dew, rain, hail, snow, etc.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/637
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		dew, hail
+		</skos:note>
+		<skos:broader rdf:resource="Weather"/>
+		<skos:narrower rdf:resource="Rain"/>
+		<skos:narrower rdf:resource="Snow"/>
+		<skos:narrower rdf:resource="Drought"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Rain">
+		<skos:prefLabel xml:lang="en">Rain</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Precipitation in the form of liquid water drops with diameters greater than 0.5 millimeter.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/6947
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		acid rain, heavy rain
+		</skos:note>
+		<skos:broader rdf:resource="Precipitation"/>
+	</skos:Concept>
+
+	<skos:Concept rdf:about="Wetland">
+		<skos:prefLabel xml:lang="en">Wetland</skos:prefLabel>
+		<skos:definition xml:lang="en">
+		Areas that are inundated by surface or ground water with frequency sufficient to support a prevalence of vegetative or aquatic life that requires saturated or seasonally saturated soil conditions for growth or reproduction.
+		</skos:definition>
+		<skos:scopeNote xml:lang="en">
+		http://www.eionet.europa.eu/gemet/concept/9297
+		</skos:scopeNote>
+		<skos:note xml:lang="en">
+		swamp, riparian zone
+		</skos:note>
+		<skos:broader rdf:resource="Soil"/>
+		<skos:broader rdf:resource="Water"/>
+		<skos:broader rdf:resource="Land_Cover"/>
+	</skos:Concept>
+
+<!-- THE END -->
+</rdf:RDF>

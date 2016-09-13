@@ -1,0 +1,228 @@
+
+<http://www.eionet.europa.eu/gemet/concept/2222> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Relief> .
+
+<http://www.eionet.europa.eu/gemet/concept/2347> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Drought> .
+
+<http://www.eionet.europa.eu/gemet/concept/7513> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.eionet.europa.eu/gemet/concept/9269> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Weather> .
+
+<http://www.eionet.europa.eu/gemet/concept/4051> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/7912> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/2215> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster> .
+
+<http://www.eionet.europa.eu/gemet/concept/2221> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Preparedness> .
+
+<http://www.eionet.europa.eu/gemet/concept/7858> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/4333> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Inland_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/5852> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Oilspill> .
+
+<http://www.eionet.europa.eu/gemet/concept/267> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Airport> .
+
+<http://www.eionet.europa.eu/gemet/concept/4668> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Landslide> .
+
+<http://www.eionet.europa.eu/gemet/concept/10201> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/631> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmosphere_Monitoring> .
+
+<http://www.eionet.europa.eu/gemet/concept/7769> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Snow> .
+
+<http://www.eionet.europa.eu/gemet/concept/1168> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/2963> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil_Erosion> .
+
+<http://www.eionet.europa.eu/gemet/concept/3865> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Human_Health> .
+
+<http://www.eionet.europa.eu/gemet/concept/8999> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Volcanic_Eruption> .
+
+<http://www.eionet.europa.eu/gemet/concept/7528> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/4612> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Cover> .
+
+<http://www.eionet.europa.eu/gemet/concept/6247> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Phytoplankton> .
+
+<http://www.eionet.europa.eu/gemet/concept/303> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/12220> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Suspended_Particulate_Material> .
+
+<http://www.eionet.europa.eu/gemet/concept/8229> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Water> .
+
+<http://www.eionet.europa.eu/gemet/concept/3761> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Effect> .
+
+<http://www.eionet.europa.eu/gemet/concept/5044> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Pollution> .
+
+<http://www.eionet.europa.eu/gemet/concept/157> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Aerosol> .
+
+<http://www.eionet.europa.eu/gemet/concept/7579> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tsunami> .
+
+<http://www.eionet.europa.eu/gemet/concept/3419> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wildfire> .
+
+<http://www.eionet.europa.eu/gemet/concept/12784> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Technological_Accident> .
+
+<http://www.eionet.europa.eu/gemet/concept/3209> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Particulate_Matter> .
+
+<http://www.eionet.europa.eu/gemet/concept/6942> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Railway_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/8696> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Tropospheric_Ozone> .
+
+<http://www.eionet.europa.eu/gemet/concept/7495> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/2402> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Earthquake> .
+
+<http://www.eionet.europa.eu/gemet/concept/8742> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Solar_UV_Radiation> .
+
+<http://www.eionet.europa.eu/gemet/concept/3834> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Port> .
+
+<http://www.eionet.europa.eu/gemet/concept/12226> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Salinity> .
+
+<http://www.eionet.europa.eu/gemet/concept/6740> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Protected_Area> .
+
+<http://www.eionet.europa.eu/gemet/concept/5496> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Natural_Disaster> .
+
+<http://www.eionet.europa.eu/gemet/concept/6947> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Rain> .
+
+<http://www.eionet.europa.eu/gemet/concept/4077> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/7771> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> .
+
+<http://www.eionet.europa.eu/gemet/concept/5837> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Oil_Pollution> .
+
+<http://www.eionet.europa.eu/gemet/concept/1462> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Climate> .
+
+<http://www.eionet.europa.eu/gemet/concept/5613> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Oxides> .
+
+<http://www.eionet.europa.eu/gemet/concept/14837> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Mining> .
+
+<http://www.eionet.europa.eu/gemet/concept/8711> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Turbidity> .
+
+<http://www.eionet.europa.eu/gemet/concept/1513> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/4111> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Hydrogeologic_Disaster> .
+
+<http://www.eionet.europa.eu/gemet/concept/9195> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/4321> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Infrastructure> .
+
+<http://www.eionet.europa.eu/gemet/concept/947> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Biochemical_Oxygen_Demand> .
+
+<http://www.eionet.europa.eu/gemet/concept/3007> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Eutrophication> .
+
+<http://www.eionet.europa.eu/gemet/concept/8202> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sulphur_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/11277> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/10053> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_And_Emergency_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/5789> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/818> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Bioclimatology> .
+
+<http://www.eionet.europa.eu/gemet/concept/9190> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ocean_Level> .
+
+<http://www.eionet.europa.eu/gemet/concept/8516> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/4505> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/3647> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Geological_Disaster> .
+
+<http://www.eionet.europa.eu/gemet/concept/301> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Algal_Bloom> .
+
+<http://www.eionet.europa.eu/gemet/concept/9327> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wind> .
+
+<http://www.eionet.europa.eu/gemet/concept/2220> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Disaster_Preparedness> .
+
+<http://www.eionet.europa.eu/gemet/concept/5991> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Ozone> .
+
+<http://www.eionet.europa.eu/gemet/concept/4678> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .
+
+<http://www.eionet.europa.eu/gemet/concept/6392> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pollen> .
+
+<http://www.eionet.europa.eu/gemet/concept/14973> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/1491> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cloud> .
+
+<http://www.eionet.europa.eu/gemet/concept/1173> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Carbon_Monoxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/7236> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/3673> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Glacier> .
+
+<http://www.eionet.europa.eu/gemet/concept/265> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/1941> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/3406> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.eionet.europa.eu/gemet/concept/277> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flight_Safety> .
+
+<http://www.eionet.europa.eu/gemet/concept/232> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Agriculture> .
+
+<http://www.eionet.europa.eu/gemet/concept/5708> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Accident> .
+
+<http://www.eionet.europa.eu/gemet/concept/11276> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Railway_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/1512> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/7843> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Soil> .
+
+<http://www.eionet.europa.eu/gemet/concept/12861> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/3572> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Gaseous_Air_Pollutant> .
+
+<http://www.eionet.europa.eu/gemet/concept/5721> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nuclear_Facility> .
+
+<http://www.eionet.europa.eu/gemet/concept/8115> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Cyclone> .
+
+<http://www.eionet.europa.eu/gemet/concept/12783> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Risk_Area_Mapping> .
+
+<http://www.eionet.europa.eu/gemet/concept/3212> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wildfire> .
+
+<http://www.eionet.europa.eu/gemet/concept/5831> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Oilspill> .
+
+<http://www.eionet.europa.eu/gemet/concept/14932> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Administrative_Boundary> .
+
+<http://www.eionet.europa.eu/gemet/concept/7413> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Desert_Dust> .
+
+<http://www.eionet.europa.eu/gemet/concept/678> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Avalanche> .
+
+<http://www.eionet.europa.eu/gemet/concept/3298> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Flood> .
+
+<http://www.eionet.europa.eu/gemet/concept/637> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Precipitation> .
+
+<http://www.eionet.europa.eu/gemet/concept/9297> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Wetland> .
+
+<http://www.eionet.europa.eu/gemet/concept/270> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Quality> .
+
+<http://www.eionet.europa.eu/gemet/concept/9196> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.eionet.europa.eu/gemet/concept/10158> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Offshore_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/7272> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Road_Network> .
+
+<http://www.eionet.europa.eu/gemet/concept/6270> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Pipeline> .
+
+<http://www.eionet.europa.eu/gemet/concept/8366> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Temperature> .
+
+<http://www.eionet.europa.eu/gemet/concept/3763> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Greenhouse_Gas> .
+
+<http://www.eionet.europa.eu/gemet/concept/12898> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Damage_Assessment> .
+
+<http://www.eionet.europa.eu/gemet/concept/8922> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation> .
+
+<http://www.eionet.europa.eu/gemet/concept/5033> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Marine_Environment> .
+
+<http://www.eionet.europa.eu/gemet/concept/8163> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Subsidence> .
+
+<http://www.eionet.europa.eu/gemet/concept/5199> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Methane> .
+
+<http://www.eionet.europa.eu/gemet/concept/5608> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Nitrogen_Dioxide> .
+
+<http://www.eionet.europa.eu/gemet/concept/281> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Air_Temperature> .
+
+<http://www.eionet.europa.eu/gemet/concept/5193> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Meteorological_Disaster> .
+
+<http://www.eionet.europa.eu/gemet/concept/1517> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Coastal_Environment> .

@@ -1,0 +1,902 @@
+.OntologyBrowser #container
+{
+	margin: 0 auto;
+	background: #fff;
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	/*font-family: Copperplate, "Copperplate Gothic Light", fantasy;*/
+	font-family: Copperplate, "Copperplate Gothic Light", Helvetica, Arial;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        top: 0px;
+}
+
+
+.OntologyBrowser #title
+{
+	background: #e8edff;
+        padding: 20px;
+}
+
+.OntologyBrowser #title h1 { margin: 0; color: #333;}
+
+.OntologyBrowser #navigation select{
+
+	float: right;
+}
+
+.OntologyBrowser #onto-list{
+
+	padding: 2px;
+	margin-right: 10px;
+
+}
+
+.OntologyBrowser #navigation
+{
+	float: left;
+	background: #333;
+	width: 100%;
+        padding: 0;
+        border-radius: 3px;
+}
+
+
+
+.OntologyBrowser #navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+.OntologyBrowser #navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px ;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+.OntologyBrowser #navigation  li.active a,
+.OntologyBrowser #navigation a:focus ,
+/*.OntologyBrowser #navigation li.active a:hover{ background: #394B88 ; }*/
+.OntologyBrowser #navigation li.active a:hover{ background: #005d7a ; }
+
+.OntologyBrowser #navigation li a:hover { background: #92A1AD; }
+
+
+.OntologyBrowser #content-container
+{
+	float: left;
+	/* background: #fff url(/wp-content/uploads/layout-two-fixed-background.gif) repeat-y 100% 0; */
+	width: 99%;
+        position:absolute;
+        top: 120px;
+        bottom:0px;
+        overflow-y:auto;        
+}
+
+.OntologyBrowser #aside
+{
+	float: left;
+	width: 25%;
+	padding: 20px 0;
+	padding-left: 10px;
+	/*margin-top: 30px;*/
+	display: inline;
+        
+}
+
+.OntologyBrowser #aside-search
+{
+	float: left;
+	width: 25%;
+	padding: 30px 0;
+	margin-top: 25px;
+	/*margin: 0 20px 0 0;*/
+
+}
+
+.OntologyBrowser #aside h3 { margin: 0; color: #000039;}
+
+.OntologyBrowser #keyword-search strong { margin: 0; color: #000039;}
+
+.OntologyBrowser #search-results-list li
+{
+
+	list-style-type: none;
+	padding: 2.5px;
+	color: #000039;
+}
+
+.OntologyBrowser #content
+{
+	clear: right;
+	float: right;
+	width: 72%;
+	color: #000039;
+	/*padding: 10px 0;*/
+	/*margin-right: 10px;*/
+	/*margin: 0 0 0 30px;*/
+	display: inline;
+}
+
+.OntologyBrowser #content content
+{
+	clear: right;
+	float: right;
+	width: 85%;
+	color: #000039;
+	padding: 20px 0;
+	margin-right: 20px;
+	/*margin: 0 0 0 30px;*/
+	display: inline;
+}
+
+.OntologyBrowser #results-title strong  { margin: 0; color: #000039;}
+
+.OntologyBrowser #search-results-list li.active
+{
+
+	line-height:20px; 
+    display:inline-block;
+    background-color:#d0d0d0 ;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.OntologyBrowser #search-results-list li:hover
+{
+
+	cursor: pointer;
+
+}
+
+.OntologyBrowser #content h2 { margin-left: -19; }
+
+.OntologyBrowser #tab-Ontologies {
+	
+	padding: 25px
+}
+
+/*#concept-tabs
+{
+    position: relative;
+    list-style: none;
+    margin-left: -35px;
+}
+
+#concept-tabs li {
+
+    margin-right: -1px;   
+    padding: 3px;
+    border: 1px solid #AAA;
+    background: #ECECEC;
+    display: inline-block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#concept-tabs li a {
+
+    color: #008;
+    float: left;
+    line-height: 1.5em;
+    text-decoration: none;
+
+}
+
+#concept-tabs li.active {
+    background: #FFF;
+    color: #000;
+   /* border-bottom-color: #FFF;
+}
+
+#concept-tabs li.active a {
+
+    color: #000;
+    font-weight: bold;
+    background: #FFF;
+    line-height: 1.8em;
+}
+
+
+#concept-tabs a:hover {
+    background: #DCDCDC;
+}*/
+
+.OntologyBrowser .page-header{
+    /* width:75%; */
+    margin: 10px 0 10px 0;
+}
+
+.OntologyBrowser .nav-tabs {
+    border-bottom: 1px solid #dddddd;
+    /* width:75%; */
+}
+
+.OntologyBrowser .nav {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    list-style: none outside none;
+}
+
+.OntologyBrowser .nav-tabs li a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.OntologyBrowser .nav-tabs li a:hover {
+ 	border-bottom: 2.5px solid #4682B4;
+}
+
+
+.OntologyBrowser .nav-tabs li a {
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-right: 18px;
+    line-height: 14px;
+    color: #4667A1;
+    text-decoration: none;
+}
+
+.OntologyBrowser .nav li a {
+    display: block;
+}
+
+.OntologyBrowser .nav-tabs li {
+
+    display: inline-block;
+}
+
+
+
+.OntologyBrowser a:hover, .OntologyBrowser a:active {
+    outline: 0px none;
+}
+
+.OntologyBrowser ul, .OntologyBrowser ol {
+    padding: 0px;
+    margin: 0px;
+}
+
+.OntologyBrowser .nav {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    list-style: none outside none;
+}
+
+.OntologyBrowser .nav-tabs > .active > a,
+.OntologyBrowser .nav-tabs > .active > a:hover,
+.OntologyBrowser .nav-tabs > .active > a:focus {
+    color: #555555;
+    /*border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;*/
+    border-bottom: 2.5px solid #555555;
+}
+
+.OntologyBrowser .panel h2 {
+    font-size: 18px;
+    color: #000039;
+    line-height: 27px;
+    border-bottom: 2px solid #FFFFFF;
+    /*margin: 0px -19px 25px;*/
+    margin: 0px -19px 5px;
+    padding: 5px 10px;
+    background-color: #b9c9fe;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.OntologyBrowser h2 {
+    margin: 10px 0px;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    
+}
+
+.OntologyBrowser .panel {
+    min-height: 20px;
+    color: #475773;
+    /*padding: 0px 19px 19px;*/
+    padding: 0px 19px 9px;
+    background-color: #E2E8FD;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 5px;
+    /*border: 2px solid #FFFFFF ;*/
+    border-radius: 7px 7px 7px 7px;
+    /* width: 70%; */
+}
+
+.OntologyBrowser ul.jstree { width:700px; margin:0px auto 15px auto; padding:0; }
+.OntologyBrowser ul.jstree li { margin:0; padding:2px 0; }
+.OntologyBrowser ul.jstree li a { color:#3B5998; text-decoration:underline; }
+
+.OntologyBrowser #tree, .OntologyBrowser #collection-tree, .OntologyBrowser #scheme-tree{
+
+	padding: 10px;
+}
+
+.OntologyBrowser div.content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+.OntologyBrowser #schemes-list{
+
+	cursor: pointer;
+
+}
+
+/*Loading animation*/
+
+#floatingCirclesG{
+position:relative;
+width:128px;
+height:128px;
+-moz-transform:scale(0.6);
+-webkit-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
+}
+
+.f_circleG{
+position:absolute;
+background-color:#FFFFFF;
+height:23px;
+width:23px;
+-moz-border-radius:12px;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:1.04s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:12px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:1.04s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:12px;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:1.04s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:12px;
+-o-animation-name:f_fadeG;
+-o-animation-duration:1.04s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:12px;
+animation-name:f_fadeG;
+animation-duration:1.04s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#frotateG_01{
+left:0;
+top:52px;
+-moz-animation-delay:0.39s;
+-webkit-animation-delay:0.39s;
+-ms-animation-delay:0.39s;
+-o-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+
+#frotateG_02{
+left:15px;
+top:15px;
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#frotateG_03{
+left:52px;
+top:0;
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+#frotateG_04{
+right:15px;
+top:15px;
+-moz-animation-delay:0.78s;
+-webkit-animation-delay:0.78s;
+-ms-animation-delay:0.78s;
+-o-animation-delay:0.78s;
+animation-delay:0.78s;
+}
+
+#frotateG_05{
+right:0;
+top:52px;
+-moz-animation-delay:0.91s;
+-webkit-animation-delay:0.91s;
+-ms-animation-delay:0.91s;
+-o-animation-delay:0.91s;
+animation-delay:0.91s;
+}
+
+#frotateG_06{
+right:15px;
+bottom:15px;
+-moz-animation-delay:1.04s;
+-webkit-animation-delay:1.04s;
+-ms-animation-delay:1.04s;
+-o-animation-delay:1.04s;
+animation-delay:1.04s;
+}
+
+#frotateG_07{
+left:52px;
+bottom:0;
+-moz-animation-delay:1.17s;
+-webkit-animation-delay:1.17s;
+-ms-animation-delay:1.17s;
+-o-animation-delay:1.17s;
+animation-delay:1.17s;
+}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-moz-animation-delay:1.3s;
+-webkit-animation-delay:1.3s;
+-ms-animation-delay:1.3s;
+-o-animation-delay:1.3s;
+animation-delay:1.3s;
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+#floatingCirclesG_small{
+position:relative;
+width:40px;
+height:40px;
+-moz-transform:scale(0.6);
+-webkit-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
+}
+
+.f_circleG_small{
+position:absolute;
+background-color:#FFFFFF;
+height:7px;
+width:7px;
+-moz-border-radius:4px;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:1.04s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:4px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:1.04s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:4px;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:1.04s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:4px;
+-o-animation-name:f_fadeG;
+-o-animation-duration:1.04s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:4px;
+animation-name:f_fadeG;
+animation-duration:1.04s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#frotateG_01_small{
+left:0;
+top:16px;
+-moz-animation-delay:0.39s;
+-webkit-animation-delay:0.39s;
+-ms-animation-delay:0.39s;
+-o-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+
+#frotateG_02_small{
+left:5px;
+top:5px;
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#frotateG_03_small{
+left:16px;
+top:0;
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+#frotateG_04_small{
+right:5px;
+top:5px;
+-moz-animation-delay:0.78s;
+-webkit-animation-delay:0.78s;
+-ms-animation-delay:0.78s;
+-o-animation-delay:0.78s;
+animation-delay:0.78s;
+}
+
+#frotateG_05_small{
+right:0;
+top:16px;
+-moz-animation-delay:0.91s;
+-webkit-animation-delay:0.91s;
+-ms-animation-delay:0.91s;
+-o-animation-delay:0.91s;
+animation-delay:0.91s;
+}
+
+#frotateG_06_small{
+right:5px;
+bottom:5px;
+-moz-animation-delay:1.04s;
+-webkit-animation-delay:1.04s;
+-ms-animation-delay:1.04s;
+-o-animation-delay:1.04s;
+animation-delay:1.04s;
+}
+
+#frotateG_07_small{
+left:16px;
+bottom:0;
+-moz-animation-delay:1.17s;
+-webkit-animation-delay:1.17s;
+-ms-animation-delay:1.17s;
+-o-animation-delay:1.17s;
+animation-delay:1.17s;
+}
+
+#frotateG_08_small{
+left:5px;
+bottom:5px;
+-moz-animation-delay:1.3s;
+-webkit-animation-delay:1.3s;
+-ms-animation-delay:1.3s;
+-o-animation-delay:1.3s;
+animation-delay:1.3s;
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@-moz-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-webkit-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-ms-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-o-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+.OntologyBrowser #page-selection ul li {
+    display: inline-block;
+    padding-top: 18px;
+
+}
+
+.OntologyBrowser .pagination > li > a,
+.OntologyBrowser .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 3px 6px;
+    margin-left: -1px;
+    line-height: 1.42857;
+    text-decoration: none;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+
+.OntologyBrowser .pagination > .disabled > span,
+.OntologyBrowser .pagination > .disabled > span:hover,
+.OntologyBrowser .pagination > .disabled > span:focus,
+.OntologyBrowser .pagination > .disabled > a,
+.OntologyBrowser .pagination > .disabled > a:hover,
+.OntologyBrowser .pagination > .disabled > a:focus {
+    cursor: pointer !important;
+}
+
+.OntologyBrowser .pagination > .disabled > span,
+.OntologyBrowser .pagination > .disabled > span:hover,
+.OntologyBrowser .pagination > .disabled > span:focus,
+.OntologyBrowser .pagination > .disabled > a,
+.OntologyBrowser .pagination > .disabled > a:hover,
+.OntologyBrowser .pagination > .disabled > a:focus {
+    color: #999;
+    cursor: not-allowed;
+    background-color: #FFF;
+    border-color: #DDD;
+}
+
+.OntologyBrowser .pagination > li:first-child > a,
+.OntologyBrowser .pagination > li:first-child > span {
+    margin-left: 0px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.OntologyBrowser .pagination > li > a:hover,
+.OntologyBrowser .pagination > li > span:hover,
+.OntologyBrowser .pagination > li > a:focus,
+.OntologyBrowser .pagination > li > span:focus {
+    background-color: #EEE;
+}
+
+.OntologyBrowser .pagination > li:last-child > a,
+.OntologyBrowser .pagination > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.OntologyBrowser #footer
+{
+	margin: 0;
+	float: left;
+	background: #333;
+	height: 20px;
+	width: 99%;
+		position:fixed;
+        bottom:1px;
+        overflow-x:hidden; 
+        overflow-y:hidden;
+        
+}
+
+.OntologyBrowser #footer h3 { 
+	float: right; 
+	font-size: 15px;
+    color: #FFFFFF; 
+}
+
+
+
+#fountainG{
+position:relative;
+width:35px;
+height:4px}
+
+.fountainG{
+position:absolute;
+top:0;
+background-color:#000000;
+width:5px;
+height:5px;
+-moz-animation-name:bounce_fountainG;
+-moz-animation-duration:1.3s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-moz-transform:scale(.3);
+-moz-border-radius:3px;
+-webkit-animation-name:bounce_fountainG;
+-webkit-animation-duration:1.3s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-webkit-transform:scale(.3);
+-webkit-border-radius:3px;
+-ms-animation-name:bounce_fountainG;
+-ms-animation-duration:1.3s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-ms-transform:scale(.3);
+-ms-border-radius:3px;
+-o-animation-name:bounce_fountainG;
+-o-animation-duration:1.3s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-o-transform:scale(.3);
+-o-border-radius:3px;
+animation-name:bounce_fountainG;
+animation-duration:1.3s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+transform:scale(.3);
+border-radius:3px;
+}
+
+#fountainG_1{
+left:0;
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#fountainG_2{
+left:4px;
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+#fountainG_3{
+left:9px;
+-moz-animation-delay:0.78s;
+-webkit-animation-delay:0.78s;
+-ms-animation-delay:0.78s;
+-o-animation-delay:0.78s;
+animation-delay:0.78s;
+}
+
+#fountainG_4{
+left:13px;
+-moz-animation-delay:0.91s;
+-webkit-animation-delay:0.91s;
+-ms-animation-delay:0.91s;
+-o-animation-delay:0.91s;
+animation-delay:0.91s;
+}
+
+#fountainG_5{
+left:18px;
+-moz-animation-delay:1.04s;
+-webkit-animation-delay:1.04s;
+-ms-animation-delay:1.04s;
+-o-animation-delay:1.04s;
+animation-delay:1.04s;
+}
+
+#fountainG_6{
+left:22px;
+-moz-animation-delay:1.17s;
+-webkit-animation-delay:1.17s;
+-ms-animation-delay:1.17s;
+-o-animation-delay:1.17s;
+animation-delay:1.17s;
+}
+
+#fountainG_7{
+left:26px;
+-moz-animation-delay:1.3s;
+-webkit-animation-delay:1.3s;
+-ms-animation-delay:1.3s;
+-o-animation-delay:1.3s;
+animation-delay:1.3s;
+}
+
+#fountainG_8{
+left:31px;
+-moz-animation-delay:1.43s;
+-webkit-animation-delay:1.43s;
+-ms-animation-delay:1.43s;
+-o-animation-delay:1.43s;
+animation-delay:1.43s;
+}
+
+@-moz-keyframes bounce_fountainG{
+0%{
+-moz-transform:scale(1);
+background-color:#000000;
+}
+
+100%{
+-moz-transform:scale(.3);
+background-color:#FFFFFF;
+}
+
+}
+
+@-webkit-keyframes bounce_fountainG{
+0%{
+-webkit-transform:scale(1);
+background-color:#000000;
+}
+
+100%{
+-webkit-transform:scale(.3);
+background-color:#FFFFFF;
+}
+
+}
+
+@-ms-keyframes bounce_fountainG{
+0%{
+-ms-transform:scale(1);
+background-color:#000000;
+}
+
+100%{
+-ms-transform:scale(.3);
+background-color:#FFFFFF;
+}
+
+}
+
+@-o-keyframes bounce_fountainG{
+0%{
+-o-transform:scale(1);
+background-color:#000000;
+}
+
+100%{
+-o-transform:scale(.3);
+background-color:#FFFFFF;
+}
+
+}
+
+@keyframes bounce_fountainG{
+0%{
+transform:scale(1);
+background-color:#000000;
+}
+
+100%{
+transform:scale(.3);
+background-color:#FFFFFF;
+}
+
+} - See more at: http://cssload.net/#sthash.74BpKtGl.dpuf
+

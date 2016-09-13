@@ -1,0 +1,27 @@
+{
+  "name": "static",
+  "version": "0.0.0",
+  "authors": [
+    "Matthieu Melcot <matthieu.melcot@spaceapplications.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "highlight": "~8.9.1",
+    "angular-highlightjs": "~0.5.1",
+    "bootstrap": "~3.3.5",
+    "bootstrap-sortable": "~1.11.2",
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3",
+    "openlayers": "*",
+    "moment": "2.13",
+    "d3": "~3.5.14"
+  }
+}

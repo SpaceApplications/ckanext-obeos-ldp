@@ -1,0 +1,41 @@
+# Parent Collection
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>   <http://www.w3.org/ns/dcat#Dataset> .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/identifier>               "L1T"^^<http://www.w3.org/2001/XMLSchema#string>  .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/title>                    "LANDSAT-8 Level 1T (precision and terrain corrected)"^^<http://www.w3.org/2001/XMLSchema#string>  .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/description>              "The Level 1t (L1T) data product provides systematic radiometric and geometric accuracy by incorporating ground control points while employing a Digital Elevation Model (DEM) for topographic accuracy. Geodetic accuracy of the product depends on the accuracy of the ground control points and the resolution of the DEM used."^^<http://www.w3.org/2001/XMLSchema#string>  .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/spatial>                  "POLYGON((-180.0 -80.0, -180.0 80.0, 180.0 80.0, 180.0 -80.0, -180.0 -80.0))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/issued>                   "2013-02-11T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.w3.org/2002/12/cal/ical#dtstart>        "2013-02-11T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.w3.org/2002/12/cal/ical#dtend>          "2016-12-12T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+# --- Platform Information
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.opengis.net/eop/2.1#platform> <http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>     <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>     <http://www.opengis.net/eop/2.1#platform> .
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/13e3a08a-0d28-4e3f-a306-a20d9fb4fff8>  <http://www.w3.org/2004/02/skos/core#prefLabel>       "LANDSAT-8"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+# --- Instrument Information
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.opengis.net/eop/2.1#instrument> <http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec> .
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>   <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>   <http://www.opengis.net/eop/2.1#instrument> .
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec>  <http://www.w3.org/2004/02/skos/core#prefLabel>     "OLI_TIRS"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+# --- Keywords / Annotations
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://www.w3.org/ns/dcat#keyword>                 "land cover"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+# --- Language: English
+
+<http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec>  <http://purl.org/dc/terms/language>                 <http://id.loc.gov/vocabulary/iso639-2/eng> .
+<http://id.loc.gov/vocabulary/iso639-2/eng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>     <http://www.w3.org/2004/02/skos/core#Concept> .
+
+# --- Theme: Land cover
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1T>  <http://purl.org/dc/terms/theme>                    <http://www.eionet.europa.eu/gemet/concept/4612/> .
+<http://www.eionet.europa.eu/gemet/concept/4612/>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>     <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.eionet.europa.eu/gemet/concept/4612/>  <http://www.w3.org/2004/02/skos/core#prefLabel>       "land cover"^^<http://www.w3.org/2001/XMLSchema#string> .

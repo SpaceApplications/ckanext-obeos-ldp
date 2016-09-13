@@ -1,0 +1,24 @@
+{% extends "page.html" %}
+
+{% block content %}
+
+
+{% set src = '/endpoint/' + endpoint_name + '/navigator?subject_uri=' + subject_uri_encoded %}
+
+
+<!--<iframe src="http://127.0.0.1:5000/endpoint/strabon/navigator?subject_uri=http%3A%2F%2Fearthexplorer.usgs.gov%2Forder%2Fprocess%3Fdataset_name%3DLANDSAT_8_L1GT" frameborder="0" width="100%" data-module="data-viewer" class="hrefInParent" id="navigator">-->
+<!--<p>{{ _('Your browser does not support iframes.') }}</p>-->
+<!--</iframe>-->
+<div role="main">
+    <div id="content" class="container">
+        <div class="row wrapper">
+            <section class="module module-resource">
+                <div class="module-content">
+                    {% include 'rdf_view.html' %}
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

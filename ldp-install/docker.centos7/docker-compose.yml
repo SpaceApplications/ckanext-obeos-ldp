@@ -1,0 +1,121 @@
+# All images are built from centos-base.
+centos-base:
+  build: docker/centos-base
+  volumes:
+    - ./common_shared_folder:/shared_folder
+  # Auto-exit since it is only a parent container
+  command: /bin/true
+
+data:
+  build: docker/data
+  hostname: data
+  domainname: localdomain
+  volumes:
+    - ./common_shared_folder:/shared_folder
+
+postgres:
+  build: docker/postgres
+  hostname: postgres
+  domainname: localdomain
+  ports:
+    - "5432:5432"
+  volumes_from:
+    - data
+  environment:
+    - CKAN_PASS=change_me
+    - DATASTORE_PASS=change_me
+  volumes:
+    - ./common_shared_folder:/shared_folder
+
+solr:
+  build: docker/solr
+  hostname: solr
+  domainname: localdomain
+  ports:
+    - "8983:8983"
+  volumes:
+    - ./common_shared_folder:/shared_folder
+  # volumes:
+  # - ./_src/ckan/ckan/config/solr/schema.xml:/opt/solr/example/solr/ckan/conf/schema.xml
+
+
+# ---------------------------- Strabon servers -----------------------------------
+# Strabon Container Parent
+# This container is not supposed to be instanciated !
+strabon-base:
+  build: docker/strabon
+  # Auto-exit since it is only a parent container
+  command: /bin/true
+
+# Landsat8 Strabon
+strabon_landsat8:
+  image: dockercentos7_strabon-base
+  hostname: strabon_landsat8
+  domainname: localdomain
+  environment:
+    # Webapp Credentials
+    STRABON_USER: admin
+    STRABON_PASS: change_me
+    # PSQL Strabon DB Credentials
+    STRABON_PSQL_USER: strabon_user_landsat8
+    STRABON_PSQL_PASS: change_me
+    POSTGRES_HOST_NAME: postgres
+    STRABON_PSQL_DB: endpoint
+  ports:
+    - "8081:8080"
+  links:
+    - postgres:postgres
+  volumes:
+    - ./common_shared_folder:/shared_folder
+    - ./data/landsat:/data
+
+# Ontoservice Strabon
+strabon_ontoservice:
+  image: dockercentos7_strabon-base
+  hostname: strabon_ontoservice
+  domainname: localdomain
+  environment:
+    # Webapp Credentials
+    STRABON_USER: admin
+    STRABON_PASS: change_me
+    # PSQL Strabon DB Credentials
+    STRABON_PSQL_USER: strabon_user_ontoservice
+    STRABON_PSQL_PASS: change_me
+    POSTGRES_HOST_NAME: postgres
+    STRABON_PSQL_DB: ontologies
+  ports:
+    - "8080:8080"
+  links:
+    - postgres:postgres
+  volumes:
+    - ./common_shared_folder:/shared_folder
+    - ./data/OntoService_RDFData:/data
+# ---------------------------- /Strabon servers -----------------------------------
+
+ckan:
+  build: .
+  hostname: ckan
+  domainname: localdomain
+  restart: always
+  environment:
+    STRABON_ONTOLOGIES_HOST_NAME: strabon_ontoservice
+    STRABON_ONTOLOGIES_PORT: 8080
+    STRABON_DATA_HOST_NAME: strabon_landsat8
+    STRABON_DATA_PORT: 8080
+  ports:
+    - "2222:22"
+    - "5000:5000"
+    - "80:80"
+  links:
+    - postgres:postgres
+    - solr:solr
+    - strabon_landsat8:strabon_landsat8
+    - strabon_ontoservice:strabon_ontoservice
+  command: /sbin/my_init --enable-insecure-key
+  volumes_from:
+    - data
+  volumes:
+    - ./common_shared_folder:/shared_folder
+    # - ./_src:/usr/lib/ckan/default/src
+    # - ./_etc/ckan/custom_options.ini:/etc/ckan/default/custom_options.ini
+    # - ./_etc/supervisor/conf.d:/etc/supervisor/conf.d

@@ -1,0 +1,301 @@
+
+{#
+	<title>Ontology Browser</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+	<script src="../lib/jquery/jquery-1.10.2.min.js"></script>
+	<script src="../lib/jqtree/tree.jquery.js"></script>
+	<link rel="stylesheet" href="../lib/jqtree/jqtree.css">
+	<script src="../lib/xml2json/jquery.xml2json.js"></script>
+	<script src="../lib/jquery/jquery.bootpag.min.js"></script>
+	<script src="../lib/gi-sem/giapi-1.1.10-beta-2.min.js"></script>
+
+
+
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/events.js"></script>
+<script type="text/javascript" src="js/skosOntologyStructure.js"></script>
+<script type="text/javascript" src="js/strabon.js"></script>
+<script type="text/javascript" src="js/gi_sem.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+#}
+
+<script type="text/javascript">
+var ONTOLOGY_SERVICE_URL = "{{ h.ontology_service_url_helper() }}";
+console.log("Loading ONTOLOGY_SERVICE_URL: " + ONTOLOGY_SERVICE_URL);
+</script>
+
+{# Use Fanstatic to include the Ontology Browser JavaScript module.
+   A <script> tag for the module will be inserted in the right place at the bottom of the page. #}
+{% resource 'obeos_ontobrowser/obeos_cross_ontology_browser.js' %}
+{% resource 'obeos_ontobrowser/obeos_cross_ontology_browser.css' %}
+{% resource 'obeos_ontobrowser/RARE-Concepts-utils.js' %}
+
+{% resource 'obeos_ontobrowser/jqtree.js' %}
+{% resource 'obeos_ontobrowser/jqtree.css' %}
+
+{% resource 'obeos_ontobrowser/jquery.xml2json.js' %}
+{% resource 'obeos_ontobrowser/jquery.bootpag.js' %}
+{# % resource 'obeos_ontobrowser/giapi-1.1.10-beta-2.js' % #}
+
+{% resource 'obeos_ontobrowser/functions.js' %}
+{% resource 'obeos_ontobrowser/events.js' %}
+{% resource 'obeos_ontobrowser/skosOntologyStructure.js' %}
+{% resource 'obeos_ontobrowser/strabon.js' %}
+{# % resource 'obeos_ontobrowser/gi_sem.js' % #}
+{% resource 'obeos_ontobrowser/main.js' %}
+
+
+<div class="module OntologyBrowser box" data-module=
+"obeos_cross_ontology_browser" id="obeos-ontobrowser-module" style=
+"padding-top:0px;">
+    <!-- Module Content -->
+    <div class="module-content">
+        <h1 class="page-heading">Cross-Ontology Browser</h1>
+        <!-- Navigation -->
+        <div id="navigation">
+            <ul>
+                <li class="active" id="Concepts_tab">
+                    <a data-toggle="tab" href="javascript:void(0)" onclick=
+                    "activateTab('tab-Concepts');" style=
+                    "border-top-left-radius: 3px; border-bottom-left-radius: 3px;">
+                    Concepts from <select id="ontologies-list-box"
+                    onchange="selectOntology()" style=
+                    "float: none; margin: 0px; width: initial;">
+                        </select></a>
+                </li>
+                <li class="" id="KeywordSearch_tab">
+                    <a data-toggle="tab" href="javascript:void(0)" onclick=
+                    "activateTab('keyword-search'); $('#search-box').focus();"
+                    style="padding: 10px;">Keyword Search</a>
+                </li>
+            </ul>
+        </div><!-- /Navigation -->
+        <!-- Content-Container -->
+        <div id="content-containe-r">
+            <div id="tab-container" style="margin-top:0px;">
+                <!--======== SCHEMES ========-->
+                <!-- Needed in JavaScript but not displayed -->
+                <div>
+                    <div id="schemes-list">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div><!--======== CONCEPTS ========-->
+                <div id="tab-Concepts" style="display: block;">
+                    <div id="aside">
+                        <h3>Concepts Tree</h3>
+                        <div id="tree"></div>
+                        <div id="conceptsResponse"></div>
+                    </div>
+                </div>
+                <div id="keyword-search" style="display: none;">
+                    <div id="aside-search">
+                        <div id="search-block" style="padding-left: 10px">
+                            <div id="keyword-search">
+                                <strong>Concept:</strong> <input id=
+                                "search-box" name="keyword" onkeydown=
+                                "if (event.keyCode == 13) { $('#search-button').click(); return false; }"
+                                type="text">
+                            </div>
+                            <div id="keyword-search-button">
+                                <button id="search-button">Search</button>
+                            </div>
+                            <div id="results-title" style=
+                            "padding-top: 35px"></div>
+                            <div id="loading_animation" style=
+                            "padding-left: 85px; padding-top: 95px; display: none">
+                            <div id="floatingCirclesG">
+                                    <div class="f_circleG" id=
+                                    "frotateG_01"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_02"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_03"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_04"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_05"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_06"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_07"></div>
+                                    <div class="f_circleG" id=
+                                    "frotateG_08"></div>
+                                </div>
+                            </div>
+                            <ul id="search-results-list" style=
+                            "padding-top: 15px"></ul>
+                            <div id="page-selection"></div>
+                            <!--<div id="results-title" style="padding-top: 35px"></div>
+                                                            <div id="search-results-list" style="padding-top: 15px"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" id="content">
+                <div class="page-header" style="padding:1em">
+                    <h2><span id="concept-id"></span> <span style=
+                    "font-weight: normal; font-size:21px">Concept</span></h2>
+                    <div id="add-to-search-button" style=
+                    "bottom: 0; right: 0; float:left">
+                        <h2></h2>
+                    </div>
+                </div>
+                <div class="tabbable">
+                    <ul class="nav nav-tabs sections" id="concept-tabs">
+                        <li class="active" id="generalInfo-tab">
+                            <a data-toggle="tab" href="javascript:void(0)"
+                            onclick=
+                            "activateConceptViewerTab('main');">General
+                            Info</a>
+                        </li>
+                        <li class="" id="labels_tab">
+                            <a href="javascript:void(0)" onclick=
+                            "activateConceptViewerTab('labels');">Labels</a>
+                        </li>
+                        <li class="" id="notes_tab">
+                            <a data-toggle="tab" href="javascript:void(0)"
+                            onclick=
+                            "activateConceptViewerTab('notes');">Notes</a>
+                        </li>
+                        <li class="" id="matches_tab">
+                            <a data-toggle="tab" href="javascript:void(0)"
+                            onclick=
+                            "activateConceptViewerTab('matches');">Concept
+                            matching</a>
+                        </li>
+                    </ul>
+                    <div id="tab-content">
+                        <!--General Info-->
+                        <div class="tab-pane active" id="main" style=
+                        "display: block;">
+                            <div class="relation panel" id=
+                            "concept_uri_box" style="display: none;">
+                                <h2>Concept URI</h2>
+                                <div class="relation-body" id=
+                                "concept_uri"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "broader_term_box">
+                                <h2>Broader term</h2>
+                                <div class="relation-body" id=
+                                "broader_term"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "narrower_term_box">
+                                <h2>Narrower terms</h2>
+                                <div class="relation-body" id=
+                                "narrower_term"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "definition_box">
+                                <h2>Definition</h2>
+                                <div class="relation-body" id="definition">
+                                </div>
+                            </div>
+                            <div class="relation panel" id="notation_box">
+                                <h2>Notations</h2>
+                                <div class="relation-body" id="notation">
+                                </div>
+                            </div>
+                            <div class="relation panel" id=
+                            "relatedTerms_box">
+                                <h2>Related terms</h2>
+                                <div class="relation-body" id=
+                                "relatedTerms"></div>
+                            </div>
+                        </div><!--Labels-->
+                        <div class="tab-pane" id="labels" style=
+                        "display: none;">
+                            <div class="relation translation panel" id=
+                            "prefLabel_box">
+                                <h2>Preferred labels</h2>
+                                <div class="relation-body" id="prefLabel">
+                                </div>
+                            </div>
+                            <div class="relation translation panel" id=
+                            "altLabel_box">
+                                <h2>Alternative labels</h2>
+                                <div class="relation-body" id="altLabel">
+                                </div>
+                            </div>
+                            <div class="relation translation panel" id=
+                            "hiddenLabel_box">
+                                <h2>Hidden labels</h2>
+                                <div class="relation-body" id=
+                                "hiddenLabel"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="notes" style=
+                        "display: none;">
+                            <div class="relation panel" id="note_box">
+                                <h2>Notes</h2>
+                                <div class="relation-body" id="note"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "changeNote_box">
+                                <h2>Change notes</h2>
+                                <div class="relation-body" id="changeNote">
+                                </div>
+                            </div>
+                            <div class="relation panel" id="scopeNote_box">
+                                <h2>Scope notes</h2>
+                                <div class="relation-body" id="scopeNote">
+                                </div>
+                            </div>
+                            <div class="relation panel" id=
+                            "historyNote_box">
+                                <h2>History notes</h2>
+                                <div class="relation-body" id=
+                                "historyNote"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "editorialNote_box">
+                                <h2>Editorial notes</h2>
+                                <div class="relation-body" id=
+                                "editorialNote"></div>
+                            </div>
+                            <div class="relation panel" id="examples_box">
+                                <h2>Examples</h2>
+                                <div class="relation-body" id="examples">
+                                </div>
+                            </div>
+                        </div><!--Matches-->
+                        <div class="tab-pane" id="matches" style=
+                        "display: none;">
+                            <div class="relation panel" id=
+                            "closeMatch_box">
+                                <h2>Close Matches</h2>
+                                <div id="closeMatch"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "exactMatch_box">
+                                <h2>Exact Matches</h2>
+                                <div id="exactMatch"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "relatedMatch_box">
+                                <h2>Related Matches</h2>
+                                <div id="relatedMatch"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "broadMatch_box">
+                                <h2>Broader Matches</h2>
+                                <div id="broadMatch"></div>
+                            </div>
+                            <div class="relation panel" id=
+                            "narrowMatch_box">
+                                <h2>Narrower Matches</h2>
+                                <div id="narrowMatch"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /Content-Container -->
+				<!-- Clearer for float:left -->
+				<div style="clear:both"></div>
+    </div><!-- /Module Content -->
+</div>

@@ -1,0 +1,20 @@
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20cover> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Use> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20temperature> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/ice> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Sea_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Navigational_Aid> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Classification> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Extent> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Thickness> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Ice> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Ice_Change_Detection> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Areal_Change> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20use> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Management> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/elevation> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Digital_Elevation_Model> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Surface_Elevation> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/water%20quality> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Water_Quality_Monitoring> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/vegetation> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation_Disturbance> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Vegetation_Productivity> , <http://thesauri.esa.int/MultiDomain_Thesaurus/Forest> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/population> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Population_Data> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/atmosphere> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Atmosphere_Monitoring> .
+
+<http://www.earthobservations.org/GEOSS/EO_Vocabulary/land%20surface> <http://www.w3.org/2004/02/skos/core#relatedMatch> <http://thesauri.esa.int/MultiDomain_Thesaurus/Land_Surface_Temperature> .

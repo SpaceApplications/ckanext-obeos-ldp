@@ -1,0 +1,18 @@
+CONSTRUCT {
+   <http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec> ?p ?o .
+   ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l .
+   ?o <http://purl.org/dc/terms/identifier> ?i .
+
+   ?ss ?pp <http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec> .
+   ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll .
+   ?ss <http://purl.org/dc/terms/identifier> ?ii .
+}
+WHERE {
+   <http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec> ?p ?o .
+   OPTIONAL { ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l }
+   OPTIONAL { ?o <http://purl.org/dc/terms/identifier> ?i }
+
+   OPTIONAL { ?ss ?pp <http://gcmdservices.gsfc.nasa.gov/kms/concept/e8a6f9ad-e376-495c-869e-3467526b49ec> }
+   OPTIONAL { ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll }
+   OPTIONAL { ?ss <http://purl.org/dc/terms/identifier> ?ii }
+}

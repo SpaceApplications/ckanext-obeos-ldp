@@ -1,0 +1,23 @@
+CONSTRUCT {
+
+<http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1GT> ?p ?o .
+   ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l .
+   ?o <http://purl.org/dc/terms/identifier> ?i .
+   ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t .
+
+   ?ss ?pp <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1GT> .
+   ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll .
+   ?ss <http://purl.org/dc/terms/identifier> ?ii .
+   ?ss <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?tt .
+}
+WHERE {
+   <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1GT> ?p ?o .
+   OPTIONAL { ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l }
+   OPTIONAL { ?o <http://purl.org/dc/terms/identifier> ?i }
+   OPTIONAL { ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?t }
+
+   OPTIONAL { ?ss ?pp <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8_L1GT> }
+   OPTIONAL { ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll }
+   OPTIONAL { ?ss <http://purl.org/dc/terms/identifier> ?ii }
+   OPTIONAL { ?ss <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?tt }
+}

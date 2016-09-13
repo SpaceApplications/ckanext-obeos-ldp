@@ -1,0 +1,32 @@
+{% extends "page.html" %}
+
+{% set pkg = c.pkg_dict or pkg_dict %}
+
+{% block breadcrumb_content_selected %} class="active"{% endblock %}
+
+{% block subtitle %}{{ _('Datasets') }}{% endblock %}
+
+{% block breadcrumb_content %}
+  {% if pkg %}
+    {% set dataset = pkg.title or pkg.name %}
+    {% if pkg.organization %}
+      {% set organization = pkg.organization.title or pkg.organization.name %}
+      <li>{% link_for _('Organizations'), controller='organization', action='index' %}</li>
+      <li>{% link_for organization|truncate(30), controller='organization', action='read', id=pkg.organization.name %}</li>
+    {% else %}
+      {% if pkg.endpoint_name %}
+        <li><a href="{{ h.url_for_virtual_package(endpoint_name=pkg.endpoint_name, package_id=pkg.name) }}">{{ dataset|truncate(30) }}</a></li>
+      {% else %}
+        <li>{% link_for _('Datasets'), controller='package', action='search' %}</li>
+      {% endif %}
+    {% endif %}
+
+    {% if not pkg.endpoint_name %}
+        <li {{ self.breadcrumb_content_selected() }}>{% link_for dataset|truncate(30), controller='package', action='read', id=pkg.name %}</li>
+    {% endif %}
+  {% else %}
+    <li>{% link_for _('Datasets'), controller='package', action='search' %}</li>
+    <li class="active"><a href="">{{ _('Create Dataset') }}</a></li>
+
+  {% endif %}
+{% endblock %}

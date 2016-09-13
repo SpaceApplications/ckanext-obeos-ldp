@@ -1,0 +1,30 @@
+CONSTRUCT {
+   # All forward predicates whose subject is the current item
+   <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8&ordered=LC80860752015182LGN00> ?p ?o .
+   # The preferred label and identifier (if any) of the associated items (forward)
+   ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l .
+   ?o <http://purl.org/dc/terms/identifier> ?i .
+   # All forward predicates whose subject are associated blank nodes (forward)
+   ?bo ?p2 ?o2 .
+
+   # All backward predicates whose object is the current item
+   ?ss ?pp <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8&ordered=LC80860752015182LGN00> .
+   # The preferred label and identifier (if any) of the associated items (backward)
+   ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll .
+   ?ss <http://purl.org/dc/terms/identifier> ?ii .
+   # All forward predicates whose subject are associated blank nodes (backward)
+   ?ss ?pp ?oo .
+}
+WHERE {
+   <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8&ordered=LC80860752015182LGN00> ?p ?o .
+   OPTIONAL { ?o <http://www.w3.org/2004/02/skos/core#prefLabel> ?l }
+   OPTIONAL { ?o <http://purl.org/dc/terms/identifier> ?i }
+
+   <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8&ordered=LC80860752015182LGN00> ?p ?bo .
+   OPTIONAL { ?bo ?p2 ?o2 . FILTER (isblank(?bo)) }
+
+   OPTIONAL { ?ss ?pp <http://earthexplorer.usgs.gov/order/process?dataset_name=LANDSAT_8&ordered=LC80860752015182LGN00> }
+   OPTIONAL { ?ss <http://www.w3.org/2004/02/skos/core#prefLabel> ?ll }
+   OPTIONAL { ?ss <http://purl.org/dc/terms/identifier> ?ii }
+   OPTIONAL { ?ss ?pp ?oo . FILTER (isblank(?ss)) }
+}
