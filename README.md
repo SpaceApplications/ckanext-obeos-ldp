@@ -25,11 +25,11 @@ Read more about the ESA OBEOS project on the ESA RSS Web portal: http://wiki.ser
 docker-compose up  # (from 'ldp-install/docker.centos7' dir)
 ```
 
-4. Open the **OBEOS Linked Data Prototype**
+4. Open the 'OBEOS Linked Data Prototype'
 
 Open a browser at: [http://localhost](http://localhost)
 
-5. Stop the **OBEOS Linked Data Prototype**
+5. Stop the 'OBEOS Linked Data Prototype'
 ```bash
 docker-compose stop  # (from 'ldp-install/docker.centos7' dir)
 ```
