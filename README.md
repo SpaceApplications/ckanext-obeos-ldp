@@ -13,23 +13,19 @@ Read more about the ESA OBEOS project on the ESA RSS Web portal: http://wiki.ser
  cd ldp-install/docker.centos7/_src/
  ./fetchCKANext_OBEOS.sh   
  ```
-
 2. Build with docker-compose
  ```bash
  cd ldp-install/docker.centos7
  docker-compose build   
  ```
-
 3. Run (this take a couple of minutes to go through the entire initialization)
 ```bash
 docker-compose up  # (from 'ldp-install/docker.centos7' dir)
 ```
-
-4. Open the 'OBEOS Linked Data Prototype'
+4. Open the **OBEOS Linked Data Prototype**
 
 Open a browser at: [http://localhost](http://localhost)
-
-5. Stop the 'OBEOS Linked Data Prototype'
+5. Stop the **OBEOS Linked Data Prototype**
 ```bash
 docker-compose stop  # (from 'ldp-install/docker.centos7' dir)
 ```
