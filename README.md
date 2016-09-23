@@ -21,6 +21,7 @@ Read more about the ESA OBEOS project on the ESA RSS Web portal: http://wiki.ser
 
 4. Build with docker-compose
  ```bash
+ # (from root dir)
  cd ldp-install/docker.centos7
  docker-compose build   
  ```
