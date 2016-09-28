@@ -1,8 +1,10 @@
-This **OBEOS Linked Data Prototype** software is part of ESA project *Ontology Based Earth Observation Search* (OBEOS).
+The **OBEOS Linked Data Prototype** (LDP) software is an ontology‑based resolving service for resources compliant with the Linked Data conventions, which integrates with existing EO facilities via standardized protocols.
 
-The **Linked Data Prototype** (LDP) is an ontology‑based resolving service for resources compliant with the Linked Data conventions, which integrates with existing EO facilities via standardized protocols.
+In particular, it is capable of querying and visualizing metadata compliant with the schema proposed in the OGC specification OGC 16-074 *EO Metadata Discovery using Linked Data* v0.2.0, 25-Mar-2016. OGC Members may obtain the pending document at the following address: https://portal.opengeospatial.org/files/?artifact_id=68075&version=1.
 
 The software, implemented as a CKAN plugin, provides users with the possibility to perform textual search and navigation into EO Datasets.
+
+The work on this software has been performed under a contract with Spacebel s.a. for ESA/ESRIN in the context of the *Ontology Based Earth Observation Search* (OBEOS) project.
 
 Read more about the ESA OBEOS project on the ESA RSS Web portal: http://wiki.services.eoportal.org/tiki-index.php?page=OBEOS.
 
