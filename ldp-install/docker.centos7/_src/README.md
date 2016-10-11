@@ -1,29 +1,32 @@
 _src
 ====
 
-_Clone your source code here._
+_You may drop your custom source code here._
 
 <br>
 
 ## CKAN
 
-CKAN is now directly clone from the Dockerfile
+CKAN is directly cloned from GitHub by the Dockerfile.
 
 If needed:
+
 Clone CKAN:
 
 	git clone https://github.com/ckan/ckan.git
 
 ## Extensions
-OBEOS extension is packed in ckanext-obeos.tar.gz.
-It is unpacked in the DockerFile for ckan
 
-You can also replace the tar.gz by more recent code
+The OBEOS LDP extension is packed in `ckanext-obeos.tar.gz`.
 
-Clone them here as well
+It is unpacked in the DockerFile of the CKAN container.
+
+You can also replace the content of the `tar.gz` file by more recent code.
+
+Clone them here as well.
 
 ## Dependencies
 
 Pip requirements are installed when the image is built.
-All you need is a reqirement file named `requirements.txt` or `pip-requirements.txt`
+All you need is a requirement file named `requirements.txt` or `pip-requirements.txt`
 
