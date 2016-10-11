@@ -5,7 +5,8 @@ RUN yum -y install epel-release
 RUN yum -q -y update
 
 # Add PostgreSQL, HDF5 repo to yum
-RUN rpm -iUvh http://yum.postgresql.org/9.3/redhat/rhel-7-x86_64/pgdg-centos93-9.3-1.noarch.rpm
+RUN rpm -iUvh https://yum.postgresql.org/9.3/redhat/rhel-7-x86_64/pgdg-centos93-9.3-3.noarch.rpm
+# RUN rpm -iUvh http://yum.postgresql.org/9.3/redhat/rhel-7-x86_64/pgdg-centos93-9.3-1.noarch.rpm
 
 
 # Needed to install PostGIS later on
